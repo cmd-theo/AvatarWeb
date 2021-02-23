@@ -7,16 +7,13 @@ object BSDImpl extends BaseDeDonnée{
     var res:List[(String,String)]=List()
     for(x<-l){
      for(y<-t){
-        //if(y(0).contains(x)) res = res::(y(0),y(1))
+        if(y(0).contains(x)) res = res:+(y(0),y(1))
      }
     }
-    
-    
-    List(("",""))
+    res
   }
   
-  def listKeyWords:List[List[String]]={
+  def listKeyWords:List[List[String]]= ???
     
-  }
   
 }
