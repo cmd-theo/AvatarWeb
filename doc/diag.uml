@@ -5,9 +5,7 @@
 
 @startuml
 
-class Avatar{
-	
-}
+class Avatar<<(O, Orange)>>
 
 interface MachineImpl{
 	ask(s: String):List[String]
@@ -15,7 +13,7 @@ interface MachineImpl{
  }
  
  interface UI{
- 	show(l: List[String])
+ 	show(l: List[String]): Unit
 }
 
 interface AnalysePage{
@@ -30,7 +28,53 @@ interface BaseDeDonnees{
 }
 
 interface ToleranceFautes{
-	correct(s:String, s:String):Boolean
+	correct(s1:String, s2:String):Boolean
+}
+
+class Tests{
+test(l:List[String]): List[String]
+reInit(): Unit
+}
+
+Avatar --|> MachineImpl
+MachineImpl <--> UI
+MachineImpl -> AnalysePage
+AnalysePage --> BaseDeDonnees/* Pour afficher le diagramme UML:  
+   Window>Show view>Other>Plantuml 
+   La doc: http://plantuml.com/class-diagram
+*/
+
+@startuml
+
+class Avatar<<(O, Orange)>>
+
+interface MachineImpl{
+	ask(s: String):List[String]
+	reInit(): Unit
+ }
+ 
+ interface UI{
+ 	show(l: List[String]): Unit
+}
+
+interface AnalysePage{
+	hash(s: String):List[String]
+	contains(l:List[String]):List[String]
+}
+
+interface BaseDeDonnees{
+	dsb: List[String]
+	respond(l:List[String]):(Boolean, List[String])
+	listKeywords():List[List[String]]
+}
+
+interface ToleranceFautes{
+	correct(s1:String, s2:String):Boolean
+}
+
+class Tests{
+test(l:List[String]): List[String]
+reInit(): Unit
 }
 
 Avatar --|> MachineImpl
@@ -38,5 +82,10 @@ MachineImpl <--> UI
 MachineImpl -> AnalysePage
 AnalysePage --> BaseDeDonnees
 BaseDeDonnees --> ToleranceFautes
+Tests -> MachineImpl
+
+ @enduml
+BaseDeDonnees --> ToleranceFautes
+Tests -> MachineImpl
 
  @enduml
