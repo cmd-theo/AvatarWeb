@@ -1,37 +1,91 @@
 /* Pour afficher le diagramme UML:  
-<<<<<<< HEAD
-   Window>Show view>Other>Plantuml
-   
-=======
    Window>Show view>Other>Plantuml 
->>>>>>> branch 'master' of https://gitlab.istic.univ-rennes1.fr/nzhang/gen21-1a-avatar-equipe1.git
    La doc: http://plantuml.com/class-diagram
 */
 
 @startuml
- class Vehicule{
-	modele:String
-	demarrer():Unit
-}
- class Conducteur{
-	 nom:String
-	 contacter():Unit
+
+class Avatar<<(O, Orange)>>
+
+interface MachineImpl{
+	ask(s: String):List[String]
+	reInit(): Unit
  }
- class Camion{
-	 nbEssieux:Int
-	 atteler(r:Remorque)
- }
- class Roue{
-	 diametre:Long
-	 gonfler():Unit
- }
- interface Transporteur{
-   Capacite: Int
-   ajouter(p:Passager)
- }
- Transporteur <|.. Vehicule
- Vehicule -- Conducteur
- Vehicule <|-- Camion 
- Vehicule --> Roue
  
+ interface UI{
+ 	show(l: List[String]): Unit
+}
+
+interface AnalysePage{
+	hash(s: String):List[String]
+	contains(l:List[String]):List[String]
+}
+
+interface BaseDeDonnees{
+	dsb: List[String]
+	respond(l:List[String]):(Boolean, List[String])
+	listKeywords():List[List[String]]
+}
+
+interface ToleranceFautes{
+	correct(s1:String, s2:String):Boolean
+}
+
+class Tests{
+test(l:List[String]): List[String]
+reInit(): Unit
+}
+
+Avatar --|> MachineImpl
+MachineImpl <--> UI
+MachineImpl -> AnalysePage
+AnalysePage --> BaseDeDonnees/* Pour afficher le diagramme UML:  
+   Window>Show view>Other>Plantuml 
+   La doc: http://plantuml.com/class-diagram
+*/
+
+@startuml
+
+class Avatar<<(O, Orange)>>
+
+interface MachineImpl{
+	ask(s: String):List[String]
+	reInit(): Unit
+ }
+ 
+ interface UI{
+ 	show(l: List[String]): Unit
+}
+
+interface AnalysePage{
+	hash(s: String):List[String]
+	contains(l:List[String]):List[String]
+}
+
+interface BaseDeDonnees{
+	dsb: List[String]
+	respond(l:List[String]):(Boolean, List[String])
+	listKeywords():List[List[String]]
+}
+
+interface ToleranceFautes{
+	correct(s1:String, s2:String):Boolean
+}
+
+class Tests{
+test(l:List[String]): List[String]
+reInit(): Unit
+}
+
+Avatar --|> MachineImpl
+MachineImpl <--> UI
+MachineImpl -> AnalysePage
+AnalysePage --> BaseDeDonnees
+BaseDeDonnees --> ToleranceFautes
+Tests -> MachineImpl
+
+ @enduml
+BaseDeDonnees --> ToleranceFautes
+Tests -> MachineImpl
+
  @enduml
