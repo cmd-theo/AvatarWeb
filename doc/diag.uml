@@ -87,4 +87,5 @@ Tests -> MachineImpl
  @enduml
 BaseDeDonnees --> ToleranceFautes
 Tests -> MachineImpl
+
  @enduml
