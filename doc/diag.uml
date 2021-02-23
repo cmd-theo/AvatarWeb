@@ -41,5 +41,6 @@ MachineImpl <--> UI
 MachineImpl -> AnalysePage
 AnalysePage --> BaseDeDonnees
 BaseDeDonnees --> ToleranceFautes
+Tests -> MachineImpl
 
  @enduml
