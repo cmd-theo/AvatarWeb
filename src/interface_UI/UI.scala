@@ -9,7 +9,7 @@ import java.awt.Color
 class UI extends MainFrame {
   
   // Propriétés de la fenêtre
-  title = "My First Reactive Application!"
+  title = "AVATAR APP 1.0"
   preferredSize = new Dimension(500, 500)
   
   // Quelques champs définissant les composants
@@ -18,11 +18,12 @@ class UI extends MainFrame {
   val copy = new SendButton("Send",input,output)
   
   // Ajout des composants à la fenêtre
-  contents = new BoxPanel(Orientation.Horizontal) {
-    background = Color.BLACK
+  contents = new BoxPanel(Orientation.Vertical) {
+    background = Color.WHITE
     contents += input
     contents += copy
     contents += output
+    
   }
     
 }
