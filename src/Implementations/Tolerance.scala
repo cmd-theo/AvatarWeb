@@ -18,4 +18,4 @@ object Tolerance{
 	  if((hamming(s1,s2)<= 1)) return true else false 
 	} 
 	//correct("rara","rare") *
-} 
+}  
