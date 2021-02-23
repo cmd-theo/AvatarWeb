@@ -18,6 +18,6 @@ object Tolerance{
 	
 	def correct(s1: String, s2: String):Boolean = {
 	  if((hamming(s1,s2)== 0) || (hamming(s1,s2)== 1)) return true else false 
-	}
+	} 
 	//correct("rara","rare") *
 } 
