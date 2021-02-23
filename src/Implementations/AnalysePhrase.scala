@@ -1,6 +1,6 @@
 package Implementations
 
-object AnalysePhrase extends App {
+object AnalysePhrase{
   
   /**
    * @param s une chaîne de caractères correspondant à la phrase rentrée
