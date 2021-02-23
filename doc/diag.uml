@@ -1,5 +1,10 @@
 /* Pour afficher le diagramme UML:  
+<<<<<<< HEAD
+   Window>Show view>Other>Plantuml
+   
+=======
    Window>Show view>Other>Plantuml 
+>>>>>>> branch 'master' of https://gitlab.istic.univ-rennes1.fr/nzhang/gen21-1a-avatar-equipe1.git
    La doc: http://plantuml.com/class-diagram
 */
 
