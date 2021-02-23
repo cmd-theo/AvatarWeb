@@ -27,7 +27,7 @@ object BSDImpl extends BaseDeDonnée{
   /** Extracteur de fichier
    *  @param Aucun parametre, Assurez l'existence de "doc/DonneesInitiales.txt"
    *  @return une list tel que :>> List(List(nom,adresse)) */
-  def listKeyWords:List[List[String]]={
+  def listPaireNomAdd:List[List[String]]={
       var res :List[List[String]] = List()
       val txt =Source.fromFile("doc/DonneesInitiales.txt").getLines
       for(x<-txt){
@@ -37,4 +37,29 @@ object BSDImpl extends BaseDeDonnée{
       res
 
 }
+   def listKeyWords:List[List[String]]={
+     var res :List[List[String]] = List()
+     val list = listPaireNomAdd
+     var keyWord :String =""
+     for(x<-list){
+       res = res :+ KeyWords(x(0))
+     }
+     res
+   }
+   def KeyWords(flag:String):List[String]={
+     var res:List[String] = List()
+     var str = flag
+     while(str != ""){
+        val i = str.indexOf(" ")
+        if (i != -1){ 
+          res = res :+ str.slice(0, i)
+          str = str.slice(i+1, str.length())  
+        }
+        else {
+          res = res :+ str
+          str = ""
+        }
+     }
+     res
+   }
 }
