@@ -1,5 +1,7 @@
 
-package machine
+package Implementations
+
+import machine.MachineDialogue
 
 object MachineImpl extends MachineDialogue{
   def ask(s:String):List[String]= ???
