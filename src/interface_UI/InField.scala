@@ -8,8 +8,8 @@ import java.awt.Color
  */
 class InField extends TextField {
 
-  background = Color.BLUE
-  foreground = Color.MAGENTA
+  background = Color.WHITE
+  foreground = Color.BLACK
   text = ""
   columns = 80
   border = Swing.LineBorder(Color.GRAY) 

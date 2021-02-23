@@ -1,5 +1,6 @@
 package Implementations
 import scala.io.Source
+import machine.BaseDeDonnée
 
 object BSDImpl extends BaseDeDonnée{
   

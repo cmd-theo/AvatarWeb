@@ -1,5 +1,7 @@
 package Implementations
 
+import machine.AnalysePage
+
 object AnalysePhraseImpl extends AnalysePage {
   
   
