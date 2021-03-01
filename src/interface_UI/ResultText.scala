@@ -6,9 +6,10 @@ import java.awt.Color
 /**
  * Customized label receiving the copied text 
  */
-class ResultText extends Label {
-  background = Color.BLACK
-  foreground = Color.WHITE
-  text = "No text!"
+class ResultText extends TextField {
+  preferredSize = new Dimension(500, 470)
+  background = Color.WHITE
+  foreground = Color.BLACK
+  text = ""
   
 }

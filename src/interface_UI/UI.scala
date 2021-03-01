@@ -20,9 +20,9 @@ class UI extends MainFrame {
   // Ajout des composants à la fenêtre
   contents = new BoxPanel(Orientation.Vertical) {
     background = Color.WHITE
+    contents += output
     contents += input
     contents += copy
-    contents += output
     
   }
     
