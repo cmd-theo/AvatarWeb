@@ -21,8 +21,11 @@ class UI extends MainFrame {
   contents = new BoxPanel(Orientation.Vertical) {
     background = Color.WHITE
     contents += output
-    contents += input
-    contents += copy
+    contents += new BoxPanel(Orientation.Horizontal) {
+      contents += input
+      contents += copy
+    }
+    //contents += Swing.VStrut(10)
     
   }
     
