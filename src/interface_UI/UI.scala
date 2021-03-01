@@ -26,7 +26,6 @@ class UI extends MainFrame {
       contents += copy
     }
     //contents += Swing.VStrut(10)
-    
   }
     
 }
