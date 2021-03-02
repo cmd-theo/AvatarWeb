@@ -15,7 +15,11 @@ class SendButton(lab: String, from : InField, to : ResultText) extends Button {
   // Ajout d'une reaction au clic sur le bouton
   // c'est à dire copier le contenu du champ from dans le label de to.
   reactions += {
-      case ButtonClicked(_) => { to.text = from.text }
+   
+      case ButtonClicked(_) => {
+        
+         var temp = from.text
+        to.text += "\n"+temp }
   }
   
 }

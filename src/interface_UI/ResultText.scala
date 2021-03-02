@@ -7,7 +7,7 @@ import java.awt.Dimension
 /**
  * Customized label receiving the copied text 
  */
-class ResultText extends TextField {
+class ResultText extends TextArea {
   preferredSize = new Dimension(500, 470)
   background = Color.WHITE
   foreground = Color.BLACK
