@@ -19,7 +19,9 @@ class SendButton(lab: String, from : InField, to : ResultText) extends Button {
       case ButtonClicked(_) => {
         
          var temp = from.text
-        to.text += "\n"+temp }
+        to.text += "\n"+" "+temp
+        from.text=""
+      }
   }
   
 }
