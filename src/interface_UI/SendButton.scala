@@ -18,13 +18,15 @@ class SendButton(lab: String, from : InField, to : ResultText,then:Response) ext
    
       case ButtonClicked(_) => {
          var temp = from.text
+        
          if (temp != ""){
-    
-        to.text += "\n"+" "+temp
+     then.text = "Response :"+" salut !"
+      var temp1 = then.text
+        to.text += "\n"+" Question : "+temp + "\n" + temp1
+      
  
         from.text=""
         val a = new ResultText
-       then.text = " salut !"
         
           
         
