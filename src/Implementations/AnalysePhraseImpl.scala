@@ -9,8 +9,11 @@ object AnalysePhraseImpl extends AnalysePage {
     s.split(" ").toList.distinct // retire les doublons de la liste également ! 
   }
 
+ /**
+   * Reinitialise l'avatar
+   */
   def reinit = {
-    val langue = "FR"
+    val bonjour = "AVATAR : Bonjour"
   }
   
   def contains(l:List[String]) : List[String] = ???
