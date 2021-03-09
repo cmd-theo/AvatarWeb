@@ -3,6 +3,7 @@ import org.junit.Test
 import org.junit.Assert._
 import Implementations.MachineImpl
 
+
 class TestIntegration {
 
   // initialisation des objets sous test

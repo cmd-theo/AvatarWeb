@@ -4,13 +4,18 @@ import machine.BaseDeDonnée
 
 object BSDImpl extends BaseDeDonnée{
   
-
-  def respond(l:List[String]):List[(String,String)]={
+/**Retoure les noms et adresse associé aux mots clé
+ * @param l liste des mots cl de la requête
+ * @return la liste des nom et adresse associé aux mots clé de la requête
+ */
+   def respond(l:List[String]):List[(String,String)]={
     val t = listKeyWords
     var res:List[(String,String)]=List()
     for(x<-l){
-     for(y<-t){
-        if(y(0).contains(x)) res = res:+(y(0),y(1))
+     for(y<-0 to t.length-1){
+        for(z<-t(y)){
+          if(z==x) res = res :+ (listPaireNomAdd(y)(0),listPaireNomAdd(y)(1))
+        }
      }
     }
     res
