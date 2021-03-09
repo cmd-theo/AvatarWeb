@@ -44,13 +44,20 @@ object AnalysePhraseImpl extends AnalysePhrase{
     l_keywords match { 
       case Nil => None
       case debut_liste :: reste_liste => 
-        if(debut_liste.contains(s)) { Some(s) }
-        else {
-          for(elt <- debut_liste) {
-            if(Tolerance.correct(s,elt)) Some(elt) 
-          }
-          compare(s,reste_liste)
+        recherche(s,debut_liste) match {
+          case None => compare(s,reste_liste)
+          case Some(chaine) => Some(chaine)
         }
+    }
+  }
+  
+  def recherche(s:String,l:List[String]) : Option[String] = {
+    l match {
+      case Nil => None
+      case chaine :: reste => 
+        if(chaine.equalsIgnoreCase(s)) { Some(chaine) }
+        else if(Tolerance.correct(s, chaine)) Some(chaine)
+        else recherche(s,reste)
     }
   }
   
