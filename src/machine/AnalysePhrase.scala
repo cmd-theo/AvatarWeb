@@ -1,6 +1,6 @@
 package machine
 
-trait AnalysePage {
+trait AnalysePhrase {
    /**
    * @param s une chaîne de caractères correspondant à la phrase rentrée
    * @return une liste de chaînes de caractères correspondant aux mots contenus dans la phrase
