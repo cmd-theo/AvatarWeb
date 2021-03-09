@@ -40,7 +40,7 @@ object MachineImpl extends MachineDialogue{
    */
   def ask(s:String):List[String]= {
     val requete = s
-    val reponse = analysePhrase.hash(requete)
+    val reponse = AnalysePhraseImpl.hash(requete)
     reponse
   }
   
