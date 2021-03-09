@@ -84,7 +84,7 @@ object BSDImpl extends BaseDeDonnée{
      res
    }
    
-   /** Creer une list de mots-clés à partir d'une string
+   /** Creer un list de mots-clés à partir d'une string
    *  @param Aucun parametre, Assurez l'existence de "doc/DonneesInitiales.txt"
    *  @return une list tel que :>> List(mots_cle1,mots_cle3....)) */
    
