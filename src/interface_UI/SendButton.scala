@@ -15,22 +15,18 @@ class SendButton(lab: String, from : InField, to : ResultText,then:Response) ext
   // Ajout d'une reaction au clic sur le bouton
   // c'est à dire copier le contenu du champ from dans le label de to.
   reactions += {
+
+    case ButtonClicked(_) => {
+    
+
+      if (from.text != "") {
+        then.text += "\n"+" Response :" + " salut !"+"\n"
    
-      case ButtonClicked(_) => {
-         var temp = from.text
-        
-         if (temp != ""){
-     then.text = "Response :"+" salut !"
-      var temp1 = then.text
-        to.text += "\n"+" Question : "+temp + "\n" + temp1
-      
- 
-        from.text=""
-        val a = new ResultText
-        
-          
-        
-         }
+        to.text += "\n" + " Question : " + from.text + "\n" 
+
+        from.text = ""
+
+      }
         
       }
   }
