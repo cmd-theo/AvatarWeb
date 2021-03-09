@@ -8,6 +8,13 @@ object AnalysePhraseImpl extends AnalysePhrase{
   def hash(s:String) : List[String] = {
     replaceAllPonctuation(s).split(" ").toList.distinct // retire les doublons de la liste également ! 
   }
+
+ /**
+   * Reinitialise l'avatar
+   */
+  def reinit = {
+    val bonjour = "AVATAR : Bonjour"
+  }
   
   def replaceAllPonctuation(s:String) : String = {
     var res:String = s

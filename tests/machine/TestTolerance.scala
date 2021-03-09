@@ -21,5 +21,6 @@ class TestTolerance {
     assertEquals(true, Tolerance.correct("Bonjour", "Bonjoure"))
     assertEquals(false, Tolerance.correct("Bonjour", ""))
     assertEquals(true, Tolerance.correct("Bonjour", "Bonjour"))
+    assertEquals(false, Tolerance.correct("Mairie", "Theatre"))
   }
 }
