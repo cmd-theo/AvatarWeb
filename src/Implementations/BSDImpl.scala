@@ -11,17 +11,40 @@ object BSDImpl extends BaseDeDonnée{
    def respond(l:List[String]):List[(String,String)]={
     val t = listKeyWords
     var res:List[(String,String)]=List()
-    for(x<-l){
-     for(y<-0 to t.length-1){
-        for(z<-t(y)){
-          if(z==x) res = res :+ (listPaireNomAdd(y)(0),listPaireNomAdd(y)(1))
+    var count:Int = 0
+    var tol:Int = 3
+    
+   while(res==List()){
+   for(y<-0 to t.length-1){
+    for(x<-t(y)){
+      for(z<-l){
+        if(hammingDiststr(x, z)) count+=1
         }
-     }
+      if(count>=tol){
+        res=res:+ (listPaireNomAdd(y)(0),listPaireNomAdd(y)(1))
+        count = 0
+      }
     }
+    
+   }
+  if(res==List()) tol -= 1
+   }
     res
   }
+ 
   
-  
+ def hammingDiststr(str1:String, str2:String): Boolean={
+    var i = 0
+    var count = 0;
+    while (i < str1.length()&&i<str2.length())
+    {
+        if (str1.charAt(i) != str2.charAt(i))
+            count+=1;
+        i+=1;
+    }
+    if (count<=1) true
+    else false;
+} 
   
   
   
@@ -78,4 +101,5 @@ object BSDImpl extends BaseDeDonnée{
      }
      res
    }
+   
 }
