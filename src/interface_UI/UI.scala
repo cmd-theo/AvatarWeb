@@ -17,16 +17,20 @@ class UI extends MainFrame {
   val input = new InField
   val output = new ResultText
   val reponse = new Response
-
-
+  
+  val c = new BoxPanel(Orientation.Vertical)
+  
   val copy = new SendButton("Send", input, output,reponse)
+  val res = new ResetButton("Reset", input, output, reponse)
 output.preferredSize=new Dimension(50,50)
   val b = new BoxPanel(Orientation.Vertical){
-    contents += output
-    contents += reponse
+    /*contents += output
+    contents += reponse*/
   }
   val a = new ScrollPane(b)
 
+
+  
   // Ajout des composants à la fenêtre
   contents = new BorderPanel {
     
@@ -37,6 +41,7 @@ output.preferredSize=new Dimension(50,50)
     layout(new BoxPanel(Orientation.Horizontal) {
       contents += input
       contents += copy
+      contents += res
       
     }) = South
        
