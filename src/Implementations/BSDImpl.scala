@@ -6,7 +6,7 @@ object BSDImpl extends BaseDeDonnée{
   
 /**Retoure les noms et adresse associé aux mots clé
  * @param l liste des mots cl de la requête
- * @return la liste des nom et adresse associé aux mots clé de la requête
+ * @return la liste des nom et adresse associé aux mots clé de la requêtee
  */
    def respond(l:List[String]):List[(String,String)]={
     val t = listKeyWords
