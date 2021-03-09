@@ -9,10 +9,11 @@ import java.awt.Color
  * @param from the Infield from which the text is copied
  * @param to the ResultText to which the text is copied
  */
-class SendButton(lab: String, from : InField, to : ResultText, then:Response) extends Button {
+class SendButton(lab: String, from : InField, to : ScrollPane, then:Response) extends Button {
 
   text = lab
-  
+  val z = new MainPanel
+  val temp = z.p
   // Ajout d'une reaction au clic sur le bouton
   // c'est à dire copier le contenu du champ from dans le label de to.
   reactions += {
@@ -26,6 +27,23 @@ class SendButton(lab: String, from : InField, to : ResultText, then:Response) ex
         to.text += "\n" + " Question : " + from.text + "\n" 
 
         from.text = ""*/
+        
+        /*to.main.contents = new BoxPanel(Orientation.Vertical){
+          contents += new TextArea("Question : " + from.text  + "\n" + "Réponse :")
+   
+        }
+        from.text = ""*/
+        
+        temp.contents += new TextArea("Question : " + from.text)
+        temp.contents += new TextArea("Réponse : " + Implementations.MachineImpl.ask(from.text))
+        
+        to.contents = temp
+          
+          
+   
+        
+        from.text = ""
+        
        
 
       }
