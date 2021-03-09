@@ -1,4 +1,8 @@
-l';le
-la;les
-de;des
-un;une
+l'
+le
+la
+les
+de
+des
+un
+une
