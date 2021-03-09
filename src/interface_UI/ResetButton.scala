@@ -12,7 +12,6 @@ class ResetButton(lab: String, from : InField, to : ScrollPane, then : Response)
 
     case ButtonClicked(_) => {
       from.text = ""
-      to.contents = res
       
     }
   }
