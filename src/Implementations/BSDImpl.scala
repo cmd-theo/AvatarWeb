@@ -15,6 +15,7 @@ object BSDImpl extends BaseDeDonnée{
     }
     res
   }
+ 
   
  def hammingDiststr(str1:String, str2:String): Boolean={
     var i = 0
