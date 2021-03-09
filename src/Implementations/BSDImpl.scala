@@ -46,12 +46,6 @@ object BSDImpl extends BaseDeDonnée{
     else false;
 } 
   
-  
-  
-  
-  
-  
-  
   /** Extracteur de fichier
    *  @param Aucun parametre, Assurez l'existence de "doc/DonneesInitiales.txt"
    *  @return une list tel que :>> List(List(nom,adresse)) */
@@ -66,6 +60,15 @@ object BSDImpl extends BaseDeDonnée{
       res
 
 }
+  def listBanWord:List[String]={
+      var res :List[String] = List()
+      val txt =Source.fromFile("doc/banwords.txt").getLines
+      for(x<-txt){
+        res = res ++ List(x)
+      }
+      res
+
+}
     /** Creer une liste de liste de mots-clés des nom à partir de listPaireNomAdd. 
      *  La liste a une indexation egale a listPaireNomAdd pour retrouvrer la paire nom Adresse à partir des mots clé
    *  @param Aucun parametre, Assurez l'existence de "doc/DonneesInitiales.txt"
@@ -73,10 +76,12 @@ object BSDImpl extends BaseDeDonnée{
   
    def listKeyWords:List[List[String]]={
      var res :List[List[String]] = List()
+     val ban = listBanWord
      val list = listPaireNomAdd
      var keyWord :String =""
      for(x<-list){
-       res = res :+ KeyWords(x(0))
+       var y = KeyWords(x(0))
+       if (!ban.contains(y)) res = res :+ y
      }
      res
    }
