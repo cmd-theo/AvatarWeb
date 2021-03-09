@@ -76,27 +76,27 @@ object BSDImpl extends BaseDeDonnée{
   
    def listKeyWords:List[List[String]]={
      var res :List[List[String]] = List()
-     val ban = listBanWord
      val list = listPaireNomAdd
      var keyWord :String =""
      for(x<-list){
-       var y = KeyWords(x(0))
-       if (!ban.contains(y)) res = res :+ y
+         res = res :+ KeyWords(x(0))
      }
      res
    }
    
-   /** Creer une list de mots-clés à partir d'une string
+   /** Creer un list de mots-clés à partir d'une string
    *  @param Aucun parametre, Assurez l'existence de "doc/DonneesInitiales.txt"
    *  @return une list tel que :>> List(mots_cle1,mots_cle3....)) */
    
    def KeyWords(flag:String):List[String]={
      var res:List[String] = List()
      var str = flag
+     val ban = listBanWord
      while(str != ""){
         val i = str.indexOf(" ")
-        if (i != -1){ 
-          res = res :+ str.slice(0, i)
+        if (i != -1){
+          var y =str.slice(0, i).toLowerCase()
+          if(!ban.contains(y)) res= res :+ str.slice(0, i)
           str = str.slice(i+1, str.length())  
         }
         else {
@@ -106,5 +106,6 @@ object BSDImpl extends BaseDeDonnée{
      }
      res
    }
+  
    
 }
