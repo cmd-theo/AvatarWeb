@@ -23,10 +23,9 @@ object BSDImpl extends BaseDeDonnée{
         }
       }
     }
-    
-    
+   
     for(v<-0 to tol.size-1){
-      if(v==tol.max && tol.max>0){
+      if(tol(v)==tol.max && tol.max>0){
         res = res:+(listPaireNomAdd(v)(0),listPaireNomAdd(v)(1))
       }
     }
