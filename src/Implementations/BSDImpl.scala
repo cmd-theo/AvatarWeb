@@ -12,39 +12,26 @@ object BSDImpl extends BaseDeDonnée{
     val t = listKeyWords
     var res:List[(String,String)]=List()
     var count:Int = 0
-    var tol:Int = 3
-    
-   while(res==List()){
-   for(y<-0 to t.length-1){
-    for(x<-t(y)){
-      for(z<-l){
-        if(hammingDiststr(x, z)) count+=1
+    val tol = new Array[Int](t.size)
+    for(x<-0 to t.size-1){
+      tol(x)=0
+    }
+    for(y<-l){
+      for(z<-0 to t.size-1){
+        for(w<-t(z)){
+          if(w.toLowerCase().contains(y.toLowerCase())) tol(z)+=1
         }
-      if(count>=tol){
-        res=res:+ (listPaireNomAdd(y)(0),listPaireNomAdd(y)(1))
-        count = 0
       }
     }
     
-   }
-  if(res==List()) tol -= 1
-   }
+    
+    for(v<-0 to tol.size-1){
+      if(v==tol.max && tol.max>0){
+        res = res:+(listPaireNomAdd(v)(0),listPaireNomAdd(v)(1))
+      }
+    }
     res
   }
- 
-  
- def hammingDiststr(str1:String, str2:String): Boolean={
-    var i = 0
-    var count = 0;
-    while (i < str1.length()&&i<str2.length())
-    {
-        if (str1.charAt(i) != str2.charAt(i))
-            count+=1;
-        i+=1;
-    }
-    if (count<=1) true
-    else false;
-} 
   
   /** Extracteur de fichier
    *  @param Aucun parametre, Assurez l'existence de "doc/DonneesInitiales.txt"
