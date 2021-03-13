@@ -16,7 +16,7 @@ interface MachineImpl{
  	show(l: List[String]): Unit
 }
 
-interface AnalysePage{
+interface AnalysePhrase{
 	hash(s: String):List[String]
 	contains(l:List[String]):List[String]
 }
@@ -38,8 +38,8 @@ reInit(): Unit
 
 Avatar --|> MachineImpl
 MachineImpl <--> UI
-MachineImpl -> AnalysePage
-AnalysePage --> BaseDeDonnees/* Pour afficher le diagramme UML:  
+MachineImpl -> AnalysePhrase
+AnalysePhrase --> BaseDeDonnees/* Pour afficher le diagramme UML:  
    Window>Show view>Other>Plantuml 
    La doc: http://plantuml.com/class-diagram
 */
@@ -57,7 +57,7 @@ interface MachineImpl{
  	show(l: List[String]): Unit
 }
 
-interface AnalysePage{
+interface AnalysePhrase{
 	hash(s: String):List[String]
 	contains(l:List[String]):List[String]
 }
@@ -79,8 +79,8 @@ reInit(): Unit
 
 Avatar --|> MachineImpl
 MachineImpl <--> UI
-MachineImpl -> AnalysePage
-AnalysePage --> BaseDeDonnees
+MachineImpl -> AnalysePhrase
+AnalysePhrase --> BaseDeDonnees
 BaseDeDonnees --> ToleranceFautes
 Tests -> MachineImpl
 

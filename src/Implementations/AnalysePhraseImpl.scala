@@ -16,6 +16,10 @@ object AnalysePhraseImpl extends AnalysePhrase{
     val bonjour = "AVATAR : Bonjour"
   }
   
+  /**
+   * @param s une string
+   * @return la même chaine s à la quelle on a retiré tous les caractères de ponctuation
+   */
   def replaceAllPonctuation(s:String) : String = {
     var res:String = s
     res = res.replace(",", "")
@@ -40,6 +44,12 @@ object AnalysePhraseImpl extends AnalysePhrase{
     }
   }
   
+  /**
+   * @param s une string
+   * @param l_keywords une liste de listes de strings
+   * @return un résultat de type Option : Some d'une string si s correspond bien 
+   * à une chaine dans une des sous-listes de l_keywords, None dans le cas contraire
+   */
   def compare(s:String, l_keywords:List[List[String]]) : Option[String] = {
     l_keywords match { 
       case Nil => None
@@ -51,6 +61,12 @@ object AnalysePhraseImpl extends AnalysePhrase{
     }
   }
   
+  /**
+   * @param s une string
+   * @param l une liste de strings
+   * @return un résultat de type Option : Some d'une string si s correspond bien 
+   * à une chaine dans l (avec ou sans correction), None dans le cas contraire
+   */
   def recherche(s:String,l:List[String]) : Option[String] = {
     l match {
       case Nil => None
