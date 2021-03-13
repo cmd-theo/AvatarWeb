@@ -18,7 +18,7 @@ object AnalysePhraseImpl extends AnalysePhrase{
   
   /**
    * @param s une string
-   * @return la même chaine à la quelle on a retiré tous les caractères de ponctuation
+   * @return la même chaine à laquelle on a retiré tous les caractères de ponctuation
    */
   def replaceAllPonctuation(s:String) : String = {
     var res:String = s
