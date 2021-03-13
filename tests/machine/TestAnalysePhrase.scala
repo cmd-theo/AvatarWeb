@@ -40,12 +40,43 @@ class TestAnalysePhrase {
   }
   
   @Test
-  def testMotsClés{
-    val s1 = "Mairie de Rennes"
-    val s2 = "Bonjour, théâtre de Bretagne"
-    val s3 = "Théotre du Brtagne"
-    assertEquals (List ("Mairie", "Rennes"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s1)))
-    assertEquals (List ("Théâtre", "Bretagne"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s2)))
-    assertEquals (List ("Théâtre", "Bretagne"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s3)))
+  def testContains{
+   val s1 = "Je recherche le Théâtre"
+   val s2 = "Où est la Mairie ?"
+   val s3 = "Je cherche la Gare."
+   val s4 = "Quelle est l'adresse du Théâtre la Paillette ?"
+   val s5 = "Allo ?"
+
+   val s6 = "Je recherche Hôtel de ville."
+   val s7 = "Je recherche le Théâtre de Bretagne."
+   val s8 = "Je recherche la Gare SNCF."
+   val s9 = "Je recherche la Pailette."
+
+   val s10 = "Hotel de ville."
+   val s11 = "Theatre la Paillette." //2 accents manquants ??
+   val s12 = "mairie de rennes."
+   val s13 = "mairie Rennes"
+
+   val s14 = "htel de ville"
+   val s15 = "hatel de ville"
+   
+   val s16 = "hostel de ville"
+
+   assertEquals (List ("Théâtre"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s1)))
+   assertEquals (List ("Mairie"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s2)))
+   assertEquals (List ("Gare"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s3)))
+   assertEquals (List ("Théâtre", "Paillette"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s4)))
+   assertEquals (List (), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s5)))
+   assertEquals (List ("Hôtel", "ville"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s6)))
+   assertEquals (List ("Théâtre", "Bretagne"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s7)))
+   assertEquals (List ("Gare", "SNCF"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s8)))
+   assertEquals (List ("Paillette"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s9)))
+   assertEquals (List ("Hôtel", "ville"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s10)))
+   assertEquals (List ("Théâtre", "Paillette"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s11)))
+   assertEquals (List ("Mairie", "Rennes"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s12)))
+   assertEquals (List ("Mairie", "Rennes"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s13)))
+   assertEquals (List ("Hôtel", "ville"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s14)))
+   assertEquals (List ("Hôtel", "ville"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s15)))
+   assertEquals (List ("ville"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s15)))
   }
 }

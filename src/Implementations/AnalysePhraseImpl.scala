@@ -6,7 +6,7 @@ object AnalysePhraseImpl extends AnalysePhrase{
   
   
   def hash(s:String) : List[String] = {
-    replaceAllPonctuation(s).split(" ").toList.distinct // retire les doublons de la liste également ! 
+    replaceAllPonctuation(s).split(" ").toList.distinct // retire les occurences multiples de la chaîne ! 
   }
 
  /**
@@ -18,7 +18,7 @@ object AnalysePhraseImpl extends AnalysePhrase{
   
   /**
    * @param s une string
-   * @return la même chaine s à la quelle on a retiré tous les caractères de ponctuation
+   * @return la même chaine à la quelle on a retiré tous les caractères de ponctuation
    */
   def replaceAllPonctuation(s:String) : String = {
     var res:String = s
@@ -71,7 +71,7 @@ object AnalysePhraseImpl extends AnalysePhrase{
     l match {
       case Nil => None
       case chaine :: reste => 
-        if(chaine.equalsIgnoreCase(s)) { Some(chaine) }
+        if(chaine.equalsIgnoreCase(s)) Some(chaine) 
         else if(Tolerance.correct(s, chaine)) Some(chaine)
         else recherche(s,reste)
     }
