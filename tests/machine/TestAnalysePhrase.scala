@@ -7,16 +7,24 @@ class TestAnalysePhrase {
   
   @Test 
   def testHash {
-    val s1 = "Hôtel de Ville"
-    val s2 = "Je cherche l'hôtel de Ville..."
-    val s3 = "B.o,n;j o? !u ...r"
-    val s4 = "Bonj(our"
-    val s5 = "???!!....()()().... ????  !!! ,, ;;; ))) : ::"
+    val s1:String= "Hôtel de Ville"
+    val s2:String= "Je cherche l'hôtel de Ville..."
+    val s3:String= "B.o,n;j o? !u ...r"
+    val s4:String= "Bonj(our"
+    val s5:String= "???!!....()()().... ????  !!! ,, ;;; ))) : ::"
     assertEquals(List("Hôtel", "de", "Ville"), AnalysePhraseImpl.hash(s1))
     assertEquals(List("Je", "cherche", "l'hôtel", "de" , "Ville"), AnalysePhraseImpl.hash(s2))
     assertEquals(List("Bonj", "o" , "u" , "r") , AnalysePhraseImpl.hash(s3))
     assertEquals(List("Bonjour") , AnalysePhraseImpl.hash(s4))
     assertEquals(Nil , AnalysePhraseImpl.hash(s5))
+  }
+  
+  @Test 
+  def testRecherche {
+    val l:List[String] = List("Coucou","Bonjour","Bonsoir","Bonne nuit","Au revoir","")
+    assertEquals(None,AnalysePhraseImpl.recherche("Je recherche quelque chose", Nil))
+    assertEquals(Some("Bonsoir") , AnalysePhraseImpl.recherche("Bonsoir", l))
+    assertEquals(Some("Bonne nuit") , AnalysePhraseImpl.recherche("Bonnenuit", l))
   }
   
   @Test
