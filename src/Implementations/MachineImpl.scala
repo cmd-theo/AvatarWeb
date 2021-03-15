@@ -20,6 +20,7 @@ object MachineImpl extends MachineDialogue{
   // Pour la partie test par le client
   /**
    * Reinitilisation de l'avatar
+   * Effacement de la conversation en cliquant sur le boutton reset
    */
   def reinit= {
     ResetButton();
