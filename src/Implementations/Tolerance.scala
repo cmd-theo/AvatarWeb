@@ -8,12 +8,15 @@ object Tolerance{
 	// factory
 
 	def hamming(s1: String, s2: String): Int = {
-			s1.zip(s2).count(pair => pair._1 != pair._2)
+	  val s1L = s1.toLowerCase()
+	  val s2L = s2.toLowerCase()
+			s1L.zip(s2L).count(pair => pair._1 != pair._2)
 			//else(s1.toList).zip(s2.toList).filter(current => current._1 != current._2).length
 			//Math.abs(s2.length-s1.length())
 	} 
 	hamming("rara","xx")
 
+	
 	def correct(s1: String, s2: String):Boolean = {
 			if (s1.length+1 == s2.length) {
 				var lfin: List[String] = List()
