@@ -41,7 +41,7 @@ class TestAnalysePhrase {
   
   @Test
   def testContains{
-   val s1 = "Je recherche le Théâtre"
+   val s1 = "Je recherche le TNB"
    val s2 = "Où est la Mairie ?"
    val s3 = "Je cherche la Gare."
    val s4 = "Quelle est l'adresse du Théâtre la Paillette ?"
@@ -53,16 +53,16 @@ class TestAnalysePhrase {
    val s9 = "Je recherche la Pailette."
 
    val s10 = "Hotel de ville."
-   val s11 = "Théatre la Paillette."
+   val s11 = "Theâtre la Paillette." //ne passe si manque 2 accents
    val s12 = "mairie de rennes."
    val s13 = "mairie Rennes"
 
-   val s14 = "htel de ville"
-   val s15 = "hatel de ville"
+   val s14 = "marie Renes"
+   val s15 = "moirie Rènnes"
    
-   val s16 = "hostel de ville"
+   val s16 = "Maoirie" // test si lettre en trop
 
-   assertEquals (List ("Théâtre"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s1)))
+   //assertEquals (List ("TNB"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s1)))
    assertEquals (List ("Mairie"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s2)))
    assertEquals (List ("Gare"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s3)))
    assertEquals (List ("Théâtre", "Paillette"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s4)))
@@ -75,13 +75,13 @@ class TestAnalysePhrase {
    assertEquals (List ("Théâtre", "Paillette"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s11)))
    assertEquals (List ("Mairie", "Rennes"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s12)))
    assertEquals (List ("Mairie", "Rennes"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s13)))
-   //assertEquals (List ("Hôtel", "ville"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s14)))
-   //assertEquals (List ("Hôtel", "ville"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s15)))
-   //assertEquals (List ("ville"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s15)))
-   
+   assertEquals (List ("Mairie", "Rennes"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s14)))
+   assertEquals (List ("Mairie", "Rennes"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s15)))
+   assertEquals (List (), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s16)))
    /*
     * Pour les tests mis en commentaire, il y a des mots clés manquants dans la liste des mots clés
     * par ex : hôtel/ville (pour hôtel de ville) ne sont pas dans la liste des keywords
     */
+
   }
 }
