@@ -54,6 +54,7 @@ class TestAnalysePhrase {
 
    val s10 = "Hotel de ville."
    val s11 = "Theâtre la Paillette." //ne passe si manque 2 accents
+
    val s12 = "mairie de rennes."
    val s13 = "mairie Rennes"
 
@@ -78,5 +79,10 @@ class TestAnalysePhrase {
    assertEquals (List ("Mairie", "Rennes"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s14)))
    assertEquals (List ("Mairie", "Rennes"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s15)))
    assertEquals (List (), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s16)))
+   
+   /*
+    * Pour les tests mis en commentaire, il y a des mots clés manquants dans la liste des mots clés
+    * par ex : hôtel/ville (pour hôtel de ville) ne sont pas dans la liste des keywords
+    */
   }
 }
