@@ -22,7 +22,7 @@ object MachineImpl extends MachineDialogue{
    * Reinitilisation de l'avatar
    */
   def reinit= {
-    
+    ResetButton();
   }
   
   /**
