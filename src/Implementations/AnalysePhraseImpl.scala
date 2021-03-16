@@ -5,6 +5,10 @@ import machine.AnalysePhrase
 object AnalysePhraseImpl extends AnalysePhrase{
   
   
+  def motsClefs(s:String) : List[String] = {
+    contains(hash(s))
+  }
+  
   def hash(s:String) : List[String] = {
     replaceAllPonctuation(s).split(" ").toList.distinct // retire les occurences multiples de la chaîne ! 
   }

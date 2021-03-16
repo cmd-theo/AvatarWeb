@@ -13,7 +13,7 @@ class TestAnalysePhrase {
     val s4:String= "Bonj(our"
     val s5:String= "???!!....()()().... ????  !!! ,, ;;; ))) : ::"
     assertEquals(List("Hôtel", "de", "Ville"), AnalysePhraseImpl.hash(s1))
-    assertEquals(List("Je", "cherche", "l'hôtel", "de" , "Ville"), AnalysePhraseImpl.hash(s2))
+    assertEquals(List("Je", "cherche", "l" , "hôtel", "de" , "Ville"), AnalysePhraseImpl.hash(s2))
     assertEquals(List("Bonj", "o" , "u" , "r") , AnalysePhraseImpl.hash(s3))
     assertEquals(List("Bonjour") , AnalysePhraseImpl.hash(s4))
     assertEquals(Nil , AnalysePhraseImpl.hash(s5))
@@ -64,21 +64,21 @@ class TestAnalysePhrase {
    val s16 = "Maoirie" // test si lettre en trop
 
    //assertEquals (List ("TNB"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s1)))
-   assertEquals (List ("Mairie"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s2)))
-   assertEquals (List ("Gare"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s3)))
-   assertEquals (List ("Théâtre", "Paillette"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s4)))
-   assertEquals (List (), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s5)))
+   assertEquals (List ("Mairie"), AnalysePhraseImpl.motsClefs(s2))
+   assertEquals (List ("Gare"), AnalysePhraseImpl.motsClefs((s3)))
+   assertEquals (List ("Théâtre", "Paillette"), AnalysePhraseImpl.motsClefs(s4))
+   assertEquals (List (), AnalysePhraseImpl.motsClefs(s5))
    //assertEquals (List ("Hôtel", "ville"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s6)))
-   assertEquals (List ("Théâtre", "Bretagne"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s7)))
-   assertEquals (List ("Gare", "SNCF"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s8)))
-   assertEquals (List ("Paillette"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s9)))
+   assertEquals (List ("Théâtre", "Bretagne"), AnalysePhraseImpl.motsClefs(s7))
+   assertEquals (List ("Gare", "SNCF"), AnalysePhraseImpl.motsClefs(s8))
+   assertEquals (List ("Paillette"), AnalysePhraseImpl.motsClefs(s9))
    //assertEquals (List ("Hôtel", "ville"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s10)))
-   assertEquals (List ("Théâtre", "Paillette"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s11)))
-   assertEquals (List ("Mairie", "Rennes"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s12)))
-   assertEquals (List ("Mairie", "Rennes"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s13)))
-   assertEquals (List ("Mairie", "Rennes"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s14)))
-   assertEquals (List ("Mairie", "Rennes"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s15)))
-   assertEquals (List (), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s16)))
+   assertEquals (List ("Théâtre", "Paillette"), AnalysePhraseImpl.motsClefs(s11))
+   assertEquals (List ("Mairie", "Rennes"), AnalysePhraseImpl.motsClefs(s12))
+   assertEquals (List ("Mairie", "Rennes"), AnalysePhraseImpl.motsClefs(s13))
+   assertEquals (List ("Mairie", "Rennes"), AnalysePhraseImpl.motsClefs(s14))
+   assertEquals (List ("Mairie", "Rennes"), AnalysePhraseImpl.motsClefs(s15))
+   assertEquals (List (), AnalysePhraseImpl.motsClefs(s16))
 
    /*
     * Pour les tests mis en commentaire, il y a des mots clés manquants dans la liste des mots clés
@@ -86,4 +86,6 @@ class TestAnalysePhrase {
     */
 
   }
+  
+  
 }
