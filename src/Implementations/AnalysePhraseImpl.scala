@@ -9,12 +9,6 @@ object AnalysePhraseImpl extends AnalysePhrase{
     replaceAllPonctuation(s).split(" ").toList.distinct // retire les occurences multiples de la chaîne ! 
   }
 
- /**
-   * Reinitialise l'avatar
-   */
-  def reinit = {
-    val bonjour = "AVATAR : Bonjour"
-  }
   
   /**
    * @param s une string
