@@ -24,6 +24,7 @@ object AnalysePhraseImpl extends AnalysePhrase{
     res = res.replace("?", "")
     res = res.replace("(", "")
     res = res.replace(")", "")
+    res = res.replace("'"," ")
     res
   }
   
