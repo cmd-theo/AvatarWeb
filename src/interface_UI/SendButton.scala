@@ -2,6 +2,7 @@ package interface_UI
 
 import scala.swing._ 
 
+import javax.swing.ImageIcon
 import event._
 import java.awt.Color
 /** A button for realizing a text-copy
@@ -34,17 +35,29 @@ class SendButton(lab: String, from : InField, to : ScrollPane, then:Response) ex
         }
         from.text = ""*/
         
-        temp.contents += new TextArea("Question : " + from.text)
-        temp.contents += new TextArea("Réponse : " + Implementations.MachineImpl.ask(from.text))
+        temp.contents += new GridPanel(2,2) {
+          preferredSize = new Dimension(500,475)
+          contents += new TextArea {
+            text = from.text
+            editable = false
+            
+          }
+          contents += new Label {
+          icon = new ImageIcon("/private/student/e/ue/tboue/Bureau/avatar.png")
+          }
+          contents += new Label {
+          icon = new ImageIcon("/private/student/e/ue/tboue/Bureau/rennes.png")
+          }
+          contents += new TextArea { 
+            text = Implementations.MachineImpl.ask(from.text).mkString
+            editable = false
+          }
+        }
         
         to.contents = temp
-          
-          
-   
-        
+        //test
         from.text = ""
         
-       
 
       }
         
