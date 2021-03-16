@@ -15,11 +15,18 @@ object MachineImpl extends MachineDialogue{
     
     respond2(BSDImpl.respond((AnalysePhraseImpl.motsClefs(s)))) 
   }
-  
+  /*def listToString (l:List[String]): String = {
+    l match {
+      case Nil => ""
+      case e1 :: Nil => e1
+      case e1 :: reste => e1 + " : " + listToString(reste)
+    }
+  }
+  */
   def respond2(l:List[(String,String)]) : List[String] = {
     l match {
       case Nil => Nil
-      case (e1, e2) :: reste => e2 :: respond2(reste) 
+      case (e1, e2) :: reste => e1 +" : " + e2 :: respond2(reste) 
     }
   }
   
