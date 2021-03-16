@@ -41,6 +41,7 @@ class TestAnalysePhrase {
   
   @Test
   def testContains{
+   
    val s1 = "Je recherche le TNB"
    val s2 = "Où est la Mairie ?"
    val s3 = "Je cherche la Gare."
@@ -54,10 +55,6 @@ class TestAnalysePhrase {
 
    val s10 = "Hotel de ville."
    val s11 = "Theâtre la Paillette." //ne passe si manque 2 accents
-<<<<<<< HEAD
-=======
-
->>>>>>> branch 'master' of https://gitlab.istic.univ-rennes1.fr/nzhang/gen21-1a-avatar-equipe1.git
    val s12 = "mairie de rennes."
    val s13 = "mairie Rennes"
 
@@ -82,10 +79,7 @@ class TestAnalysePhrase {
    assertEquals (List ("Mairie", "Rennes"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s14)))
    assertEquals (List ("Mairie", "Rennes"), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s15)))
    assertEquals (List (), AnalysePhraseImpl.contains(AnalysePhraseImpl.hash(s16)))
-<<<<<<< HEAD
-=======
-   
->>>>>>> branch 'master' of https://gitlab.istic.univ-rennes1.fr/nzhang/gen21-1a-avatar-equipe1.git
+
    /*
     * Pour les tests mis en commentaire, il y a des mots clés manquants dans la liste des mots clés
     * par ex : hôtel/ville (pour hôtel de ville) ne sont pas dans la liste des keywords
