@@ -13,7 +13,17 @@ class TestIntegration {
   // tests
   @Test
   def test1_1{    
-    assertEquals(List("L'adresse de Mairie de Rennes est : Place de la Mairie"),m.test(List("Où est donc la Mairie de Rennes?")))
+    assertEquals(List("Place de la Mairie"), m.test(List("Où est donc la Mairie de Rennes?")))
+  }
+  
+  @Test
+  def test1_2{
+    assertEquals(List("19, Place de la Gare"), m.test(List("et la Gare?")))
+  }
+  
+  @Test
+  def test1_3{
+    assertEquals(List(), m.test(List("je cherche")))
   }
   
 }
