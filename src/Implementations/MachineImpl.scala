@@ -1,4 +1,4 @@
-package Implementations
+ackage Implementations
 
 import machine._
 
@@ -12,9 +12,15 @@ object MachineImpl extends MachineDialogue{
    * @return reponse la liste de reponses
    */
   def ask(s:String):List[String]= {
-    val requete = s
-    val reponse = AnalysePhraseImpl.hash(requete)
-    reponse
+    
+    respond2(BSDImpl.respond((AnalysePhraseImpl.motsClefs(s)))) 
+  }
+  
+  def respond2(l:List[(String,String)]) : List[String] = {
+    l match {
+      case Nil => Nil
+      case (e1, e2) :: reste => e2 :: respond2(reste) 
+    }
   }
   
   // Pour la partie test par le client
@@ -23,7 +29,7 @@ object MachineImpl extends MachineDialogue{
    * Effacement de la conversation en cliquant sur le bouton reset
    */
   def reinit= {
-    //interface_UI.ResetButton()
+    //ResetButton()
   }
   
   /**
