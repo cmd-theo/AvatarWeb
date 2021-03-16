@@ -29,7 +29,7 @@ object Tolerance{
 						for(i <- 0 to s1.length()){
 							lfin = lfin++List(s1.take(i)++" "++s1.takeRight(s1.size-i))
 						}
-				//println("LFiN: " +s1 + " : " + lfin) 
+				//println("LFiN: " +s1 + " : " + lfin)  
 				compareStringToList(s2, lfin)
 			}
 			else if(s1.length() == s2.length() && hamming(s1, s2) <= 1) true
