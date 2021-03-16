@@ -97,7 +97,7 @@ object BSDImpl extends BaseDeDonnée{
           str = str.slice(i+1, str.length())  
         }
         else {
-          if (!ban.contains(str)) res = res :+ str
+          if (!ban.contains(str)) res = res :+ str.toLowerCase()
           str = ""
         }
      }
