@@ -93,11 +93,11 @@ object BSDImpl extends BaseDeDonnée{
         val i = str.indexOf(" ")
         if (i != -1){
           var y =str.slice(0, i).toLowerCase()
-          if(!ban.contains(y) && str!= " ") res= res :+ str.slice(0, i)
+          if(!ban.contains(y) && y!=" " ) res= res :+ str.slice(0, i)
           str = str.slice(i+1, str.length())  
         }
         else {
-          if (str!= " ") res = res :+ str
+          res = res :+ str
           str = ""
         }
      }
