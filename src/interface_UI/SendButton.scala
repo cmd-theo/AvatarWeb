@@ -49,7 +49,7 @@ class SendButton(lab: String, from : InField, to : ScrollPane, then:Response) ex
           icon = new ImageIcon("/private/student/e/ue/tboue/Bureau/rennes.png")
           }
           contents += new TextArea { 
-            text = Implementations.MachineImpl.ask(from.text).mkString
+            text = "Réponse : " + Implementations.MachineImpl.ask(from.text)
             editable = false
           }
         }
