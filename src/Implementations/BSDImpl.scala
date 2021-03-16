@@ -6,7 +6,7 @@ object BSDImpl extends BaseDeDonnée{
   
 /**Retoure les noms et adresse associé aux mots clé
  * @param l liste des mots cl de la requête
- * @return la liste des nom et adresse associé aux mots clé de la requêtee
+ * @return la liste des nom et adresse associé aux mots clé de la requête
  */
    def respond(l:List[String]):List[(String,String)]={
     val t = listKeyWords
@@ -34,7 +34,7 @@ object BSDImpl extends BaseDeDonnée{
   
   /** Extracteur de fichier
    *  @param Aucun parametre, Assurez l'existence de "doc/DonneesInitiales.txt"
-   *  @return une list tel que :>> List(List(nom,adresse)) */
+   *  @return une list tel que :>> List(List(nom,adresse,mot_clé)) */
   
   def listPaireNomAdd:List[List[String]]={
       var res :List[List[String]] = List()
@@ -93,11 +93,11 @@ object BSDImpl extends BaseDeDonnée{
         val i = str.indexOf(" ")
         if (i != -1){
           var y =str.slice(0, i).toLowerCase()
-          if(!ban.contains(y)) res= res :+ str.slice(0, i)
+          if(!ban.contains(y) && str!= " ") res= res :+ str.slice(0, i)
           str = str.slice(i+1, str.length())  
         }
         else {
-          res = res :+ str
+          if (str!= " ") res = res :+ str
           str = ""
         }
      }
