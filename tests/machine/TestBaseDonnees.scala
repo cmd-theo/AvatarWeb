@@ -15,7 +15,7 @@ class TestBaseDonnees {
   
     @Test
   def testListKeyWords{
-      assertEquals(List(List("Mairie", "Rennes"), List("Théâtre", "Paillette"), List("Théâtre", "National", "Bretagne"), List("Gare", "SNCF")), 
+      assertEquals(List(List("Mairie","Rennes","Hotel","Ville"), List("Théâtre", "Paillette"), List("Théâtre", "National", "Bretagne","tnb"), List("Gare", "SNCF")), 
           BSDImpl.listKeyWords)
     }
     
