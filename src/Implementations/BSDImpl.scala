@@ -38,10 +38,18 @@ object BSDImpl extends BaseDeDonnée{
   
   def listPaireNomAdd:List[List[String]]={
       var res :List[List[String]] = List()
-      val txt =Source.fromFile("doc/DonneesInitiales.txt").getLines
+      var txt =Source.fromFile("doc/DonneesInitiales.txt").getLines
       for(x<-txt){
-        val i = x.indexOf(";")
-        res = res :+ List(x.slice(0, i),x.slice(i+1,x.length))
+        var i      = x.indexOf(";")
+        var part1  = x.slice(0, i)
+        var part2  = x.slice(i+1,x.length)
+        var part3  = ""
+        i          = part2.indexOf(";")
+        if (i != -1){
+          part3  = part2.slice(i+1,part2.length)
+          part2  = part2.slice(0,i)
+        }
+        res = res :+ List(part1,part2,part3)
       }
       res
 
@@ -63,9 +71,12 @@ object BSDImpl extends BaseDeDonnée{
    def listKeyWords:List[List[String]]={
      var res :List[List[String]] = List()
      val list = listPaireNomAdd
-     var keyWord :String =""
      for(x<-list){
-         res = res :+ KeyWords(x(0))
+         var key = KeyWords(x(0))
+         if (x(2) != ""){
+           key = key ++ KeyWords(x(2))
+         }
+         res = res :+ key
      }
      res
    }
