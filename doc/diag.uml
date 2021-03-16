@@ -78,11 +78,12 @@ reInit(): Unit
 }
 
 Avatar --|> MachineImpl
+Tests -> MachineImpl
 MachineImpl <--> UI
+MachineImpl -> BaseDeDonnees
 MachineImpl -> AnalysePhrase
 AnalysePhrase --> BaseDeDonnees
-BaseDeDonnees --> ToleranceFautes
-Tests -> MachineImpl
+AnalysePhrase --> ToleranceFautes
 
  @enduml
 BaseDeDonnees --> ToleranceFautes
