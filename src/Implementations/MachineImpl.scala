@@ -23,6 +23,11 @@ object MachineImpl extends MachineDialogue{
     }
   }
   */
+
+  /**
+   * @param une liste de couple de string
+   * @return une liste de string
+   */
   def respond2(l:List[(String,String)]) : List[String] = {
     l match {
       case Nil => Nil
