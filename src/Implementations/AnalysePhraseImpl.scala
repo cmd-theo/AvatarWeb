@@ -5,17 +5,19 @@ import machine.AnalysePhrase
 object AnalysePhraseImpl extends AnalysePhrase{
   
   
-  def hash(s:String) : List[String] = {
-    replaceAllPonctuation(s).split(" ").toList.distinct // retire les doublons de la liste également ! 
-  }
-
- /**
-   * Reinitialise l'avatar
-   */
-  def reinit = {
-    val bonjour = "AVATAR : Bonjour"
+  def motsClefs(s:String) : List[String] = {
+    contains(hash(s))
   }
   
+  def hash(s:String) : List[String] = {
+    replaceAllPonctuation(s).split(" ").toList.distinct // retire les occurences multiples de la chaîne ! 
+  }
+
+  
+  /**
+   * @param s une string
+   * @return la même chaine à laquelle on a retiré tous les caractères de ponctuation
+   */
   def replaceAllPonctuation(s:String) : String = {
     var res:String = s
     res = res.replace(",", "")
@@ -26,6 +28,7 @@ object AnalysePhraseImpl extends AnalysePhrase{
     res = res.replace("?", "")
     res = res.replace("(", "")
     res = res.replace(")", "")
+    res = res.replace("'"," ")
     res
   }
   
@@ -40,6 +43,12 @@ object AnalysePhraseImpl extends AnalysePhrase{
     }
   }
   
+  /**
+   * @param s une string
+   * @param l_keywords une liste de listes de strings
+   * @return un résultat de type Option : Some d'une string si s correspond bien 
+   * à une chaine dans une des sous-listes de l_keywords, None dans le cas contraire
+   */
   def compare(s:String, l_keywords:List[List[String]]) : Option[String] = {
     l_keywords match { 
       case Nil => None
@@ -51,11 +60,17 @@ object AnalysePhraseImpl extends AnalysePhrase{
     }
   }
   
+  /**
+   * @param s une string
+   * @param l une liste de strings
+   * @return un résultat de type Option : Some d'une string si s correspond bien 
+   * à une chaine dans l (avec ou sans correction), None dans le cas contraire
+   */
   def recherche(s:String,l:List[String]) : Option[String] = {
     l match {
       case Nil => None
       case chaine :: reste => 
-        if(chaine.equalsIgnoreCase(s)) { Some(chaine) }
+        if(chaine.equalsIgnoreCase(s)) Some(chaine) 
         else if(Tolerance.correct(s, chaine)) Some(chaine)
         else recherche(s,reste)
     }
