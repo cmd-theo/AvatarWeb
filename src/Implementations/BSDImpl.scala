@@ -88,16 +88,16 @@ object BSDImpl extends BaseDeDonnée{
    def KeyWords(flag:String):List[String]={
      var res:List[String] = List()
      var str = flag
-     val ban = listBanWord
-     while(str != ""){
+     val ban = listBanWord :+ ""
+     while(str != "" & str!=" "){
         val i = str.indexOf(" ")
         if (i != -1){
           var y =str.slice(0, i).toLowerCase()
-          if(!ban.contains(y) && y!=" " ) res= res :+ str.slice(0, i)
+          if(!ban.contains(y)) res= res :+ y
           str = str.slice(i+1, str.length())  
         }
         else {
-          res = res :+ str
+          if (!ban.contains(str)) res = res :+ str
           str = ""
         }
      }
