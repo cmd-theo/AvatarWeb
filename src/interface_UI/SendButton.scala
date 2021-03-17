@@ -35,12 +35,12 @@ class SendButton(lab: String, from : InField, to : ScrollPane, then:Response) ex
             temp.contents += new BoxPanel(Orientation.Horizontal) {
               preferredSize = new Dimension(100,100)
               contents += new Label {
-                icon = new ImageIcon("/private/student/e/ue/tboue/Bureau/avatar.png")
+                icon = new ImageIcon("/Utilisateurs/user/Bureau/avatar.png")
                 text = from.text
               }
               contents += Swing.HStrut(50)
               contents += new Label {
-                icon = new ImageIcon("/private/student/e/ue/tboue/Bureau/rennes.png")
+                icon = new ImageIcon("/Utilisateurs/user/Bureau/rennes.png")
                 text = listToString(Implementations.MachineImpl.ask(from.text))
               }
               contents += Swing.VStrut(30)
