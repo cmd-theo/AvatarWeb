@@ -1,7 +1,7 @@
 package interface_UI
 
 import scala.swing._ 
-
+import javax.swing.ImageIcon
 import java.awt.Color
 import scala.swing.BorderPanel.Position._
 
@@ -12,7 +12,7 @@ class UI extends MainFrame {
   
   // Propriétés de la fenêtre
   title = "AVATAR APP 1.0"
-  preferredSize = new Dimension(700, 700)
+  preferredSize = new Dimension(600, 600)
 
   // Quelques champs définissant les composants
   val input = new InField
@@ -20,10 +20,16 @@ class UI extends MainFrame {
   val reponse = new Response
   
   val b = new BoxPanel(Orientation.Vertical){
-
+    contents += new BoxPanel(Orientation.Horizontal) {
+     preferredSize = new Dimension(100,100)
+     contents += new Label {
+       icon = new ImageIcon("src/images/rennes.png")
+       text = "Bonjour ! En quoi puis-je vous aider ?"
+     }
+   }
   }
   val a = new ScrollPane(b)
-  val c = new BoxPanel(Orientation.Vertical)
+  val c = new BoxPanel(Orientation.Vertical) 
   val copy = new SendButton("Send", input, a,reponse)
   val res = new ResetButton("Reset", input, a, reponse)
 output.preferredSize=new Dimension(50,50)
