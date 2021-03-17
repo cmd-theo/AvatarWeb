@@ -1,6 +1,7 @@
 package interface_UI
 
 import scala.swing._ 
+
 import javax.swing.ImageIcon
 import java.awt.Color
 import scala.swing.BorderPanel.Position._
@@ -30,8 +31,8 @@ class UI extends MainFrame {
   }
   val a = new ScrollPane(b)
   val c = new BoxPanel(Orientation.Vertical) 
-  val copy = new SendButton("Send", input, a,reponse)
-  val res = new ResetButton("Reset", input, a, reponse)
+  val copy = new SendButton("Send", input, a)
+  val res = new ResetButton("Reset", input, a, copy)
 output.preferredSize=new Dimension(50,50)
   
 
