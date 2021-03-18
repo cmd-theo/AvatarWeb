@@ -44,7 +44,7 @@ output.preferredSize=new Dimension(50,50)
     
     background = Color.WHITE
     layout(a) = Center
-    
+    defaultButton_= (copy)
     layout(new BoxPanel(Orientation.Horizontal) {
       contents += input
       contents += copy
