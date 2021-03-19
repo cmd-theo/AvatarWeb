@@ -38,7 +38,7 @@ object BSDImpl extends BaseDeDonnée{
   
   def listPaireNomAdd:List[List[String]]={
       var res :List[List[String]] = List()
-      var txt =Source.fromFile("doc/DonneesInitiales.txt").getLines
+      var txt =Source.fromFile("src/main/resources/doc/DonneesInitiales.txt").getLines
       for(x<-txt){
         var i      = x.indexOf(";")
         var part1  = x.slice(0, i)
@@ -56,7 +56,7 @@ object BSDImpl extends BaseDeDonnée{
 }
   def listBanWord:List[String]={
       var res :List[String] = List()
-      val txt =Source.fromFile("doc/banwords.txt").getLines
+      val txt =Source.fromFile("src/main/resources/doc/banwords.txt").getLines
       for(x<-txt){
         res = res ++ List(x)
       }
