@@ -15,7 +15,7 @@ interface MachineImpl{
  }
  
  interface UI{
- 	show(l: List[String]): Unit
+ 	top(): MainFrame
 }
 
 interface AnalysePhrase{
@@ -39,11 +39,12 @@ reInit(): Unit
 }
 
 Avatar --|> MachineImpl
+Tests -> MachineImpl
 MachineImpl <--> UI
+MachineImpl -> BaseDeDonnees
 MachineImpl -> AnalysePhrase
 AnalysePhrase --> BaseDeDonnees
-BaseDeDonnees --> ToleranceFautes
-Tests -> MachineImpl
+AnalysePhrase --> ToleranceFautes
 
 
 
