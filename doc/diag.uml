@@ -3,22 +3,22 @@
    La doc: http://plantuml.com/class-diagram
 */
 
+
 @startuml
 
 class Avatar<<(O, Orange)>>
 
-interface MachineImpl{
+interface MachineDialogue{
 	ask(s: String):List[String]
 	reInit(): Unit
  }
  
  interface UI{
- 	show(l: List[String]): Unit
+ 	top(): MainFrame
 }
 
 interface AnalysePhrase{
-	hash(s: String):List[String]
-	contains(l:List[String]):List[String]
+	motsClefs (s : String) : List [String]
 }
 
 interface BaseDeDonnees{
@@ -32,60 +32,18 @@ interface ToleranceFautes{
 }
 
 class Tests{
-test(l:List[String]): List[String]
-reInit(): Unit
-}
-
-Avatar --|> MachineImpl
-MachineImpl <--> UI
-MachineImpl -> AnalysePhrase
-AnalysePhrase --> BaseDeDonnees/* Pour afficher le diagramme UML:  
-   Window>Show view>Other>Plantuml 
-   La doc: http://plantuml.com/class-diagram
-*/
-
-@startuml
-
-class Avatar<<(O, Orange)>>
-
-interface MachineImpl{
-	ask(s: String):List[String]
+	test(l:List[String]): List[String]
 	reInit(): Unit
- }
- 
- interface UI{
- 	show(l: List[String]): Unit
 }
 
-interface AnalysePhrase{
-	hash(s: String):List[String]
-	contains(l:List[String]):List[String]
-}
-
-interface BaseDeDonnees{
-	dsb: List[String]
-	respond(l:List[String]):(Boolean, List[String])
-	listKeywords():List[List[String]]
-}
-
-interface ToleranceFautes{
-	correct(s1:String, s2:String):Boolean
-}
-
-class Tests{
-test(l:List[String]): List[String]
-reInit(): Unit
-}
-
-Avatar --|> MachineImpl
-MachineImpl <--> UI
-MachineImpl -> AnalysePhrase
+Avatar --|> MachineDialogue
+Tests -> MachineDialogue
+MachineDialogue <--> UI
+MachineDialogue -> BaseDeDonnees
+MachineDialogue -> AnalysePhrase
 AnalysePhrase --> BaseDeDonnees
-BaseDeDonnees --> ToleranceFautes
-Tests -> MachineImpl
+AnalysePhrase --> ToleranceFautes
 
- @enduml
-BaseDeDonnees --> ToleranceFautes
-Tests -> MachineImpl
 
- @enduml
+
+@enduml
