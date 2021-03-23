@@ -5,6 +5,7 @@ import scala.io.Source
 
 object MachineImpl extends MachineDialogue{
   
+  var francais = false
   var anglais = false;
   var allemand = false;
   var espagnol = false;
@@ -47,7 +48,7 @@ object MachineImpl extends MachineDialogue{
    * Effacement de la conversation en cliquant sur le bouton reset
    */
   def reinit= {
-    //ResetButton()
+    francais = true
   }
   
   /**
