@@ -1,0 +1,1264 @@
+Tag(html,List((class,no-js), (lang,fr)),List(Tag(head,List((prefix,og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# restaurant: http://ogp.me/ns/restaurant# linternaute_resto: http://ogp.me/ns/fb/linternaute_resto#)),List(Text(
+    ), Tag(meta,List((charset,utf-8)),List()), Text(
+    ), Tag(meta,List((content,ie=edge), (http-equiv,x-ua-compatible)),List()), Text(
+
+    ), Tag(title,List(),List(Text(La Tomate, Pizzeria à Rennes avec Linternaute))), Text(
+
+        ), Tag(meta,List((content,Retrouvez toutes les infos sur le restaurant La Tomate à Rennes : ... - Tél. 02 99 8...), (name,description)),List()), Text(
+    
+    ), Tag(meta,List((content,width=device-width, initial-scale=1.0), (name,viewport)),List()), Text(
+
+                ), Tag(meta,List((content,always), (name,referrer)),List()), Text(
+            ), Tag(meta,List((content,summary), (name,twitter:card)),List()), Text(
+            ), Tag(meta,List((content,@LInternauteInfo), (name,twitter:site)),List()), Text(
+            ), Tag(meta,List((content,https://www.linternaute.com/restaurant/restaurant/9072/la-tomate.shtml), (name,twitter:url)),List()), Text(
+            ), Tag(meta,List((content,La Tomate, Pizzeria à Rennes avec Linternaute), (name,twitter:title)),List()), Text(
+            ), Tag(meta,List((content,Retrouvez toutes les infos sur le restaurant La Tomate à Rennes : ... - Tél. 02 99 8...), (name,twitter:description)),List()), Text(
+            ), Tag(meta,List((content,app-id=331750224, affiliate-data=at=1l3v7Mj&amp;ct=linternaute), (name,apple-itunes-app)),List()), Text(
+            ), Tag(meta,List((content,max-snippet:-1, max-image-preview:large, max-video-preview:15), (name,robots)),List()), Text(
+                            ), Tag(meta,List((content,restaurant.restaurant), (property,og:type)),List()), Text(
+                    ), Tag(meta,List((content,https://www.linternaute.com/restaurant/restaurant/9072/la-tomate.shtml), (property,og:url)),List()), Text(
+                    ), Tag(meta,List((content,https://astatic.ccmbg.com/www.linternaute.com/bundles/ccmbenchmarkrestaurant/img/slider-nopic.jpg), (property,og:image)),List()), Text(
+                    ), Tag(meta,List((content,389263707785976), (property,fb:app_id)),List()), Text(
+                    ), Tag(meta,List((content,18, rue Saint Georges), (property,restaurant:contact_info:street_adress)),List()), Text(
+                    ), Tag(meta,List((content,Rennes), (property,restaurant:contact_info:locality)),List()), Text(
+                    ), Tag(meta,List((content,35000), (property,restaurant:contact_info:postal_code)),List()), Text(
+                    ), Tag(meta,List((content,France), (property,restaurant:contact_info:country_name)),List()), Text(
+                    ), Tag(meta,List((content,0299870606), (property,restaurant:contact_info:phone_number)),List()), Text(
+                    ), Tag(meta,List((content,48.111794), (property,place:location:latitude)),List()), Text(
+                    ), Tag(meta,List((content,-1.676667), (property,place:location:longitude)),List()), Text(
+                    ), Tag(meta,List((content,3/5), (property,linternaute_resto:rating)),List()), Text(
+                    ), Tag(meta,List((content,Rennes), (property,linternaute_resto:address)),List()), Text(
+                    ), Tag(meta,List((content,), (property,linternaute_resto:opening_hours)),List()), Text(
+                    ), Tag(meta,List((content,0299870606), (property,linternaute_resto:telephone_number)),List()), Text(
+                    ), Tag(meta,List((content,-1.676667), (property,linternaute_resto:location:longitude)),List()), Text(
+                    ), Tag(meta,List((content,-1.676667), (property,linternaute_resto:location:latitude)),List()), Text(
+                    
+    ), Tag(meta,List((content,aHR0cHM6Ly93d3cubGludGVybmF1dGUuY29tL3Jlc3RhdXJhbnQvcmVzdGF1cmFudC85MDcyL2xhLXRvbWF0ZS5zaHRtbA==), (property,atm)),List()), Text(
+
+    
+        ), Tag(link,List((href,https://www.linternaute.com/restaurant/restaurant/9072/la-tomate.shtml), (rel,canonical)),List()), Text(
+        
+                ), Tag(link,List((href,https://astatic.ccmbg.com/www.linternaute.com/favicon.ico), (rel,shortcut icon)),List()), Text(
+    ), Tag(link,List((type,image/x-icon), (href,https://astatic.ccmbg.com/www.linternaute.com/favicon.ico), (rel,icon)),List()), Text(
+    ), Tag(link,List((href,https://astatic.ccmbg.com/www.linternaute.com/favicon.ico), (rel,apple-touch-icon)),List()), Text(
+            
+            ), Tag(link,List((href,https://astatic.ccmbg.com/www.linternaute.com/dist/app/css/chunks/linternaute_bundle.94672f1c8c34b9dc1852.css), (media,all), (rel,stylesheet)),List()), Tag(link,List((href,https://astatic.ccmbg.com/www.linternaute.com/dist/app/css/chunks/restaurant_bundle.4bac5f9c3e74e487cb5b.css), (media,all), (rel,stylesheet)),List()), Tag(link,List((href,https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700%7COswald%7CMontserrat:400,700), (media,all), (rel,stylesheet)),List()), Tag(link,List((href,https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/css/swiper.min.css), (media,all), (rel,stylesheet)),List()), Tag(link,List((href,https://cdnjs.cloudflare.com/ajax/libs/pnotify/3.0.0/pnotify.css), (media,all), (rel,stylesheet)),List()), Tag(link,List((href,https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css), (media,all), (rel,stylesheet)),List()), Text(
+        
+    
+    ), Tag(script,List(),List(Text(
+    var dataLayer = [{"appConfig":{"subContainers":["GTM-5H5DBFV"],"ua":"UA-314706-3"},"site":"www.linternaute.com","environnement":"production","sessionType":"non connect\u00e9e","userStatus":"Anonyme","application":"restaurant","level1":"Restaurant","level2":"Rennes","pageCategory":"Restaurant","pageType":"classique","theme":"Rennes"}];
+
+            !function(e){"use strict";var t=function(){},n=Object.getOwnPropertyNames(window.console).reduce(function(e,n){return"function"==typeof console[n]&&(e[n]=t),e},{}),o=function(){return n},r=e.console;if("object"==typeof e.JSON&&"function"==typeof e.JSON.parse&&"object"==typeof e.console&&"function"==typeof Object.keys){var i=!/Edge|Trident/.test(navigator.userAgent),s={available:["others.catch","others.show"],broadcasted:[]},a=function(){var e=9,t=242,n=220,o=/^\s+(.*)\s+$/g,r=function(e){e=e.replace(o,"$1");for(var t=[0,0,0],n=0,r=0;n), Text(<e.length;n++)r=parseInt(n/t.length),t[n%3]+=parseInt(a(e[n])/s(r));for(n=0;n), Text(<t.length;n++)t[n]>255&&(t[n]=255);return t},i=function(e){return"rgb("+e.join(",")+")"},s=function(t){return Math.pow(e,t)},a=function(n){return parseInt((n.charCodeAt()<), Text(<e)%t)};return{get:r,toRGB:i,visible:function(e){return e[0]>n||e[1]>n||e[2]>n?[0,0,0]:[255,255,255]}}}(),c=function(e,t,n,o){return r[t]?function(){var s=Array.prototype.slice.call(arguments);i&&s.unshift("background-color:"+o+";color:"+n+";border-radius:2px;"),s.unshift((i?"%c":"")+[" ",e," "].join("")),r[t].apply(console,s)}:function(){}},u=function(){try{var e=localStorage.getItem("getConsole");e=null===e?[]:JSON.parse(e)}catch(t){e=[]}return e},d=function(e){s.available.push(e);var t=document.createEvent("CustomEvent");t.initCustomEvent("getConsole.tag.available",!1,!1,e),document.dispatchEvent(t)};e.getConsole=function(e){if("string"!=typeof e)throw"getConsole need a tag name (string)";if(-1===s.available.indexOf(e)&&d(e),-1!==s.broadcasted.indexOf(e)){var t=a.get(e),n=a.toRGB(a.visible(t)),i=a.toRGB(t),u={log:c(e,"log",n,i),warn:c(e,"warn",n,i),error:c(e,"error",n,i),info:c(e,"info",n,i)};return Object.keys(r).forEach(function(e){"undefined"==typeof u[e]&&(u[e]=r[e])}),u}return o()},e.getConsole.tags=s,s.broadcasted=u(),-1!==s.broadcasted.indexOf("others.catch")&&(e.console=e.getConsole("others.show"))}else e.getConsole=o}(window),logger={_buffer:[],log:function(){"use strict";this._buffer.push(arguments)}},_logmatic=[],logmatic={log:function(){"use strict";_logmatic.push(Array.prototype.slice.call(arguments))}},function(e){"use strict";var t={domains:["hpphmfubhnbobhfs","bnb{po.betztufn","beoyt","epvcmfdmjdl","hpphmftzoejdbujpo","wjefptufq","s77ofu","ufbet","vosvmznfejb","tnbsubetfswfs","tljnsftpvsdft","{fcftupg","uumce","hpphmfbqjt","wjefpqmb{b","hpphmfbetfswjdft","fggfdujwfnfbtvsf","pvucsbjo","ubcppmb"],classes:"ufyuBe!BeCpy!qvc`411y361!qvc`411y361n!qvc`839y:1!ufyu.be!ufyuBe!Mjhbuvt!ufyu`be!ufyu`bet!ufyu.bet!ufyu.be.mjolt",event:{category:"pbt`mpbefe",action:"gbjm"}},n=e.getConsole("inObs"),o=2,r=0,i={},s=function(e,s){if("undefined"==typeof MutationObserver||"undefined"==typeof URL.prototype)return void e.call(!1,!1);var c=document.getElementsByTagName("html")[0],u={childList:!0,attributes:!0,characterData:!0,subtree:!0},d=!1,f=new MutationObserver(function(c){c.forEach(function(c){try{var u,l,p,g="",h=new Date,m=function(){};if("childList"===c.type&&c.addedNodes.length&&(u=c.addedNodes[0],"undefined"!=typeof u.src&&(g=u.nodeName,"SCRIPT"===g||"IFRAME"===g))){try{l=new URL(u.src),p=l&&l.host?l.host.split(/\./).slice(-2).shift():null}catch(v){}m=c.addedNodes[0].onerror,c.addedNodes[0].onerror=function(){try{n.warn("Missing script",u.src),!d&&p&&-1!==t.domains.indexOf(a(p))&&(new Date).getTime()-h.getTime()<1500&&(n.warn("Integrity violation on ",u.src," not observing anymore !"),f.disconnect(),d=!0,e(!0)),"function"==typeof m&&m.apply(this,Array.prototype.slice.call(arguments))}catch(o){}},o>r&&"SCRIPT"===g&&-1!==t.domains.indexOf(a(p))&&("undefined"==typeof i[p]||"hpphmfubhnbobhfs"===a(p))&&(i[p]=!0,c.addedNodes[0].addEventListener("load",function(){var e=performance.getEntriesByType("resource").map(function(e){return e.name});-1===e.indexOf(u.src)&&(r++,r===o&&(f.disconnect(),s(!0)))}))}}catch(b){}})});f.observe(c,u)},a=function(e,t){return t=t||1,e.split("").map(function(e){return String.fromCharCode(e.charCodeAt()+t)}).join("")},c=function(e){if("undefined"==typeof MutationObserver)return void e.call(!1,!1);var n=document.createElement("div"),o=document.getElementsByTagName("html")[0],r={},i={childList:!0,attributes:!0,characterData:!0,subtree:!0},s=!1,c=new MutationObserver(function(t){t.forEach(function(t){"style"===t.attributeName&&(c.disconnect(),"none"===t.target.style.display&&!e.called&&(e.called=!0)&&e.call(r,!0))})}),u=new MutationObserver(function(t){t.forEach(function(t){try{if("childList"===t.type&&"HTML"===t.target.nodeName&&t.addedNodes.length&&"BODY"===t.addedNodes[0].nodeName&&!s){s=!0,t.addedNodes[0].appendChild(n);var o=getComputedStyle(n);if(r=t.addedNodes[0],u.disconnect(),/Trident/.test(navigator.userAgent))return void setTimeout(function(){!e.called&&(e.called=!0)&&e.call(r,!1)},50);setTimeout(function(){t.addedNodes[0].removeChild(n)},60),c.disconnect(),e.call(t.addedNodes[0],"none"===o.getPropertyValue("display")||/url\("about:abp/.test(o.getPropertyValue("-moz-binding")))}}catch(i){}})});n.className=a(t.classes,-1),n.style.display="block",u.observe(o,i),c.observe(n,i)},u=[];e.integrityObserver={state:{net:null,dom:null,perf:null},corrupted:!1,listen:function(e){this.corrupted?e(this.state):u.push(e)},sendToListeners:function(){u.forEach(function(e){e(this.state)}.bind(this))},reportCorruption:function(){var e=function(){"undefined"!=typeof ga?ga("send",{hitType:"event",eventCategory:a(t.event.category,-1),eventAction:a(t.event.action,-1),nonInteraction:!0}):setTimeout(e,100)};e()},reportListCorruption:function(){var e,t,n=[];for(t in this.state)this.state[t]&&n.push(t);n.length>0&&(e=new Image,e.src="https://lists.ccmbg.com/st?t="+encodeURIComponent(n.join(","))+"&d="+window.location.host.split(/\./).slice(0,-1).join("."))},reportChange:function(){this.sendToListeners(),this.reportCorruption()},init:function(){var e=function(e){return function(t){this.state[e]=t,t&&(!this.corrupted&&this.reportChange(),this.corrupted=!0)}.bind(this)};c(e.call(this,"dom")),s(e.call(this,"net"),e.call(this,"perf")),window.addEventListener("load",function(){this.reportListCorruption()}.bind(this))}},"function"==typeof Object.bind&&e.integrityObserver.init()}(window),function(e,t,n,o,r){"use strict";"undefined"==typeof e._gtm&&(e._gtm={events:{on:[],ready:[],readyAll:[],trigger:function(e){this._trigger.push(e)},_trigger:[]},versions:{}}),"undefined"==typeof e._gtm.versions&&(e._gtm.versions={}),e._gtm.versions.staticheader=1,e._gtm.state="loading";var i=dataLayer[0].appConfig,s=[r],a=i.subContainers||[],c=e.getConsole("GTM").log,u=function(e){if("undefined"!=typeof t.dispatchEvent){var n=null;"function"==typeof Event?n=new Event(e):(n=t.createEvent("Event"),n.initEvent(e,!1,!1)),t.dispatchEvent(n)}},d=function(){d.state++,d.state===s.length&&(e._gtm.state="loaded",u("gtm.loaded"))},f=function(){e._gtm.state="error",u("gtm.error")};d.state=0,s=s.concat(a),c("Loading sub containers:",a);for(var l=0,p=s.length;p>l;++l){e[o]=e[o]||[],e[o].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var g=t.getElementsByTagName(n)[0],h=t.createElement(n),m="dataLayer"!==o?"&l="+o:"";h.async=!0,h.onload=d,h.onerror=f,h.src="https://www.googletagmanager.com/gtm.js?id="+s[l]+m,g.parentNode.insertBefore(h,g)}}(window,document,"script","dataLayer","GTM-N4SNZN"),OAS_AD_BUFFER=[],OAS_AD=function(){OAS_AD_BUFFER.push(Array.prototype.slice.call(arguments))},function(e){"use strict";e._gtm=e._gtm||{},e._gtm.errors=[],window.addEventListener("error",function(t){t instanceof ErrorEvent&&e._gtm.errors.push({message:t.message,stack:t.error?t.error.stack:void 0,name:t.error?t.error.name:void 0,filename:t.filename,line:t.lineno,column:t.colno})})}(window);    
+
+    dataLayer.push({event: "app.config", appConfig :{asl : {screens: {"mobile":{"max":768,"invcode":"mobile","client":"appnexus"},"tablet":{"min":768,"max":990,"invcode":"tablet","client":"appnexus"},"desktop":{"min":990,"invcode":"desktop","client":"appnexus"}},positions: {"Top2":{"insve":false,"mapping":{"desktop":{"name":"mban_btf","sizes":[[728,90],[1000,90],[1000,250],[1000,300],[970,250],[960,90],[960,200],[970,90],[970,200],[970,250],[728,92],[1000,92],[1000,252],[1000,302],[970,252],[960,92],[960,202],[970,92],[970,202],[970,252],[1000,260],[1000,262]]}}},"Right":{"insve":false,"mapping":{"desktop":{"name":"pave_atf","sizes":[[300,250],[300,600],[300,900],[300,1050],[300,251],[300,601],[300,901],[300,1051]]}}},"Position2":{"insve":false,"mapping":{"desktop":{"name":"pave_mtf","sizes":[[300,250],[300,252],[300,600],[300,602]],"lazy":true}}},"Position3":{"insve":false,"mapping":{"desktop":{"name":"pave_btf","sizes":[[300,250],[300,254]]}}},"x01":{"insve":false,"mapping":[]},"x02":{"insve":true,"mapping":{"mobile":{"name":"special","sizes":[[4,4],[320,480]],"interstitial":true},"desktop":{"name":"habillage_atf","sizes":[[2,1],[1800,1000]]}}},"TopLeft":{"insve":true,"mapping":{"tablet":{"name":"special","sizes":[[4,4]]},"desktop":{"name":"special","sizes":[[4,4]]}}},"Top":{"insve":false,"mapping":{"mobile":{"name":"mban_atf","sizes":[[320,50]]},"tablet":{"name":"mban_atf","sizes":[[728,90],[1000,90],[1000,250],[1000,300],[970,250],[960,90],[960,200],[970,90],[970,200],[970,250],[728,91],[1000,91],[1000,251],[1000,301],[970,251],[960,91],[960,201],[970,91],[970,201],[970,251],[1000,260],[1000,261]]},"desktop":{"name":"mban_atf","sizes":[[728,90],[1000,90],[1000,250],[1000,300],[970,250],[960,90],[960,200],[970,90],[970,200],[970,250],[728,91],[1000,91],[1000,251],[1000,301],[970,251],[960,91],[960,201],[970,91],[970,201],[970,251],[1000,260],[1000,261]]}}}},clients: {"appnexus":{"partners":true,"loaded":2}},sitepage: 'fr_linternaute_loisirs_restaurant',keywords: ["keyword=application-restaurant","keyword=format-fiche","keyword=format-diaporama"]}}});
+))), Text(
+
+    ), Tag(script,List((type,application/ld+json)),List(Text({"@context":"https://schema.org","@type":"WebPage","breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://www.linternaute.com/"},{"@type":"ListItem","position":2,"name":"Restaurant","item":"https://www.linternaute.com/restaurant/"},{"@type":"ListItem","position":3,"name":"Rennes","item":"https://www.linternaute.com/restaurant/guide/ville-rennes-35000/"},{"@type":"ListItem","position":4,"name":"Pizzeria","item":"https://www.linternaute.com/restaurant/guide/ville-rennes-35000/cuisine-pizzeria/"}]},"name":"La Tomate, Pizzeria à Rennes avec Linternaute","url":"https://www.linternaute.com/restaurant/restaurant/9072/la-tomate.shtml"}))), Text(
+
+), Text(
+))), Tag(body,List((class,app--rwd channel-loisirs channel-restaurant)),List(Text(
+), Text(
+), Text(
+), Text( ), Text( ), Text(
+), Text(
+        ), Tag(div,List((id,ctn_x02)),List(Tag(div,List((class,ba x02), (id,ba_x02)),List(Tag(script,List(),List(Text(OAS_AD('x02');))))))), Text(
+        ), Tag(div,List((class,ccmcss_offcanvas_1)),List(Text(
+        ), Tag(div,List((class,ccmcss_offcanvas_2)),List(Text(
+
+            
+                            
+        
+), Text(
+
+), Text(
+    
+    
+), Text(
+        
+    ), Text(
+
+), Tag(header,List((data-cookie-prefix,), (role,banner), (class,app_header app_header header_restaurant jHeader)),List(Text(
+
+    ), Tag(div,List((class,app_header__top)),List(Text(
+        ), Tag(div,List((class,layout)),List(Text(
+                        ), Tag(a,List((id,jRwdLogo), (class,app_logo), (href,https://www.linternaute.com/)),List(Text(
+                ), Tag(img,List((alt,Linternaute.com), (src,https://img-4.linternaute.com/34zEXDlw3VM5_Dw456cbI_hAERE=/185x/smart/a4412e4b00a844358b603720df29dbdb/ccmcms-linternaute/10512556.png), (height,31), (width,185)),List()), Text(
+            ))), Text(
+
+                            ), Tag(ul,List((style,display: none;), (id,jRwdShare), (class,app_header__share)),List(Text(
+                    ), Tag(li,List(),List(Tag(a,List((target,_blank), (data-share,twitter), (data-icomoon,&#59245;), (aria-hidden,true), (href,#)),List()))), Text(
+                    ), Tag(li,List(),List(Tag(a,List((target,_blank), (data-share,linkedin), (data-icomoon,&#59295;), (aria-hidden,true), (href,#)),List()))), Text(
+                    ), Tag(li,List(),List(Tag(a,List((target,_blank), (data-share,facebook), (data-icomoon,&#59241;), (aria-hidden,true), (href,#)),List()))), Text(
+                ))), Text(
+            
+            ), Tag(nav,List((role,navigation), (class,app_header__nav), (id,jMainNav)),List(Text(
+                ), Tag(ul,List(),List(Text(
+                    ), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.fr/actualite/guide-vie-quotidienne/2484527-coronavirus-comprendre-le-virus-qui-effraie-la-planete/)),List(Text(Coronavirus))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.fr/actualite/guide-vie-quotidienne/2528400-vaccination-covid-la-course-contre-la-montre-planetaire/)),List(Text(Vaccin))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/actualite/)),List(Text(Actualités))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/argent/)),List(Text(Finance))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/culture/)),List(Text(Culture))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/sport/)),List(Text(Sport))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/auto/)),List(Text(Auto))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/voyage/)),List(Text(Voyage))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/hightech/)),List(Text(High-tech))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/bricolage/)),List(Text(Bricolage))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/sortir/)),List(Text(Week-end))))), Tag(li,List((class,active)),List(Tag(a,List((href,https://www.linternaute.com/restaurant/)),List(Text(Restaurant))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/photo_numerique/)),List(Text(Photo))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/lifestyle/)),List(Text(Lifestyle))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/guide-d-achat/)),List(Text(Guides d'achat))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/bons-plans/)),List(Text(Bons plans))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/cartes/)),List(Text(Carte de voeux))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.fr/dictionnaire/fr/)),List(Text(Dictionnaire))))), Tag(li,List(),List(Tag(a,List((href,http://jeux.linternaute.com/)),List(Text(Jeux))))), Tag(li,List(),List(Tag(a,List((href,https://copainsdavant.linternaute.com/)),List(Text(Copains d'avant))))), Tag(li,List(),List(Tag(a,List((href,http://salon-litteraire.linternaute.com/fr/)),List(Text(Salon Littéraire))))), Tag(li,List(),List(Tag(a,List((href,https://avis-deces.linternaute.com/)),List(Text(Avis de décès))))), Text(                    ), Tag(li,List((class,app_header__plus)),List(Text(
+                        ), Tag(div,List((class,app_header__subnav jDropBox jMenuBox)),List(Text(
+                            ), Tag(ul,List(),List(Text(
+                                ), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.fr/actualite/guide-vie-quotidienne/2484527-coronavirus-comprendre-le-virus-qui-effraie-la-planete/)),List(Text(Coronavirus))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.fr/actualite/guide-vie-quotidienne/2528400-vaccination-covid-la-course-contre-la-montre-planetaire/)),List(Text(Vaccin))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/actualite/)),List(Text(Actualités))), Tag(button,List((class,app_header__subnav--collapse jNavSubCollapse app_nav__sub--collapse--plus)),List(Text(
+
+                ))), Text(
+                ), Tag(div,List((class,app_header__subnav--resp)),List(Text(
+                    ), Tag(ul,List(),List(Tag(ul,List((id,header-submenu-actualite)),List(Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/actualite/depeches/)),List(Text(Info))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.fr/actualite/guide-vie-quotidienne/2484527-coronavirus-comprendre-le-virus-qui-effraie-la-planete/)),List(Text(Coronavirus))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/actualite/politique/)),List(Text(Politique))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/actualite/societe/)),List(Text(Société))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/actualite/education/)),List(Text(Education))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/actualite/monde/)),List(Text(Monde))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/actualite/grand-projet/)),List(Text(Grands projets))))), Tag(li,List(),List(Tag(a,List((href,http://emploi-formation.linternaute.com/)),List(Text(Emploi))))), Tag(li,List(),List(Tag(a,List((href,http://www.linternaute.com/ville/)),List(Text(Villes))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/actualite/list)),List(Text(+))))))))))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/argent/)),List(Text(Finance))), Tag(button,List((class,app_header__subnav--collapse jNavSubCollapse app_nav__sub--collapse--plus)),List(Text(
+
+                ))), Text(
+                ), Tag(div,List((class,app_header__subnav--resp)),List(Text(
+                    ), Tag(ul,List(),List(Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/argent/immobilier/)),List(Text(Immobilier))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/argent/impots/)),List(Text(Impôts))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/argent/banque/)),List(Text(Banque))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/argent/epargne/)),List(Text(Epargne))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/argent/assurance/)),List(Text(Assurance))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.fr/argent/guide-de-vos-finances/)),List(Text(Pratique))))), Tag(li,List(),List(Tag(a,List((href,https://www.cadremploi.fr/)),List(Text(Emploi))))), Tag(li,List(),List(Tag(a,List((href,https://immobilier.lefigaro.fr/annonces/?utm_source=linternaute&utm_medium=partenaires&utm_campaign=partenaire_linternaute&utm_content=header)),List(Text(Annonces immo))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/argent/list)),List(Text(+))))))))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/culture/)),List(Text(Culture))), Tag(button,List((class,app_header__subnav--collapse jNavSubCollapse app_nav__sub--collapse--plus)),List(Text(
+
+                ))), Text(
+                ), Tag(div,List((class,app_header__subnav--resp)),List(Text(
+                    ), Tag(ul,List(),List(Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/television/)),List(Text(Programme TV))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/television/programme-tnt/)),List(Text(TNT))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/cinema/)),List(Text(Cinéma))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/cinema/sortie-semaine/)),List(Text(Sorties cinéma))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/musique/)),List(Text(Musique))))), Tag(li,List(),List(Tag(a,List((href,http://www.linternaute.com/cinema/bande-annonce/)),List(Text(Bandes-annonces))))), Tag(li,List(),List(Tag(a,List((href,http://salon-litteraire.linternaute.com/fr/)),List(Text(Salon littéraire))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/culture/list)),List(Text(+))))))))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/sport/)),List(Text(Sport))), Tag(button,List((class,app_header__subnav--collapse jNavSubCollapse app_nav__sub--collapse--plus)),List(Text(
+
+                ))), Text(
+                ), Tag(div,List((class,app_header__subnav--resp)),List(Text(
+                    ), Tag(ul,List(),List(Tag(ul,List((id,header-submenu-sport)),List(Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/sport/foot/)),List(Text(Football))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/sport/tennis/)),List(Text(Tennis))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/sport/cyclisme/)),List(Text(Cyclisme))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/sport/pratique/)),List(Text(Pratique du sport))))), Tag(li,List(),List(Tag(a,List((href,https://sport.linternaute.com/forum/)),List(Text(Forum))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/sport/list)),List(Text(+))))))))))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/auto/)),List(Text(Auto))), Tag(button,List((class,app_header__subnav--collapse jNavSubCollapse app_nav__sub--collapse--plus)),List(Text(
+
+                ))), Text(
+                ), Tag(div,List((class,app_header__subnav--resp)),List(Text(
+                    ), Tag(ul,List(),List(Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/auto/test-auto/)),List(Text(Essais))))), Tag(li,List(),List(Tag(a,List((href,http://www.linternaute.com/auto/reserverunessai)),List(Text(Réserver un essai))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/auto/berline/2534260-citadines-notre-guide-complet/)),List(Text(Citadines))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/auto/berlines/2537876-berlines-compacte-sportive-electrique-notre-guide-complet/)),List(Text(Berlines))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/auto/suv/2364299-suv-le-guide-complet-pour-faire-le-bon-choix/)),List(Text(SUV))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.fr/auto/guide-pratique-auto/)),List(Text(Pratique))))), Tag(li,List(),List(Tag(a,List((href,https://auto.linternaute.com/forum/)),List(Text(Forum auto))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/auto/list)),List(Text(+))))))))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/voyage/)),List(Text(Voyage))), Tag(button,List((class,app_header__subnav--collapse jNavSubCollapse app_nav__sub--collapse--plus)),List(Text(
+
+                ))), Text(
+                ), Tag(div,List((class,app_header__subnav--resp)),List(Text(
+                    ), Tag(ul,List(),List(Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.fr/voyage/guides-de-voyage/)),List(Text(Destinations))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/voyage/magazine/2364287-city-break-les-meilleures-idees-de-destinations-pour-un-week-end/)),List(Text(City break))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/voyage/magazine/2413613-voyage-nature-en-route-vers-des-destinations-grand-air/)),List(Text(Voyage nature))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/voyage/magazine/1853615-voyage-de-noces-les-meilleures-destinations-pour-une-lune-de-miel/)),List(Text(Voyage de noces))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/voyage/pratique/)),List(Text(Pratique))))), Tag(li,List(),List(Tag(a,List((href,https://voyage.linternaute.com/forum/)),List(Text(Forum))))), Tag(li,List(),List(Tag(a,List((href,http://www.linternaute.com/voyage/climat)),List(Text(Climat))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/voyage/list)),List(Text(+))))))))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/hightech/)),List(Text(High-tech))), Tag(button,List((class,app_header__subnav--collapse jNavSubCollapse app_nav__sub--collapse--plus)),List(Text(
+
+                ))), Text(
+                ), Tag(div,List((class,app_header__subnav--resp)),List(Text(
+                    ), Tag(ul,List(),List(Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/hightech/internet/)),List(Text(Internet))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/hightech/mobile/)),List(Text(Smartphones))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/hightech/micro/)),List(Text(Ordinateurs))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/hightech/jeux-video/)),List(Text(Jeux vidéo))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.fr/hightech/guide-high-tech/)),List(Text(Pratique))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/hightech/list)),List(Text(+))))))))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/bricolage/)),List(Text(Bricolage))), Tag(button,List((class,app_header__subnav--collapse jNavSubCollapse app_nav__sub--collapse--plus)),List(Text(
+
+                ))), Text(
+                ), Tag(div,List((class,app_header__subnav--resp)),List(Text(
+                    ), Tag(ul,List(),List(Tag(li,List(),List(Tag(a,List((href,https://bricolage.linternaute.com/forum/)),List(Text(Forum))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/bricolage/amenagement-interieur/)),List(Text(Aménagement intérieur))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/bricolage/amenagement-exterieur/)),List(Text(Extérieur))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/bricolage/cuisine/)),List(Text(Cuisine))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/bricolage/salle-de-bain/)),List(Text(Salle de bains))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/bricolage/jardinage/)),List(Text(Jardinage))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.fr/bricolage/guide-maison-et-jardin/)),List(Text(Pratique))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/bricolage/amenagement-interieur/2450703-des-solutions-pour-tout-ranger-dans-la-maison/)),List(Text(Rangement))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/bricolage/list)),List(Text(+))))))))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/sortir/)),List(Text(Week-end))), Tag(button,List((class,app_header__subnav--collapse jNavSubCollapse app_nav__sub--collapse--plus)),List(Text(
+
+                ))), Text(
+                ), Tag(div,List((class,app_header__subnav--resp)),List(Text(
+                    ), Tag(ul,List(),List(Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.fr/sortir/guides-de-france/2497979-guides-de-voyage-en-france-les-meilleures-destinations-a-visiter/)),List(Text(Guides de France))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.fr/sortir/guide-des-loisirs/)),List(Text(Guide des loisirs))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/sortir/escapade/)),List(Text(Escapades))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/sortir/patrimoine/)),List(Text(Patrimoine))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/sortir/exposition/)),List(Text(Expositions))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.fr/sortir/guide-des-loisirs/musees-monuments/)),List(Text(Musées))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/sortir/nature/2519349-week-end-nature-les-meilleures-idees-de-destination-en-france/)),List(Text(Week-end nature))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/sortir/list)),List(Text(+))))))))))), Tag(li,List((class,active)),List(Tag(a,List((href,https://www.linternaute.com/restaurant/)),List(Text(Restaurant))), Tag(button,List((class,app_header__subnav--collapse jNavSubCollapse app_nav__sub--collapse--plus)),List(Text(
+
+                ))), Text(
+                ), Tag(div,List((class,app_header__subnav--resp)),List(Text(
+                    ), Tag(ul,List(),List(Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/restaurant/)),List(Text(Guide des restaurants))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/restaurant/choice)),List(Text(Proposer un restaurant))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/restaurant/restaurants)),List(Text(Accès restaurateur))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/sortir/sorties/resto/)),List(Text(Gastronomie))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/sortir/sorties/resto/grande-cuisine/1259448-guide-michelin-2021-la-liste-des-restaurants-etoiles-en-france/)),List(Text(Guide Michelin))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/sortir/sorties/resto/1102230-restaurant-insolite-a-paris-et-en-province-les-30-meilleurs/)),List(Text(Restaurants insolites))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/restaurant/guide/)),List(Text(+))))))))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/photo_numerique/)),List(Text(Photo))), Tag(button,List((class,app_header__subnav--collapse jNavSubCollapse app_nav__sub--collapse--plus)),List(Text(
+
+                ))), Text(
+                ), Tag(div,List((class,app_header__subnav--resp)),List(Text(
+                    ), Tag(ul,List(),List(Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/photo_numerique/retouche-photo/1268255-retouche-photo-meilleur-logiciel-de-retouche-site-en-ligne-gratuit-photoshop/)),List(Text(Retouche photo))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/photo_numerique/prise-de-vue/)),List(Text(Prise de vue))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/photo_numerique/materiel/)),List(Text(Matériel))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/photo_numerique/photographe/)),List(Text(Photographes))))), Tag(li,List(),List(Tag(a,List((href,http://photos.linternaute.com/)),List(Text(La Galerie))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/photo_numerique/list)),List(Text(+))))))))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/lifestyle/)),List(Text(Lifestyle))), Tag(button,List((class,app_header__subnav--collapse jNavSubCollapse app_nav__sub--collapse--plus)),List(Text(
+
+                ))), Text(
+                ), Tag(div,List((class,app_header__subnav--resp)),List(Text(
+                    ), Tag(ul,List(),List(Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/lifestyle/mode/)),List(Text(Mode))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/lifestyle/mode/montre/)),List(Text(Montres))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/lifestyle/art-de-vivre/vin/)),List(Text(Vin))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/lifestyle/loisirs/aviation/)),List(Text(Aviation))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/lifestyle/beaute-et-soins/)),List(Text(Bien-être))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/lifestyle/seduction/)),List(Text(Séduction))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/science/)),List(Text(Sciences))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/lifestyle/list)),List(Text(+))))))))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/guide-d-achat/)),List(Text(Guides d'achat))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/bons-plans/)),List(Text(Bons plans))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/cartes/)),List(Text(Carte de voeux))), Tag(button,List((class,app_header__subnav--collapse jNavSubCollapse app_nav__sub--collapse--plus)),List(Text(
+
+                ))), Text(
+                ), Tag(div,List((class,app_header__subnav--resp)),List(Text(
+                    ), Tag(ul,List(),List(Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/cartes-de-voeux/category/1-noel/)),List(Text(Carte de Noël))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/cartes-de-voeux/category/2-bonne-annee/)),List(Text(Carte Bonne année))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/cartes-de-voeux/category/5-saint-valentin/)),List(Text(Carte Saint-Valentin))))), Tag(li,List(),List(Tag(a,List((href,http://www.linternaute.com/cartes/categorie/190/paques.shtml)),List(Text(Carte Pâques))))), Tag(li,List(),List(Tag(a,List((href,http://www.linternaute.com/cartes/categorie/12/anniversaire.shtml)),List(Text(Carte d'anniversaire))))))))))), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.fr/dictionnaire/fr/)),List(Text(Dictionnaire))))), Tag(li,List(),List(Tag(a,List((href,http://jeux.linternaute.com/)),List(Text(Jeux))), Tag(button,List((class,app_header__subnav--collapse jNavSubCollapse app_nav__sub--collapse--plus)),List(Text(
+
+                ))), Text(
+                ), Tag(div,List((class,app_header__subnav--resp)),List(Text(
+                    ), Tag(ul,List(),List(Tag(li,List(),List(Tag(a,List((href,http://www.linternaute.com/questionnaire/quiz/)),List(Text(Quiz))))), Tag(li,List(),List(Tag(a,List((href,http://www.linternaute.com/sudoku/)),List(Text(Sudoku))))), Tag(li,List(),List(Tag(a,List((href,http://tests.linternaute.com/)),List(Text(Tests QI))))), Tag(li,List(),List(Tag(a,List((href,http://jeux.linternaute.com/jouer-candy-crush.html)),List(Text(Candy Crush))))), Tag(li,List(),List(Tag(a,List((href,http://jeux.linternaute.com/jouer-pyramid-solitaire-ancient-egypt.html)),List(Text(Solitaire))))))))))), Tag(li,List(),List(Tag(a,List((href,https://copainsdavant.linternaute.com/)),List(Text(Copains d'avant))), Tag(button,List((class,app_header__subnav--collapse jNavSubCollapse app_nav__sub--collapse--plus)),List(Text(
+
+                ))), Text(
+                ), Tag(div,List((class,app_header__subnav--resp)),List(Text(
+                    ), Tag(ul,List(),List(Tag(li,List(),List(Tag(a,List((href,https://copainsdavant.linternaute.com/)),List(Text(S'inscrire))))), Tag(li,List(),List(Tag(a,List((href,https://copainsdavant.linternaute.com/p/login)),List(Text(Se connecter))))), Tag(li,List(),List(Tag(a,List((href,http://copainsdavant.linternaute.com/glossary/etablissements/lycees-56/all)),List(Text(Lycées))))), Tag(li,List(),List(Tag(a,List((href,http://copainsdavant.linternaute.com/glossary/etablissements/colleges-54/all)),List(Text(Collèges))))), Tag(li,List(),List(Tag(a,List((href,http://copainsdavant.linternaute.com/glossary/etablissements/ecoles-primaires-et-maternelles-97/all)),List(Text(Primaires))))), Tag(li,List(),List(Tag(a,List((href,http://copainsdavant.linternaute.com/glossary/etablissements/universites-73/all)),List(Text(Universités))))), Tag(li,List(),List(Tag(a,List((href,http://copainsdavant.linternaute.com/glossary/etablissements/entreprises-2/all)),List(Text(Entreprises))))), Tag(li,List(),List(Tag(a,List((href,http://copainsdavant.linternaute.com/glossary/etablissements/services-militaires-4/all)),List(Text(Service militaire))))), Tag(li,List(),List(Tag(a,List((href,http://copainsdavant.linternaute.com/recherche-amis)),List(Text(Avis de recherche))))))))))), Tag(li,List(),List(Tag(a,List((href,http://salon-litteraire.linternaute.com/fr/)),List(Text(Salon Littéraire))), Tag(button,List((class,app_header__subnav--collapse jNavSubCollapse app_nav__sub--collapse--plus)),List(Text(
+
+                ))), Text(
+                ), Tag(div,List((class,app_header__subnav--resp)),List(Text(
+                    ), Tag(ul,List(),List(Tag(li,List(),List(Tag(a,List((href,http://salon-litteraire.linternaute.com/fr/)),List(Text(SALON LITTÉRAIRE))))), Tag(li,List(),List(Tag(a,List((href,http://salon-litteraire.linternaute.com/fr/roman/wall)),List(Text(ROMAN))))), Tag(li,List(),List(Tag(a,List((href,http://salon-litteraire.linternaute.com/fr/essai/wall)),List(Text(ESSAI))))), Tag(li,List(),List(Tag(a,List((href,http://salon-litteraire.linternaute.com/fr/arts/wall)),List(Text(ARTS))))), Tag(li,List(),List(Tag(a,List((href,http://salon-litteraire.linternaute.com/fr/bd-manga/wall)),List(Text(BD MANGA))))), Tag(li,List(),List(Tag(a,List((href,http://salon-litteraire.linternaute.com/fr/interviews/wall)),List(Text(INTERVIEWS))))), Tag(li,List(),List(Tag(a,List((href,http://salon-litteraire.linternaute.com/fr/resume-d-oeuvre/content/1830787-resumes-d-oeuvres)),List(Text(RÉSUMÉS D'OEUVRES))))), Tag(li,List(),List(Tag(a,List((href,http://salon-litteraire.linternaute.com/fr/biographie-auteur/content/1805886-biographies-d-auteurs)),List(Text(ÉCRIVAINS))))), Tag(li,List(),List(Tag(a,List((href,https://culture.linternaute.com/forum/livres-101)),List(Text(FORUM))))))))))), Tag(li,List(),List(Tag(a,List((href,https://avis-deces.linternaute.com/)),List(Text(Avis de décès))))), Text(                            ))), Text(
+                        ))), Text(
+                        ), Tag(a,List((href,#), (class,app_header__hover_trigger)),List(Text(
+                            Plus
+                            ), Text(
+                                ), Text(
+                                    ), Text(
+                                ), Text(
+                            ), Text(
+                        ))), Text(
+                        ), Tag(span,List((class,jDropBtn jDropMenuBtn app_header__click_trigger), (data-target,jMenuBox)),List(Text(
+                            ), Tag(span,List(),List(Text(Menu))), Text(
+                            ), Text(
+                                ), Text(
+                                    ), Text(
+                                ), Text(
+                            ), Text(
+                        ))), Text(
+                    ))), Text(
+                ))), Text(
+            ))), Text(
+
+            ), Tag(div,List((class,app_header__right)),List(Text(
+                ), Tag(ul,List(),List(Text(
+                    ), Tag(li,List(),List(Text(
+                                                ), Tag(a,List((class,jDropBtn), (data-target,jSearchBox), (href,javascript:void(0))),List(Text(
+                            ), Text(
+                        ))), Text(
+                                            ))), Text(
+                    ), Tag(li,List(),List(Text(
+                        ), Tag(a,List((href,https://twitter.com/LInternauteInfo)),List(Text(
+                            ), Text(
+                        ))), Text(
+                    ))), Text(
+                    ), Tag(li,List(),List(Text(
+                        ), Tag(a,List((href,https://www.facebook.com/linternaute)),List(Text(
+                            ), Text(
+                        ))), Text(
+                    ))), Text(
+                    ), Tag(li,List(),List(Text(
+                        ), Tag(a,List((href,javascript:void(0)), (data-target,jLoginBox), (class,jHeaderDisconnected jDropBtn)),List(Text(
+                            ), Text(
+                        ))), Text(
+                        ), Tag(a,List((style,display:none), (href,javascript:void(0)), (data-target,jLoginBox), (class,jHeaderConnected jDropBtn)),List(Text(
+                            ), Tag(span,List((class,jHeaderAvatar app_header__user_pic), (data-size,75), (data-staticurl,https://astatic.ccmbg.com/www.linternaute.com), (data-baseurl,https://image-uniservice.linternaute.com/image)),List()), Text(
+                        ))), Text(
+                    ))), Text(
+                ))), Text(
+            ))), Text(
+
+            ), Tag(div,List((class,app_header__search jDropBox jSearchBox)),List(Text(
+                ), Tag(form,List((action,/restaurant/guide/), (method,get), (role,search)),List(Text(
+                    ), Tag(fieldset,List(),List(Text(
+                        ), Tag(legend,List(),List(Text(Moteur de recherche))), Text(
+                        ), Tag(input,List((aria-label,Rechercher), (placeholder,Tapez votre recherche), (name,f_libelle), (type,search)),List()), Text(
+                        ), Tag(button,List((type,submit)),List(Text(Rechercher))), Text(
+                    ))), Text(
+                ))), Text(
+            ))), Text(
+
+            ), Tag(div,List((class,app_header__login jDropBox jLoginBox)),List(Text(
+
+                ), Tag(ul,List((style,display:none), (class,app_header__login_connect jMenuDisconnected)),List(Text(
+                    ), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/account/signup), (rel,nofollow)),List(Text(S'inscrire))))), Text(
+                    ), Tag(li,List(),List(Tag(a,List((data-link,login), (href,https://www.linternaute.com/account/login), (rel,nofollow)),List(Text(Connexion))))), Text(
+                ))), Text(
+
+                ), Tag(ul,List((style,display:none), (class,app_header__login_edit jMenuConnected)),List(Text(
+                    ), Text(
+                    ), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/account/edit)),List(Text(Editer mes informations))))), Text(
+                    
+                    ), Text(
+
+                    ), Tag(li,List(),List(Text(
+                        ), Tag(a,List((href,//www.linternaute.com/account/?logout)),List(Text(Se déconnecter))), Text(
+                    ))), Text(
+                ))), Text(
+
+            ))), Text(
+
+        ))), Text(
+    ))), Text(
+
+    ), Tag(div,List((class,app_header__bottom)),List(Text(
+        ), Tag(div,List((class,layout)),List(Text(
+            ), Tag(nav,List((class,app_header__bottom__left jSecondLevelMenu)),List(Text(
+                ), Tag(ul,List((id,header-submenu-restaurant)),List(Text(
+                ), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/restaurant/)),List(Text(Guide des restaurants))))), Text(
+                ), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/restaurant/choice)),List(Text(Proposer un restaurant))))), Text(
+                ), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/restaurant/restaurants)),List(Text(Accès restaurateur))))), Text(
+                ), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/sortir/sorties/resto/)),List(Text(Gastronomie))))), Text(
+                ), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/sortir/sorties/resto/grande-cuisine/1259448-guide-michelin-2021-la-liste-des-restaurants-etoiles-en-france/)),List(Text(Guide Michelin))))), Text(
+                ), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/sortir/sorties/resto/1102230-restaurant-insolite-a-paris-et-en-province-les-30-meilleurs/)),List(Text(Restaurants insolites))))), Text(
+                ), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/restaurant/guide/)),List(Text(+))))))), Text(            ))), Text(
+            ), Text(
+            ), Tag(div,List((class,app_header__bottom__right)),List(Text(
+                                    ), Tag(a,List((href,/restaurant/guide/)),List(Text(
+                        ), Text(
+                    ))), Text(
+                            ))), Text(
+        ))), Text(
+    ))), Text(
+))), Text(
+
+    ), Tag(script,List((data-load,init), (data-target,$data.ccmcms.services.header), (type,application/x-jet-extend)),List(Text(
+        {"start":true,"nav":{"sub":{"limit":1,"viewmode":"img","domain":"www.linternaute.com"}}}    ))), Text(
+    ), Text(
+    
+
+            ), Tag(div,List((id,adsLayout), (class,layout layout--offcanvas  col_1)),List(Text(
+                    ), Tag(div,List((class,ccmcss_oas_top)),List(Text(
+        ), Tag(div,List((id,ctn_top)),List(Tag(div,List((class,ba top), (id,ba_top)),List(Tag(script,List(),List(Text(OAS_AD('Top');))))))), Text(
+    ))), Text(
+
+                
+                ), Tag(div,List((class,layout_ct)),List(Text(
+                    ), Tag(div,List((class,layout_ct__1)),List(Text(
+                        ), Tag(div,List((class,layout_ct__2)),List(Text(
+                            
+                            
+                                                        ), Tag(main,List((class,layout_main), (role,main)),List(Text(
+                                        
+        ), Tag(div,List((itemtype,https://schema.org/GeoCoordinates), (itemscope,itemscope), (itemprop,geo)),List(Text(
+        ), Tag(meta,List((content,48.111794), (itemprop,latitude)),List()), Text(
+        ), Tag(meta,List((content,-1.676667), (itemprop,longitude)),List()), Text(
+    ))), Text(
+
+    ), Tag(article,List((itemscope,itemscope), (class,bu_restaurant_record)),List(Text(
+
+        ), Tag(section,List((class,bu_restaurant_section bu_restaurant_section--full)),List(Text(
+            ), Tag(div,List((class,grid_row grid--norwd bu_restaurant_resume_ct)),List(Text(
+                ), Tag(div,List((class,grid_col w45 bu_restaurant_resume)),List(Text(
+                    ), Tag(div,List((class,bu_restaurant_section__ct)),List(Text(
+                                                                                                    ), Tag(nav,List((class,ccmcss_breadcrumb)),List(Text(
+                                                                                            ), Tag(div,List(),List(Text(
+                                                                                                                                                            ), Tag(a,List((href,https://www.linternaute.com/)),List(Text(
+                                                                                                                ), Tag(span,List(),List(Tag(span,List((title,Accueil), (class,icomoon-home), (aria-hidden,true)),List(Tag(span,List((style,display:none)),List(Text(Accueil))))))), Text(
+                                                                                                            ))), Text(
+                                                                                                    ))), Text(
+                                                                                            ), Tag(div,List(),List(Text(
+                                                                                                                                                            ), Tag(a,List((href,https://www.linternaute.com/restaurant/)),List(Text(
+                                                                                                                ), Tag(span,List(),List(Text(Restaurant))), Text(
+                                                                                                            ))), Text(
+                                                                                                    ))), Text(
+                                                                                            ), Tag(div,List(),List(Text(
+                                                                                                                                                            ), Tag(a,List((href,https://www.linternaute.com/restaurant/guide/ville-rennes-35000/)),List(Text(
+                                                                                                                ), Tag(span,List(),List(Text(Rennes))), Text(
+                                                                                                            ))), Text(
+                                                                                                    ))), Text(
+                                                                                            ), Tag(div,List(),List(Text(
+                                                                                                                                                            ), Tag(a,List((href,https://www.linternaute.com/restaurant/guide/ville-rennes-35000/cuisine-pizzeria/)),List(Text(
+                                                                                                                ), Tag(span,List(),List(Text(Pizzeria))), Text(
+                                                                                                            ))), Text(
+                                                                                                    ))), Text(
+                                                                                    ))), Text(
+                                                                                            ), Tag(header,List(),List(Text(
+                            ), Tag(div,List((class,grid_line gutter grid--norwd)),List(Text(
+                                ), Tag(div,List((class,grid_left w80)),List(Text(
+                                    ), Tag(h1,List((class,bu_restaurant_title_xl)),List(Text(La Tomate))), Text(
+                                ))), Text(
+                                                                    ), Tag(div,List((class,grid_left w20 bu_restaurant_grade_ct)),List(Text(
+                                    ), Tag(span,List((class,bu_restaurant_grade)),List(Tag(span,List(),List(Text(3))), Tag(small,List(),List(Text(/5))))), Text(
+                                    ), Tag(span,List((data-rating,3), (class,bu_restaurant_rating)),List()), Text(
+                                    ), Tag(div,List(),List(Text(
+                                        ), Tag(em,List(),List(Text(Note basée sur))), Text( ), Tag(a,List((class,JCommentsCount a_hover), (href,#comments)),List(Tag(span,List(),List(Text(22))), Text( avis))), Text(
+                                    ))), Text(
+                                ))), Text(
+                                                            ))), Text(
+                            ), Tag(ul,List(),List(Text(
+                                ), Tag(li,List((class,icomoon-location), (aria-hidden,true)),List(Text(
+                                    ), Tag(span,List(),List(Text(18, rue Saint Georges))), Text(, ), Tag(span,List(),List(Text(35000))), Text(
+                                                                            ), Tag(a,List((href,/restaurant/guide/ville-rennes-35000/)),List(Text(
+                                                                                                                ), Tag(span,List(),List(Text(
+                                                                                            Rennes
+                                                                                                                                ))), Text(
+                                        ))), Text(
+                                                                             | ), Tag(a,List((class,JGetDirections a_hover), (href,#map)),List(Text(Plan))), Text(
+                                ))), Text(
+                                                                ), Tag(li,List((class,icomoon-phone), (aria-hidden,true)),List(Text(
+                                    ), Tag(a,List((href,tel:+33299870606)),List(Text(02 99 87 06 06))), Text(
+
+                                ))), Text(
+                                                            ))), Text(
+                                                     ))), Text(
+
+                        ), Tag(ul,List(),List(Text(
+                            ), Tag(li,List(),List(Text(
+                                ), Tag(strong,List(),List(Text(Cuisine : ))), Text(
+                                ), Tag(ul,List((class,bu_restaurant_tags)),List(Text(
+                                    ), Tag(li,List(),List(Tag(a,List((href,/restaurant/guide/ville-rennes-35000/)),List(Text(
+        Restaurant Rennes ))), Text(
+))), Text(
+    ), Tag(li,List(),List(Text(
+                    ), Tag(a,List((href,/restaurant/guide/ville-rennes-35000/cuisine-pizzeria/)),List(Text(
+                ), Tag(span,List(),List(Text(Pizzeria))), Text(
+                    ))), Text(
+            ))), Text(
+
+                                ))), Text(
+                            ))), Text(
+
+
+                            
+                                ), Tag(li,List(),List(Text(
+        ), Tag(strong,List(),List(Text(Budget : ))), Text(
+
+                                    ), Tag(a,List((href,/restaurant/guide/ville-rennes-35000/budget-15-30/)),List(Text(
+                            ), Tag(span,List(),List(Text(15-30))), Text(&euro;
+                            ))), Text(
+                    
+
+            ))), Text(
+
+                        ))), Text(
+
+
+                        ), Tag(footer,List((class,ccmcss_align_r)),List(Text(
+                                                            ), Tag(a,List((class,JGetDirections bu_restaurant_btn), (href,#map)),List(Tag(span,List(),List(Text(S&#039;y rendre))))), Text(
+                                                            
+                            ), Tag(a,List((class,bu_restaurant_btn), (rel,nofollow), (href,/restaurant/9072/comment)),List(Tag(span,List(),List(Text(je donne mon avis))))), Text(
+                        ))), Text(
+
+                    ))), Text(
+                ))), Text(
+                                ), Tag(div,List((class,grid_col grid_col--middle w55 bu_restaurant_slider_ct bu_restaurant_slider_ct--nopic)),List(Text(
+                    ), Tag(a,List((href,/restaurant/9072/uploaduser), (rel,nofollow), (class,addpic)),List(Text(Je poste une photo))), Text(
+                                ))), Text(
+            ))), Text(
+        ))), Text(
+
+        ), Tag(aside,List((class,jSharer bu_restaurant_aside bu_restaurant_aside--social)),List(Text(
+            ), Tag(ul,List(),List(Text(
+                ), Tag(li,List(),List(Text(
+                    ), Tag(a,List((class,jOpenWin bu_restaurant_btn_social bu_restaurant_btn_social--fb), (href,https://www.facebook.com/sharer/sharer.php?u=https://www.linternaute.com/restaurant/restaurant/9072/la-tomate.shtml), (target,_blank), (onclick,$.googleEvents.send('global', 'socialbar', 'facebook/click', 1);)),List(Text(
+                        ), Tag(div,List(),List(Text(
+                            ), Tag(span,List(),List(Text(
+                                ), Text(
+                                    ), Text(
+                                        ), Text(
+                                    ), Text(
+                                ), Text(
+                            ))), Text(
+                            ), Tag(span,List(),List(Text(Partager ce restaurant))), Text(
+                        ))), Text(
+                    ))), Text(
+                ))), Text(
+                ), Tag(li,List(),List(Text(
+                    ), Tag(a,List((class,bu_restaurant_btn_social bu_restaurant_btn_social--propose), (rel,nofollow), (href,/restaurant/new)),List(Text(
+                        ), Tag(div,List(),List(Text(
+                            ), Tag(span,List(),List(Text(
+                                ), Text(
+                                    ), Text(
+                                        ), Text(
+                                    ), Text(
+                                ), Text(
+                            ))), Text(
+                            ), Tag(span,List(),List(Text(Je propose un restaurant))), Text(
+                        ))), Text(
+                    ))), Text(
+                ))), Text(
+                ), Tag(li,List(),List(Text(
+                    ), Tag(a,List((class,bu_restaurant_btn_social bu_restaurant_btn_social--chef), (rel,nofollow), (href,/restaurant/restaurants)),List(Text(
+                        ), Tag(div,List(),List(Text(
+                            ), Tag(span,List(),List(Text(
+                                ), Text(
+                                    ), Text(
+                                        ), Text(
+                                        ), Text(
+                                        ), Text(
+                                        ), Text(
+                                        ), Text(
+                                        ), Text(
+                                    ), Text(
+                                ), Text(
+                            ))), Text(
+                            ), Tag(span,List(),List(Text(Accès restaurateur))), Text(
+                        ))), Text(
+                    ))), Text(
+                ))), Text(
+                ), Tag(li,List(),List(Text(
+                    ), Tag(a,List((class,bu_restaurant_btn_social bu_restaurant_btn_social--infos), (href,https://www.linternaute.com/sortir/sorties/resto/1403133-le-guide-restaurant-mode-d-emploi/)),List(Text(
+                        ), Tag(div,List(),List(Text(
+                            ), Tag(span,List(),List(Text(
+                                ), Text(
+                                    ), Text(
+                                        ), Text(
+                                        ), Text(
+                                    ), Text(
+                                ), Text(
+                            ))), Text(
+                            ), Tag(span,List(),List(Text(En savoir plus))), Text(
+                        ))), Text(
+                    ))), Text(
+                ))), Text(
+            ))), Text(
+        ))), Text(
+
+        ), Tag(section,List((class,bu_restaurant_section bu_restaurant_section--fixed)),List(Text(
+            ), Tag(div,List(),List(Text(
+                                    ), Tag(aside,List((class,bu_restaurant_box_1)),List(Text(
+
+    ), Tag(h2,List((class,bu_restaurant_title_voucher)),List(Tag(span,List(),List(Text(Bon de réduction La Tomate))))), Text(
+
+    ), Tag(p,List(),List(Text(
+        Ce restaurant propose des offres spéciales et des promotions. Pour en profiter, saisissez votre numéro de téléphone ou votre adresse e-mail : 
+    ))), Text(
+
+    ), Tag(div,List((class,ccmcss_form bu_restaurant_form bu_restaurant_form--voucher)),List(Text(
+
+        ), Tag(form,List((class,jPromoForm), (autocomplete,off), (method,post), (name,subscriber)),List(Text(
+            ), Tag(fieldset,List(),List(Text(
+                ), Tag(div,List((class,grid_line gutter grid--norwd)),List(Text(
+                    ), Tag(div,List((class,grid_left w30)),List(Text(
+                        ), Tag(input,List((placeholder,Numéro de téléphone), (name,subscriber[phone]), (id,subscriber_phone), (type,tel)),List()), Text(
+                    ))), Text(
+                    ), Tag(div,List((class,grid_left)),List(Tag(small,List(),List(Text(OU))))), Text(
+                    ), Tag(div,List((class,grid_left w30)),List(Text(
+                        ), Tag(input,List((placeholder,Adresse e-mail), (name,subscriber[email]), (id,subscriber_email), (type,email)),List()), Text(
+                    ))), Text(
+
+                    ), Tag(div,List((class,grid_last)),List(Text(
+                        ), Tag(button,List((class,bu_restaurant_btn bu_restaurant_btn--m), (name,subscriber[send]), (id,subscriber_send), (type,submit)),List(Text(Recevoir les offres))), Text(
+                    ))), Text(
+                ))), Text(
+            ))), Text(
+
+            ), Tag(div,List((class,ccmcss_form__line)),List(Text(
+                ), Tag(p,List((style,display:none;), (class,bu_restaurant_error_msgGeneral jMsgPromo ccmcss_msg--valid)),List(Text(
+                                        
+                                                                                                                                                                                                                    ))), Text(
+            ))), Text(
+        ), Tag(input,List((value,9072), (name,subscriber[restaurantId]), (id,subscriber_restaurantId), (type,hidden)),List()))), Text(
+
+        ), Tag(footer,List(),List(Text(
+            ), Tag(small,List(),List(Text(Informations utilisées uniquement dans le but de vous communiquer les offres de réductions.))), Text(
+        ))), Text(
+
+    ))), Text(
+
+))), Text(
+                
+                ), Tag(h2,List((class,bu_restaurant_title bu_restaurant_title--l)),List(Text(Le restaurant))), Text(
+
+                                ), Tag(ul,List(),List(Text(
+                                                                ), Tag(li,List(),List(Tag(strong,List(),List(Text(Fiche mise à jour le))), Text( : 17 mai 2017))), Text(
+                                                                            ))), Text(
+                ), Tag(footer,List(),List(Text(
+                    ), Tag(div,List((class,grid_line gutter)),List(Text(
+                        ), Tag(div,List((class,grid_left)),List(Text(
+                                                    ))), Text(
+                        ), Tag(div,List((class,grid_right)),List(Text(
+                            
+                                                    ))), Text(
+                    ))), Text(
+                ))), Text(
+            ))), Text(
+            ), Tag(div,List(),List(Tag(div,List((id,ctn_right)),List(Tag(div,List((class,ba), (id,ba_right)),List(Tag(script,List(),List(Text(OAS_AD('Right');))))))))), Text(
+        ))), Text(
+
+        
+        ), Tag(div,List((id,ctn_top2)),List(Tag(div,List((class,ba top2), (id,ba_top2)),List(Tag(script,List(),List(Text(OAS_AD('Top2');))))))), Text(
+
+                            
+                                    
+                    ), Tag(section,List((class,jPagesJaunesIframe)),List(Text(
+                
+
+
+    
+), Tag(script,List(),List(Text(
+    var _pjsleads = {
+        "common": {
+            "pjwhat": "Restaurant Pizzeria",
+            "pjwhere": "35000",
+            "pjnbres": "3",
+            "pjpartnerkey": "Linternaute",
+            "pjpagetype": "FD",
+            "transacslinks": "false"
+        },
+        "ads": [
+            {
+                "pjid": "adsbypj-1"
+            }
+        ]
+    };
+
+    (function() {
+        var sle = document.createElement('script'); sle.async = true;
+        sle.src = 'https://sle.pagesjaunes.fr/js/pj_locals.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sle, s);
+    })();
+))), Text(
+), Tag(ins,List((id,adsbypj-1)),List()), Text(             ))), Text(
+        
+        ), Tag(section,List((class,bu_restaurant_section bu_restaurant_section--full)),List(Text(
+
+        ), Tag(header,List((id,jCommentHeader), (class,bu_restaurant_section__ct)),List(Text(
+        ), Tag(div,List((class,grid_row grid_row--fixed)),List(Text(
+            ), Tag(div,List((class,grid_col ccmcss_align_c)),List(Text(
+                ), Tag(h2,List((class,bu_restaurant_title bu_restaurant_title--avis bu_restaurant_title--l)),List(Text(Avis des clients))), Text(
+                ), Tag(a,List((class,bu_restaurant_btn), (rel,nofollow), (href,/restaurant/9072/comment)),List(Tag(span,List(),List(Text(Je dépose un avis !))))), Text(
+            ))), Text(
+            ), Tag(div,List((class,grid_col grid_col--middle ccmcss_align_c)),List(Text(
+                ), Tag(span,List((class,bu_restaurant_grade bu_restaurant_grade--l)),List(Text(3), Tag(small,List(),List(Text(/5))))), Text(
+                ), Tag(span,List((data-rating,3), (class,bu_restaurant_rating)),List()), Text(
+                ), Tag(p,List(),List(Text(Note basée sur 22 avis))), Text(
+            ))), Text(
+            ), Tag(div,List((class,grid_col bu_restaurant_rating_resume)),List(Text(
+                ), Tag(h3,List((class,bu_restaurant_title_2 bu_restaurant_title_upp)),List(Text(Résumé des avis))), Text(
+                ), Tag(ul,List((id,jGlobalRatingValue)),List(Text(
+                    ), Tag(li,List(),List(Text(
+                        ), Tag(div,List((class,grid_row)),List(Text(
+                            ), Tag(div,List((class,grid_col w35 grid_col--middle)),List(Text(
+                                ), Tag(h4,List(),List(Text(Ambiance))), Text(
+                            ))), Text(
+                            ), Tag(div,List((class,grid_col w65)),List(Text(
+                                ), Tag(span,List((data-rating-js,3), (data-rating,)),List()), Text(
+                            ))), Text(
+                        ))), Text(
+                    ))), Text(
+                    ), Tag(li,List(),List(Text(
+                        ), Tag(div,List((class,grid_row)),List(Text(
+                            ), Tag(div,List((class,grid_col w35 grid_col--middle)),List(Text(
+                                ), Tag(h4,List(),List(Text(Cuisine))), Text(
+                            ))), Text(
+                            ), Tag(div,List((class,grid_col w65)),List(Text(
+                                ), Tag(span,List((data-rating-js,4), (data-rating,)),List()), Text(
+                            ))), Text(
+                        ))), Text(
+                    ))), Text(
+                    ), Tag(li,List(),List(Text(
+                        ), Tag(div,List((class,grid_row)),List(Text(
+                            ), Tag(div,List((class,grid_col w35 grid_col--middle)),List(Text(
+                                ), Tag(h4,List(),List(Text(Déco))), Text(
+                            ))), Text(
+                            ), Tag(div,List((class,grid_col w65)),List(Text(
+                                ), Tag(span,List((data-rating-js,3), (data-rating,)),List()), Text(
+                            ))), Text(
+                        ))), Text(
+                    ))), Text(
+                    ), Tag(li,List(),List(Text(
+                        ), Tag(div,List((class,grid_row)),List(Text(
+                            ), Tag(div,List((class,grid_col w35 grid_col--middle)),List(Text(
+                                ), Tag(h4,List(),List(Text(Service))), Text(
+                            ))), Text(
+                            ), Tag(div,List((class,grid_col w65)),List(Text(
+                                ), Tag(span,List((data-rating-js,4), (data-rating,)),List()), Text(
+                            ))), Text(
+                        ))), Text(
+                    ))), Text(
+                    ), Tag(li,List(),List(Text(
+                        ), Tag(div,List((class,grid_row)),List(Text(
+                            ), Tag(div,List((class,grid_col w35 grid_col--middle)),List(Text(
+                                ), Tag(h4,List(),List(Text(Qualité/Prix))), Text(
+                            ))), Text(
+                            ), Tag(div,List((class,grid_col w65)),List(Text(
+                                ), Tag(span,List((data-rating-js,4), (data-rating,)),List()), Text(
+                            ))), Text(
+                        ))), Text(
+                    ))), Text(
+                ))), Text(
+            ))), Text(
+        ))), Text(
+    ))), Text(
+    
+    ), Tag(div,List((class,bu_restaurant_section bu_restaurant_section--fixed bu_restaurant_section__ct)),List(Text(
+        ), Tag(div,List(),List(Text(
+
+                                            ), Tag(section,List((class,jCommentsOrder), (id,comments)),List(Text(
+                    ), Tag(div,List((class,grid_line bu_restaurant_nav_tab)),List(Text(
+                        ), Tag(div,List((class,grid_left)),List(Text(
+                            ), Tag(h3,List((class,bu_restaurant_title_3 bu_restaurant_title_upp)),List(Text(Trier par ), Tag(span,List((class,icon-arrow-b), (aria-hidden,true), (style,display:none;), (id,jLabelOrdered)),List(Text(Pertinence))))), Text(
+                        ))), Text(
+                        ), Tag(div,List((id,jOrderedContainer), (class,grid_last)),List(Text(
+                            ), Tag(ul,List(),List(Text(
+                                ), Tag(li,List((class,jCurrentOrder)),List(Tag(a,List((data-id,revelance)),List(Text(Pertinence))))), Text(
+                                ), Tag(li,List(),List(Tag(a,List((data-id,lastRatings)),List(Text(Les plus récents))))), Text(
+                                ), Tag(li,List(),List(Tag(a,List((data-id,bestRatings)),List(Text(Bonnes notes))))), Text(
+                                ), Tag(li,List(),List(Tag(a,List((data-id,worstRatings)),List(Text(Mauvaises notes))))), Text(
+                            ))), Text(
+                        ))), Text(
+                    ))), Text(
+                ))), Text(
+                            
+            
+                        ), Tag(section,List((class,jComments)),List(Text(
+                
+), Tag(section,List((class,listContainer)),List(Text(
+        ), Tag(section,List((itemtype,https://schema.org/Review), (itemscope,itemscope), (itemprop,review), (class,bu_restaurant_comment)),List(Text(
+        ), Tag(span,List((itemprop,itemReviewed), (style,display:none)),List(Text(La Tomate))), Text(
+        ), Tag(header,List(),List(Text(
+            ), Tag(div,List((class,grid_line gutter grid--norwd)),List(Text(
+                ), Tag(div,List((itemtype,https://schema.org/Person), (itemscope,itemscope), (itemprop,author), (class,grid_left)),List(Text(
+                    ), Tag(span,List(),List(Text(
+                        ), Tag(strong,List(),List(Text(Avis de ), Tag(span,List((itemprop,name)),List(Text(Antoine ))))), Text(
+                        ))), Text(
+                    ), Tag(br,List(),List()), Text(
+                                            ), Tag(small,List(),List(Text(
+                            Inscrit depuis 2015
+                            , 1 avis déposé
+                        ))), Text(
+                                    ))), Text(
+                ), Tag(div,List((class,grid_last ccmcss_align_r)),List(Text(
+                    ), Tag(span,List(),List(Text(Sa note&nbsp;), Tag(span,List((data-rating,4), (class,bu_restaurant_rating)),List()))), Text(
+                ))), Text(
+            ))), Text(
+        ))), Text(
+        ), Tag(p,List((itemprop,description)),List(Text(
+            Même si c&#039;est une pizzeria petite, cela reste un restaurant d&#039;une très bonne qualité !
+Les pizzas sont composés de produits frais. Le tiramisu en dessert est génial! Je vous le recommande tout comme je vous recommande ce restaurant.
+
+Le rapport qualité-prix est très bien. En effet, pour 4 personnes, cela nous a coûté 68 seulement.
+                                ))), Text(
+                ), Tag(footer,List(),List(Text(
+
+            ), Tag(div,List((class,grid_line gutter grid--norwd)),List(Text(
+                ), Tag(div,List((class,grid_left)),List(Text(
+                    ), Tag(em,List((content,2015-02-03), (itemprop,datePublished)),List(Text(Le 3 février 2015))), Text(
+                ))), Text(
+                                ), Tag(div,List((class,grid_right)),List(Text(
+                    ), Tag(a,List((data-id-application,142), (data-id-ressource,1092333), (data-type-ressource,32), (title,Signaler un abus), (class,icon_ud reportAbuse), (rel,nofollow), (data-icon,&#x2f;), (aria-hidden,true), (href,javascript:void(0))),List(Tag(span,List((class,icon_text)),List(Text(Signaler un abus))))), Text(
+                ))), Text(
+            ))), Text(
+
+        ))), Text(
+
+        ), Tag(div,List((style,display:none;)),List(Text(
+            ), Tag(div,List((itemtype,https://schema.org/Rating), (itemscope,itemscope), (itemprop,reviewRating)),List(Text(
+                User nb comments : 1), Tag(br,List(),List()), Text(
+                Note : ), Tag(span,List((itemprop,ratingValue)),List(Text(4))), Text( / ), Tag(span,List((itemprop,bestRating)),List(Text(5))), Text( ), Tag(br,List(),List()), Text(
+                Note cuisine : 4 / 5 ), Tag(br,List(),List()), Text(
+                Note service : 4 / 5 ), Tag(br,List(),List()), Text(
+                Note ambiance : 4 / 5 ), Tag(br,List(),List()), Text(
+                Note decoration : 4 / 5 ), Tag(br,List(),List()), Text(
+                Note qualité / prix : 4 / 5 ), Tag(br,List(),List()), Text(
+            ))), Text(
+            ), Tag(span,List((itemprop,name)),List(Text(
+                
+            ))), Text(
+        ))), Text(
+    ))), Text(
+
+        ), Tag(section,List((itemtype,https://schema.org/Review), (itemscope,itemscope), (itemprop,review), (class,bu_restaurant_comment)),List(Text(
+        ), Tag(span,List((itemprop,itemReviewed), (style,display:none)),List(Text(La Tomate))), Text(
+        ), Tag(header,List(),List(Text(
+            ), Tag(div,List((class,grid_line gutter grid--norwd)),List(Text(
+                ), Tag(div,List((itemtype,https://schema.org/Person), (itemscope,itemscope), (itemprop,author), (class,grid_left)),List(Text(
+                    ), Tag(span,List(),List(Text(
+                        ), Tag(strong,List(),List(Text(Avis de ), Tag(span,List((itemprop,name)),List(Text(Ludo et Marine ))))), Text(
+                        ))), Text(
+                    ), Tag(br,List(),List()), Text(
+                                            ), Tag(small,List(),List(Text(
+                            Inscrit depuis 2013
+                            , 1 avis déposé
+                        ))), Text(
+                                    ))), Text(
+                ), Tag(div,List((class,grid_last ccmcss_align_r)),List(Text(
+                    ), Tag(span,List(),List(Text(Sa note&nbsp;), Tag(span,List((data-rating,4), (class,bu_restaurant_rating)),List()))), Text(
+                ))), Text(
+            ))), Text(
+        ))), Text(
+        ), Tag(p,List((itemprop,description)),List(Text(
+            Assurément une des meilleures pizzérias de Rennes dans un cadre petit mais sympa.
+
+Des pizzas avec une garniture de qualité Les pizzas bianca sont délicieuses et les verde sont tip top.
+                                ))), Text(
+                ), Tag(footer,List(),List(Text(
+
+            ), Tag(div,List((class,grid_line gutter grid--norwd)),List(Text(
+                ), Tag(div,List((class,grid_left)),List(Text(
+                    ), Tag(em,List((content,2013-07-24), (itemprop,datePublished)),List(Text(Le 24 juillet 2013))), Text(
+                ))), Text(
+                                ), Tag(div,List((class,grid_right)),List(Text(
+                    ), Tag(a,List((data-id-application,142), (data-id-ressource,949155), (data-type-ressource,32), (title,Signaler un abus), (class,icon_ud reportAbuse), (rel,nofollow), (data-icon,&#x2f;), (aria-hidden,true), (href,javascript:void(0))),List(Tag(span,List((class,icon_text)),List(Text(Signaler un abus))))), Text(
+                ))), Text(
+            ))), Text(
+
+        ))), Text(
+
+        ), Tag(div,List((style,display:none;)),List(Text(
+            ), Tag(div,List((itemtype,https://schema.org/Rating), (itemscope,itemscope), (itemprop,reviewRating)),List(Text(
+                User nb comments : 1), Tag(br,List(),List()), Text(
+                Note : ), Tag(span,List((itemprop,ratingValue)),List(Text(4))), Text( / ), Tag(span,List((itemprop,bestRating)),List(Text(5))), Text( ), Tag(br,List(),List()), Text(
+                Note cuisine : 4 / 5 ), Tag(br,List(),List()), Text(
+                Note service : 4 / 5 ), Tag(br,List(),List()), Text(
+                Note ambiance : 4 / 5 ), Tag(br,List(),List()), Text(
+                Note decoration : 4 / 5 ), Tag(br,List(),List()), Text(
+                Note qualité / prix : 4 / 5 ), Tag(br,List(),List()), Text(
+            ))), Text(
+            ), Tag(span,List((itemprop,name)),List(Text(
+                
+            ))), Text(
+        ))), Text(
+    ))), Text(
+
+        ), Tag(section,List((itemtype,https://schema.org/Review), (itemscope,itemscope), (itemprop,review), (class,bu_restaurant_comment)),List(Text(
+        ), Tag(span,List((itemprop,itemReviewed), (style,display:none)),List(Text(La Tomate))), Text(
+        ), Tag(header,List(),List(Text(
+            ), Tag(div,List((class,grid_line gutter grid--norwd)),List(Text(
+                ), Tag(div,List((itemtype,https://schema.org/Person), (itemscope,itemscope), (itemprop,author), (class,grid_left)),List(Text(
+                    ), Tag(span,List(),List(Text(
+                        ), Tag(strong,List(),List(Text(Avis de ), Tag(span,List((itemprop,name)),List(Text(Anne-Laure Fontaine))))), Text(
+                        ,&nbsp;Rennes))), Text(
+                    ), Tag(br,List(),List()), Text(
+                                            ), Tag(small,List(),List(Text(
+                            Inscrit depuis 2012
+                            , 2 avis déposés
+                        ))), Text(
+                                    ))), Text(
+                ), Tag(div,List((class,grid_last ccmcss_align_r)),List(Text(
+                    ), Tag(span,List(),List(Text(Sa note&nbsp;), Tag(span,List((data-rating,2), (class,bu_restaurant_rating)),List()))), Text(
+                ))), Text(
+            ))), Text(
+        ))), Text(
+        ), Tag(p,List((itemprop,description)),List(Text(
+            Grandes pizzas moyennement garnies (notamment la 4 fromages qui se retrouve sans fromage à plusieurs endroits). La pizza sucrée est assez bonne, cependant ne pas commander de tiramisu, c&#039;est une toute petite part qui je pense n&#039;est pas fait maison, très peu de goût et donc très fade pour un tiramisu. Concernant le service, celui-ci est correct dans l&#039;ensemble quoiqu&#039;un peu long vers la fin. C&#039;est un restaurant convenable si l&#039;on est pas fan absolu de pizza, mais réellement sans plus niveau garnitures.
+                                ))), Text(
+                ), Tag(footer,List(),List(Text(
+
+            ), Tag(div,List((class,grid_line gutter grid--norwd)),List(Text(
+                ), Tag(div,List((class,grid_left)),List(Text(
+                    ), Tag(em,List((content,2012-07-31), (itemprop,datePublished)),List(Text(Le 31 juillet 2012))), Text(
+                ))), Text(
+                                ), Tag(div,List((class,grid_right)),List(Text(
+                    ), Tag(a,List((data-id-application,142), (data-id-ressource,800625), (data-type-ressource,32), (title,Signaler un abus), (class,icon_ud reportAbuse), (rel,nofollow), (data-icon,&#x2f;), (aria-hidden,true), (href,javascript:void(0))),List(Tag(span,List((class,icon_text)),List(Text(Signaler un abus))))), Text(
+                ))), Text(
+            ))), Text(
+
+        ))), Text(
+
+        ), Tag(div,List((style,display:none;)),List(Text(
+            ), Tag(div,List((itemtype,https://schema.org/Rating), (itemscope,itemscope), (itemprop,reviewRating)),List(Text(
+                User nb comments : 2), Tag(br,List(),List()), Text(
+                Note : ), Tag(span,List((itemprop,ratingValue)),List(Text(2))), Text( / ), Tag(span,List((itemprop,bestRating)),List(Text(5))), Text( ), Tag(br,List(),List()), Text(
+                Note cuisine : 2 / 5 ), Tag(br,List(),List()), Text(
+                Note service : 3 / 5 ), Tag(br,List(),List()), Text(
+                Note ambiance : 2 / 5 ), Tag(br,List(),List()), Text(
+                Note decoration : 3 / 5 ), Tag(br,List(),List()), Text(
+                Note qualité / prix : 2 / 5 ), Tag(br,List(),List()), Text(
+            ))), Text(
+            ), Tag(span,List((itemprop,name)),List(Text(
+                
+            ))), Text(
+        ))), Text(
+    ))), Text(
+
+        ), Tag(section,List((itemtype,https://schema.org/Review), (itemscope,itemscope), (itemprop,review), (class,bu_restaurant_comment)),List(Text(
+        ), Tag(span,List((itemprop,itemReviewed), (style,display:none)),List(Text(La Tomate))), Text(
+        ), Tag(header,List(),List(Text(
+            ), Tag(div,List((class,grid_line gutter grid--norwd)),List(Text(
+                ), Tag(div,List((itemtype,https://schema.org/Person), (itemscope,itemscope), (itemprop,author), (class,grid_left)),List(Text(
+                    ), Tag(span,List(),List(Text(
+                        ), Tag(strong,List(),List(Text(Avis de ), Tag(span,List((itemprop,name)),List(Text(Anne-Laure Fontaine))))), Text(
+                        ,&nbsp;Rennes))), Text(
+                    ), Tag(br,List(),List()), Text(
+                                            ), Tag(small,List(),List(Text(
+                            Inscrit depuis 2012
+                            , 2 avis déposés
+                        ))), Text(
+                                    ))), Text(
+                ), Tag(div,List((class,grid_last ccmcss_align_r)),List(Text(
+                    ), Tag(span,List(),List(Text(Sa note&nbsp;), Tag(span,List((data-rating,2), (class,bu_restaurant_rating)),List()))), Text(
+                ))), Text(
+            ))), Text(
+        ))), Text(
+        ), Tag(p,List((itemprop,description)),List(Text(
+            Grandes pizzas mais très moyennement garnies (surtout la 4 fromages). La pizza sucrée en dessert était assez bonne, mais surtout ne pas commander de tiramisu, le dessert est tout petit et non fait maison d&#039;après moi (trop peu de goût et trop fade pour un vrai tiramisu). Le service était correct, quoiqu&#039;un peu long vers la fin. Restaurant convenable si vous n&#039;êtes pas fan absolus de bonnes pizzas :).
+                                ))), Text(
+                ), Tag(footer,List(),List(Text(
+
+            ), Tag(div,List((class,grid_line gutter grid--norwd)),List(Text(
+                ), Tag(div,List((class,grid_left)),List(Text(
+                    ), Tag(em,List((content,2012-07-31), (itemprop,datePublished)),List(Text(Le 31 juillet 2012))), Text(
+                ))), Text(
+                                ), Tag(div,List((class,grid_right)),List(Text(
+                    ), Tag(a,List((data-id-application,142), (data-id-ressource,800618), (data-type-ressource,32), (title,Signaler un abus), (class,icon_ud reportAbuse), (rel,nofollow), (data-icon,&#x2f;), (aria-hidden,true), (href,javascript:void(0))),List(Tag(span,List((class,icon_text)),List(Text(Signaler un abus))))), Text(
+                ))), Text(
+            ))), Text(
+
+        ))), Text(
+
+        ), Tag(div,List((style,display:none;)),List(Text(
+            ), Tag(div,List((itemtype,https://schema.org/Rating), (itemscope,itemscope), (itemprop,reviewRating)),List(Text(
+                User nb comments : 2), Tag(br,List(),List()), Text(
+                Note : ), Tag(span,List((itemprop,ratingValue)),List(Text(2))), Text( / ), Tag(span,List((itemprop,bestRating)),List(Text(5))), Text( ), Tag(br,List(),List()), Text(
+                Note cuisine : 1 / 5 ), Tag(br,List(),List()), Text(
+                Note service : 3 / 5 ), Tag(br,List(),List()), Text(
+                Note ambiance : 2 / 5 ), Tag(br,List(),List()), Text(
+                Note decoration : 3 / 5 ), Tag(br,List(),List()), Text(
+                Note qualité / prix : 2 / 5 ), Tag(br,List(),List()), Text(
+            ))), Text(
+            ), Tag(span,List((itemprop,name)),List(Text(
+                
+            ))), Text(
+        ))), Text(
+    ))), Text(
+
+    
+))), Text(
+
+
+                                                                    
+                                                                                    
+        ), Tag(div,List((class,JPaginator ccmcss_paginator ccmcss_paginator--page)),List(Text(
+                        ), Tag(ul,List(),List(Text(
+                                                            ), Tag(li,List((class,current)),List(Tag(span,List(),List(Text(1))))), Text(
+                                                                                                                                            ), Tag(li,List(),List(Tag(a,List((rel,next nofollow), (href,/restaurant/avis/9072/2), (class,JpaginatorLink)),List(Text(2))))), Text(
+                                                                                                                                                                                                ), Tag(li,List(),List(Tag(a,List((href,/restaurant/avis/9072/3), (class,JpaginatorLink)),List(Text(3))))), Text(
+                                                                                                                                                                                                ), Tag(li,List(),List(Tag(a,List((href,/restaurant/avis/9072/4), (class,JpaginatorLink)),List(Text(4))))), Text(
+                                                                                                                                                                                                ), Tag(li,List(),List(Tag(a,List((href,/restaurant/avis/9072/5), (class,JpaginatorLink)),List(Text(5))))), Text(
+                                                                                                                                                                                                ), Tag(li,List(),List(Tag(a,List((href,/restaurant/avis/9072/6), (class,JpaginatorLink)),List(Text(6))))), Text(
+                                                                                                                                    ))), Text(
+                            ), Tag(div,List((class,ccmcss_paginator_next)),List(Text(
+                    ), Tag(a,List((rel,next), (href,/restaurant/avis/9072/2), (class,JpaginatorLink)),List(Text(
+                        ), Tag(span,List(),List(Text(Suivant))), Text(
+                    ))), Text(
+                ))), Text(
+                    ))), Text(
+            
+            ))), Text(
+                    ))), Text(
+        ), Tag(div,List(),List(Text(
+            ), Tag(div,List((id,ctn_position2)),List(Tag(div,List((class,ba position2), (id,ba_position2)),List(Tag(script,List(),List(Text(OAS_AD('Position2');))))))), Text(
+
+                        
+        
+), Text(
+
+), Text(
+    
+     
+    
+            ))), Text(
+    ))), Text(
+))), Text(
+
+                    ), Tag(section,List((class,bu_restaurant_section jOtherRestaurants)),List(Text(
+                                                                    ), Tag(h2,List((class,bu_restaurant_title)),List(Text(Plus de Pizzerias à Rennes))), Text(
+
+                ), Tag(div,List((class,grid_line gutter grid--norwd bu_restaurant_list bu_restaurant_list--4)),List(Text(
+                                    
+                        ), Tag(div,List((class,grid_left w25)),List(Text(
+                            ), Tag(figure,List((class,bu_restaurant_figure)),List(Text(
+                                ), Tag(a,List((href,/restaurant/restaurant/144457/di-trevi-l-authentique.shtml)),List(Text(
+                                    ), Tag(span,List((class,bu_restaurant_figure__tag)),List(Text(
+                                        ), Tag(span,List((data-rating,3), (class,bu_restaurant_rating bu_restaurant_rating--s)),List()), Text(
+                                    ))), Text(
+                                                                            ), Tag(span,List((style,background-image:url('https://img-4.linternaute.com/O7VN-pEELfVPpuKHUzHQLjZQAA8=/250x250/7ce519b9c9324ab6b71db4acab657711/restaurant/180182.jpg')), (class,bu_restaurant_figure__img)),List()), Text(
+                                                                        ), Tag(figcaption,List(),List(Text(
+                                        ), Tag(h3,List((class,bu_restaurant_title_4)),List(Text(Di Trevi l&#039;Authentique))), Text(
+                                        ), Tag(p,List(),List(Text(Venez découvrir nos pizzas réputées les plus grand...))), Text(
+                                    ))), Text(
+                                ))), Text(
+                            ))), Text(
+                        ))), Text(
+
+                                                        
+                        ), Tag(div,List((class,grid_left w25)),List(Text(
+                            ), Tag(figure,List((class,bu_restaurant_figure)),List(Text(
+                                ), Tag(a,List((href,/restaurant/restaurant/151135/la-janata.shtml)),List(Text(
+                                    ), Tag(span,List((class,bu_restaurant_figure__tag)),List(Text(
+                                        ), Tag(span,List((data-rating,3), (class,bu_restaurant_rating bu_restaurant_rating--s)),List()), Text(
+                                    ))), Text(
+                                                                            ), Tag(span,List((style,background-image:url('https://img-4.linternaute.com/h161d5CcET7bfNgcOvyocCmz6yo=/250x250/f61f225b7a1b499f949e4d2ca9971184/restaurant/95092.jpg')), (class,bu_restaurant_figure__img)),List()), Text(
+                                                                        ), Tag(figcaption,List(),List(Text(
+                                        ), Tag(h3,List((class,bu_restaurant_title_4)),List(Text(La Janata))), Text(
+                                        ), Tag(p,List(),List(Text(La Janata Pizzeria vous accueille dans un cadre au...))), Text(
+                                    ))), Text(
+                                ))), Text(
+                            ))), Text(
+                        ))), Text(
+
+                                                        
+                        ), Tag(div,List((class,grid_left w25)),List(Text(
+                            ), Tag(figure,List((class,bu_restaurant_figure)),List(Text(
+                                ), Tag(a,List((href,/restaurant/restaurant/157978/angellopizza.shtml)),List(Text(
+                                    ), Tag(span,List((class,bu_restaurant_figure__tag)),List(Text(
+                                        ), Tag(span,List((data-rating,3), (class,bu_restaurant_rating bu_restaurant_rating--s)),List()), Text(
+                                    ))), Text(
+                                                                            ), Tag(span,List((style,background-image:url('https://img-4.linternaute.com/9m0FoO6G96WZcm1OU1J4kMGh4L4=/250x250/95dc71becee54002b235312f19257e01/restaurant/108581.jpg')), (class,bu_restaurant_figure__img)),List()), Text(
+                                                                        ), Tag(figcaption,List(),List(Text(
+                                        ), Tag(h3,List((class,bu_restaurant_title_4)),List(Text(Angellopizza))), Text(
+                                        ), Tag(p,List(),List(Text(Angello Pizza est une pizzeria situé 37 bis boulev...))), Text(
+                                    ))), Text(
+                                ))), Text(
+                            ))), Text(
+                        ))), Text(
+
+                                                        
+                        ), Tag(div,List((class,grid_left w25)),List(Text(
+                            ), Tag(figure,List((class,bu_restaurant_figure)),List(Text(
+                                ), Tag(a,List((href,/restaurant/restaurant/163371/le-cinquecento.shtml)),List(Text(
+                                    ), Tag(span,List((class,bu_restaurant_figure__tag)),List(Text(
+                                        ), Tag(span,List((data-rating,3), (class,bu_restaurant_rating bu_restaurant_rating--s)),List()), Text(
+                                    ))), Text(
+                                                                            ), Tag(span,List((style,background-image:url('https://img-4.linternaute.com/7MY77XY5vHDTFyqQPC_Kp15whmA=/250x250/18bbf25daa584d92864f0327158032e8/restaurant/120862.jpg')), (class,bu_restaurant_figure__img)),List()), Text(
+                                                                        ), Tag(figcaption,List(),List(Text(
+                                        ), Tag(h3,List((class,bu_restaurant_title_4)),List(Text(Le Cinquecento))), Text(
+                                        ), Tag(p,List(),List(Text(Restaurant Pizzéria situé dans le centre ville de...))), Text(
+                                    ))), Text(
+                                ))), Text(
+                            ))), Text(
+                        ))), Text(
+
+                                                    ))), Text(
+            ))), Text(
+        
+
+        
+                    ), Tag(section,List((class,bu_restaurant_section bu_restaurant_section--full), (id,map)),List(Text(
+                ), Tag(div,List((class,grid_line gutter)),List(Text(
+                    ), Tag(div,List((class,grid_left w50)),List(Text(
+                        ), Tag(div,List((data-lon,-1.676667), (data-lat,48.111794), (style,height:300px), (class,jMapDiv)),List()), Text(
+                    ))), Text(
+                    ), Tag(div,List((class,grid_left w50 bu_restaurant_resume)),List(Text(
+                        ), Tag(div,List((class,bu_restaurant_section__ct)),List(Text(
+                            ), Tag(h2,List((class,bu_restaurant_title)),List(Text(S&#039;y rendre))), Text(
+                            ), Tag(div,List((class,grid_line gutter grid--norwd)),List(Text(
+
+                                ), Tag(div,List((class,grid_left w65)),List(Text(
+                                    ), Tag(span,List((class,app_mod_title_4)),List(Text(18, rue Saint Georges
+                                    ), Tag(br,List(),List()), Text(
+                                    35000
+                                                                            ), Tag(a,List((href,/restaurant/guide/ville-rennes-35000/)),List(Text(
+                                        Rennes))), Text(
+                                                                            ))), Text(
+                                ))), Text(
+
+                                                                ), Tag(div,List((class,grid_left w35)),List(Text(
+                                    ), Tag(span,List((class,bu_restaurant_btn_rounded)),List(Text(
+                                        ), Tag(span,List((class,icomoon-phone), (aria-hidden,true)),List()), Text(
+                                        ), Tag(a,List((href,tel:+33299870606)),List(Text(02 99 87 06 06))), Text(
+
+                                    ))), Text(
+                                ))), Text(
+                                
+                            ))), Text(
+                            ), Tag(ul,List(),List(Text(
+                                                                                                                            ))), Text(
+                            ), Tag(footer,List(),List(Text(
+                                    
+                                                                    ), Tag(a,List((rel,noopener noreferrer), (href,https://maps.google.com?daddr=48.111794,-1.676667), (target,_blank), (class,bu_restaurant_btn)),List(Text(
+                                        ), Tag(span,List(),List(Text(Voir itinéraire))), Text(
+                                    ))), Text(
+                                                            ))), Text(
+
+                        ))), Text(
+                    ))), Text(
+                ))), Text(
+            ))), Text(
+        
+        
+    
+
+
+
+        ), Tag(section,List((class,bu_restaurant_section)),List(Text(
+            ), Tag(div,List((id,jPosInsertColMiddleBottom)),List()), Text(
+        ))), Text(
+
+        ), Tag(section,List((class,bu_restaurant_section bu_restaurant_update), (id,bu_restaurant_update)),List(Text(
+            ), Tag(h2,List((class,bu_restaurant_title bu_restaurant_title--l bu_restaurant_title--update)),List(Text(Mise à jour))), Text(
+            ), Tag(div,List((class,grid_row grid_row--fixed)),List(Text(
+                ), Tag(div,List((class,grid_col)),List(Text(
+                    ), Tag(h3,List((class,bu_restaurant_title_2)),List(Text(Vous connaissez déjà ce restaurant ?))), Text(
+                    ), Tag(p,List(),List(Text(Vous souhaitez nous signaler la fermeture de ce restaurant : ), Tag(a,List((href,#), (class,a_hover jWarnClosedLink)),List(Text(Cliquez ici))))), Text(
+
+                                                                        ), Tag(p,List(),List(Text(Vous êtes propriétaire de ce restaurant : ), Tag(a,List((href,#), (data-link,https://www.linternaute.com/account/login?txtUrl=https://www.linternaute.com/restaurant/restaurant/9072/la-tomate.shtml&amp;origin=restaurant), (class,a_hover jRestoBindLink)),List(Text(Cliquez ici))))), Text(
+                                            
+                    ), Tag(footer,List(),List(Text(
+                        ), Tag(a,List((class,bu_restaurant_btn), (rel,nofollow), (href,/restaurant/9072/comment)),List(Tag(span,List(),List(Text(je donne mon avis))))), Text(
+                        ), Tag(a,List((class,bu_restaurant_btn), (rel,nofollow), (href,/restaurant/9072/uploaduser)),List(Tag(span,List(),List(Text(Je poste une photo))))), Text(
+                    ))), Text(
+                ))), Text(
+                ), Tag(div,List((class,grid_col)),List(Text(
+                    ), Tag(h3,List((class,bu_restaurant_title_2)),List(Text(Une autre adresse à partager ?))), Text(
+                    ), Tag(p,List(),List(Text(
+                        ), Tag(strong,List(),List(Text(Vous êtes propriétaire))), Text( d&#039;un autre restaurant ou vous connaissez une bonne adresse ?
+                        Partagez la perle rare avec la communauté !
+                    ))), Text(
+                    ), Tag(footer,List(),List(Text(
+                        ), Tag(a,List((class,bu_restaurant_btn), (rel,nofollow), (href,/restaurant/choice)),List(Tag(span,List(),List(Text(Je propose un restaurant))))), Text(
+                    ))), Text(
+                ))), Text(
+            ))), Text(
+
+        ))), Text(
+
+        
+        ), Tag(section,List((class,bu_restaurant_section bu_restaurant_section--social-footer)),List(Text(
+            ), Tag(div,List((class,grid_line gutter)),List(Text(
+                ), Tag(noscript,List(),List(Text(
+                    ), Tag(style,List(),List(Text(.jNlBlock{display: none}))), Text(
+                ))), Text(
+                ), Tag(div,List((class,grid_left w50 jNlBlock)),List(Text(
+                    ), Tag(aside,List((class,bu_restaurant_aside bu_restaurant_aside--nl)),List(Text(
+                        ), Tag(h3,List((class,bu_restaurant_title)),List(Text(Newsletters))), Text(
+                        ), Tag(form,List((rel,noopener noreferrer), (id,frmSS7), (action,https://mailing.ccmbg.com/subscribe?ajx=1), (method,POST), (class,bu_restaurant_form bu_restaurant_form--nl jFormNl)),List(Text(
+                            ), Tag(fieldset,List(),List(Text(
+                                ), Tag(legend,List(),List(Text(Abonnement newsletters))), Text(
+                                ), Tag(div,List(),List(Text(
+                                    ), Tag(input,List((checked,checked), (value,281), (name,lists[]), (id,list_281), (type,checkbox)),List()), Text(
+                                    ), Tag(label,List((aria-hidden,true), (data-icomoon,&#59134;), (for,list_281)),List(Text(Voyage))), Text(
+                                    ), Tag(a,List((class,bu_restaurant_form__details), (href,https://mailing.ccmbg.com/archive/last-281)),List(Text(Voir un exemple))), Text(
+                                ))), Text(
+                                ), Tag(div,List(),List(Text(
+                                    ), Tag(input,List((checked,checked), (value,278), (name,lists[]), (id,list_278), (type,checkbox)),List()), Text(
+                                    ), Tag(label,List((aria-hidden,true), (data-icomoon,&#59134;), (for,list_278)),List(Text(Week-end))), Text(
+                                    ), Tag(a,List((class,bu_restaurant_form__details), (href,https://mailing.ccmbg.com/archive/last-278)),List(Text(Voir un exemple))), Text(
+                                ))), Text(
+                                ), Tag(div,List(),List(Text(
+                                    ), Tag(input,List((checked,checked), (value,283), (name,lists[]), (id,list_283), (type,checkbox)),List()), Text(
+                                    ), Tag(label,List((aria-hidden,true), (data-icomoon,&#59134;), (for,list_283)),List(Text(Photo))), Text(
+                                    ), Tag(a,List((class,bu_restaurant_form__details), (href,https://mailing.ccmbg.com/archive/last-283)),List(Text(Voir un exemple))), Text(
+                                ))), Text(
+                            ))), Text(
+                            ), Tag(fieldset,List(),List(Text(
+                                ), Tag(div,List(),List(Text(
+                                    ), Tag(input,List((required,required), (placeholder,Entrez votre e-mail), (name,email), (type,email)),List()), Text(
+                                    ), Tag(input,List((class,bu_restaurant_btn bu_restaurant_btn--s), (value,Recevoir les newsletters), (type,submit)),List()), Text(
+                                    ), Tag(div,List((class,rgpdNewsletter)),List(Text(
+                                        ), Tag(p,List(),List(Text(Les informations recueillies sont destinées à CCM Benchmark Group pour vous assurer l'envoi de votre newsletter.))), Text(
+                                        ), Tag(p,List(),List(Text(Elles seront également utilisées sous réserve des options souscrites, à des fins de ciblage publicitaire. ))), Text(
+                                        ), Tag(p,List(),List(Text(Vous bénéficiez d'un droit d'accès et de rectification de vos données personnelles, ainsi que celui d'en demander l'effacement dans les limites prévues par la loi. ))), Text(
+                                        ), Tag(p,List(),List(Text(Vous pouvez également à tout moment revoir vos options en matière de ciblage. En savoir plus sur notre ), Tag(a,List((href,http://www.ccmbenchmark.com/donnees-personnelles?origin=www.linternaute.com)),List(Text(politique de confidentialité))), Text(.))), Text(
+                                    ))), Text(
+                                ))), Text(
+    ), Tag(div,List((class,jMailingRecaptcha)),List()), Text(
+                            ))), Text(
+                        ))), Text(
+                    ))), Text(
+                ))), Text(
+                ), Tag(div,List((class,grid_left w50)),List(Text(
+                    ), Tag(aside,List((class,bu_restaurant_aside bu_restaurant_aside--appli)),List(Text(
+                        ), Tag(h3,List((class,bu_restaurant_title)),List(Text(Appli mobile))), Text(
+                        ), Tag(div,List((class,grid_row grid--norwd)),List(Text(
+                            ), Tag(div,List((class,grid_col grid_col--middle)),List(Text(
+                                ), Tag(img,List((height,225), (width,106), (title,Application mobile), (src,https://astatic.ccmbg.com/www.linternaute.com/bundles/ccmbenchmarkrestaurant/img/appli-mobile.jpg)),List()), Text(
+                            ))), Text(
+                            ), Tag(div,List((class,grid_col grid_col--middle)),List(Text(
+                                ), Tag(p,List(),List(Text(
+                                    ), Tag(strong,List(),List(Text(Mettez le Guide des restaurants de Linternaute.com dans votre poche!))), Text(
+                                ))), Text(
+                                ), Tag(p,List(),List(Text(
+                                    Téléchargez-le dès maintenant pour iPhone ou Android
+                                ))), Text(
+                                ), Tag(div,List((class,bu_restaurant_cta_block)),List(Text(
+                                    ), Tag(a,List((rel,noopener noreferrer), (class,bu_restaurant_btn bu_restaurant_btn--s bu_restaurant_btn--icon), (href,https://itunes.apple.com/fr/app/restaurants-le-guide-restaurant/id331750224?mt=8&uo=4&at=1l3v7Mj&ct=linternaute), (target,_blank)),List(Tag(span,List(),List(Tag(span,List((class,bu_restaurant_icon bu_restaurant_icon--appstore)),List()), Text(Appstore))))), Text(
+                                    ), Tag(a,List((rel,noopener noreferrer), (class,bu_restaurant_btn bu_restaurant_btn--s bu_restaurant_btn--icon), (href,https://market.android.com/details?id=com.linternaute.restaurant), (target,_blank)),List(Tag(span,List(),List(Tag(span,List((class,bu_restaurant_icon bu_restaurant_icon--playstore)),List()), Text(Playstore))))), Text(
+                                ))), Text(
+                            ))), Text(
+                        ))), Text(
+                    ))), Text(
+                ))), Text(
+            ))), Text(
+        ))), Text(
+    ))), Text(
+
+    ), Tag(div,List((data-restaurant-key,1217106273), (data-restaurant-id,9072), (class,jWarnClosedDialog)),List(Text(
+        ), Tag(p,List(),List(Text(Etes-vous sûr(e) de vouloir signaler ce restaurant comme fermé ?))), Text(
+    ))), Text(
+
+                                                            ))), Text(
+                                                    ))), Text(
+                    ))), Text(
+
+                                    ))), Text(
+
+                
+            ))), Text(
+
+                                        ), Tag(footer,List((id,adsFooter), (role,contentinfo)),List(Text(
+                        
+        
+), Text(
+
+), Text(
+    
+    ), Text(
+
+    ), Text(
+
+                    ), Tag(div,List((class,bu_ccmeditor), (id,footer)),List()), Text(
+        
+        ), Tag(div,List((class,layout)),List(Text(
+            ), Tag(a,List((class,sns_ico--bell sns_avoidance_link sonar sonar-fill sonar-infinite), (href,#jSNSPreview)),List()), Text(
+
+
+            ), Tag(ul,List(),List(Text(
+    ), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/magazine/infos/1344836-qui-sommes-nous/)),List(Text(Qui sommes-nous ?))))), Text(
+            ), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/magazine/infos/1241749-contacter-linternaute-com/)),List(Text(Contact))))), Text(
+        ), Tag(li,List(),List(Tag(a,List((href,http://media.figaro.fr/)),List(Text(Publicité))))), Text(
+    ), Tag(li,List(),List(Tag(a,List((href,http://www.ccmbenchmark.com/formation)),List(Text(Formation))))), Text(
+    ), Tag(li,List(),List(Tag(a,List((href,http://media.figaro.fr/)),List(Text(La société))))), Text(
+    ), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/list)),List(Text(Tous les articles))))), Text(
+    ), Tag(li,List(),List(Tag(a,List((href,https://www.cadremploi.fr/)),List(Text(Recrutement))))), Text(
+    ), Tag(li,List(),List(Tag(a,List((href,http://www.ccmbenchmark.com/donnees-personnelles?origin=www.linternaute.com)),List(Text(Données personnelles))))), Text(
+    ), Tag(li,List(),List(Tag(a,List((class,jConsentChoice), (href,http://www.ccmbenchmark.com/donnees-personnelles?origin=www.linternaute.com)),List(Text(Paramétrer les cookies))))), Text(
+    ), Tag(li,List(),List(Tag(a,List((href,https://www.linternaute.com/magazine/infos/1253554-mentions-legales/)),List(Text(Mentions légales))))), Text(
+    ), Tag(li,List(),List(Tag(a,List((href,http://www.ccmbenchmark.com/)),List(Text(&copy; 2021 CCM Benchmark))))), Text(
+))), Text(
+
+
+
+
+
+            ), Tag(div,List((class,logo)),List(Text(
+                ), Tag(a,List((target,_blank), (href,http://www.ccmbenchmark.com/), (original-title,CCM Benchmark Group)),List(Text(
+                    ), Tag(img,List((height,49), (width,212), (loading,lazy), (alt,CCM Benchmark Group), (src,https://astatic.ccmbg.com/www.linternaute.com/img/front/footer/logo-groupe.svg)),List()), Text(
+                ))), Text(
+            ))), Text(
+
+            ), Tag(div,List((class,brands)),List(Text(
+                ), Tag(a,List((original-title,Journal des femmes), (href,https://www.journaldesfemmes.fr/)),List(Text(
+                    ), Tag(img,List((width,115), (loading,lazy), (alt,Journal des Femmes), (src,https://astatic.ccmbg.com/www.linternaute.com/img/front/footer/logo-jdf.svg)),List()), Text(
+                ))), Text(
+                ), Tag(a,List((original-title,Comment ça marche), (href,https://www.commentcamarche.net/)),List(Text(
+                    ), Tag(img,List((width,106), (loading,lazy), (alt,CCM), (src,https://astatic.ccmbg.com/www.linternaute.com/img/front/footer/logo-ccm.svg)),List()), Text(
+                ))), Text(
+                ), Tag(a,List((original-title,Journal Du Net), (href,https://www.journaldunet.fr/)),List(Text(
+                    ), Tag(img,List((width,86), (loading,lazy), (alt,Journal Du Net), (src,https://astatic.ccmbg.com/www.linternaute.com/img/front/footer/logo-jdn.svg)),List()), Text(
+                ))), Text(
+                ), Tag(a,List((original-title,Droit-finances.net), (href,http://droit-finances.commentcamarche.com/)),List(Text(
+                    ), Tag(img,List((width,103), (loading,lazy), (alt,Droit-Finances), (src,https://astatic.ccmbg.com/www.linternaute.com/img/front/footer/logo-df.svg)),List()), Text(
+                ))), Text(
+                ), Tag(a,List((original-title,Copains d'avant), (href,https://copainsdavant.linternaute.com/)),List(Text(
+                    ), Tag(img,List((width,122), (loading,lazy), (alt,Copains d'avant), (src,https://astatic.ccmbg.com/www.linternaute.com/img/front/footer/logo-copains.svg)),List()), Text(
+                ))), Text(
+                ), Tag(a,List((original-title,Hugo L'Escargot), (href,https://www.hugolescargot.com/)),List(Text(
+                    ), Tag(img,List((width,122), (loading,lazy), (alt,Hugo l'escargot), (src,https://astatic.ccmbg.com/www.linternaute.com/img/front/footer/logo-hugo.svg)),List()), Text(
+                ))), Text(
+                ), Tag(a,List((original-title,Viadeo JDN), (href,https://viadeo.journaldunet.com/)),List(Text(
+                    ), Tag(img,List((width,106), (loading,lazy), (alt,Viadeo JDN), (src,https://astatic.ccmbg.com/www.linternaute.com/img/front/footer/logo-viadeo.svg?1)),List()), Text(
+                ))), Text(
+            ))), Text(
+
+            ), Tag(div,List((class,foot_links)),List(Text(
+                ), Tag(a,List((href,https://www.linternaute.com/actualite/)),List(Text(Actualités))), Text( |
+                ), Tag(a,List((href,http://www.autogenius.fr/)),List(Text(Auto))), Text( |
+                ), Tag(a,List((href,https://avis-deces.linternaute.com/)),List(Text(Avis décès))), Text( |
+                ), Tag(a,List((href,https://www.linternaute.com/cartes/)),List(Text(Carte de voeux))), Text( |
+                ), Tag(a,List((href,https://www.linternaute.com/bricolage/)),List(Text(Bricolage))), Text( |
+                ), Tag(a,List((href,https://www.linternaute.com/cinema/sortie-semaine/)),List(Text(Sorties Cinéma))), Text( |
+                ), Tag(a,List((href,https://www.journaldesfemmes.fr/beaute/coiffures/2627229-coiffure-coupe-de-cheveux-coloration-soin/)),List(Text(Coiffure))), Text( |
+                ), Tag(a,List((href,https://www.hugolescargot.com/coloriages/)),List(Text(Coloriages))), Text( |
+                ), Tag(a,List((href,https://cuisine.journaldesfemmes.fr/)),List(Text(Cuisine))), Text( |
+                ), Tag(a,List((href,https://cuisine.journaldesfemmes.fr/toutes-les-recettes/)),List(Text(Recette))), Text( |
+                ), Tag(a,List((href,https://www.journaldunet.com/management/emploi-cadres/curriculum-vitae/)),List(Text(CV))), Text( |
+                ), Tag(a,List((href,https://deco.journaldesfemmes.fr/)),List(Text(Déco))), Text( |
+                ), Tag(a,List((href,https://www.linternaute.fr/dictionnaire/fr/)),List(Text(Dictionnaire))), Text( |
+                ), Tag(a,List((href,https://www.commentcamarche.net/)),List(Text(High-tech))), Text( |
+                ), Tag(a,List((href,https://www.journaldesfemmes.fr/horoscope/)),List(Text(Horoscope))), Text( |
+                ), Tag(a,List((href,http://www.jeux-gratuits.com)),List(Text(Jeux en ligne))), Text( |
+                ), Tag(a,List((href,https://www.linternaute.com/pages-blanches/)),List(Text(Pages blanches))), Text( |
+                ), Tag(a,List((href,https://www.linternaute.com/pages-jaunes/)),List(Text(Pages jaunes))), Text( |
+                ), Tag(a,List((href,https://www.linternaute.com/television/)),List(Text(Programme TV))), Text( |
+                ), Tag(a,List((href,https://www.linternaute.com/restaurant/)),List(Text(Restaurant))), Text( |
+                ), Tag(a,List((href,https://sante.journaldesfemmes.fr/)),List(Text(Santé))), Text( |
+                ), Tag(a,List((href,https://www.journaldunet.fr/management/guide-du-management/1071810-smic-2018-montant-mensuel-et-taux-horaire/)),List(Text(SMIC))), Text( |
+                ), Tag(a,List((href,https://www.journaldunet.fr/web-tech/dictionnaire-du-webmastering/1487601-test-debit-internet/)),List(Text(Test débit))), Text( |
+                ), Tag(a,List((href,http://www.journaldesfemmes.fr/prenoms/)),List(Text(Signification prénom))), Text( |
+                ), Tag(a,List((href,https://droit-finances.commentcamarche.com/contents/720-l-etat-des-lieux-location)),List(Text(Etat des lieux))), Text( |
+                ), Tag(a,List((href,https://droit-finances.commentcamarche.com/contents/1037-divorce-procedure-de-divorce)),List(Text(Divorce))), Text( |
+                ), Tag(a,List((href,https://droit-finances.commentcamarche.com/contents/1589-temps-partiel-le-contrat-de-travail-a-temps-partiel)),List(Text(Temps partiel))), Text( |
+                ), Tag(a,List((href,https://droit-finances.commentcamarche.com/contents/1000-succession-heritage-et-heritiers)),List(Text(Succession))), Text( |
+                ), Tag(a,List((href,https://droit-finances.commentcamarche.com/faq/22685-prime-a-la-casse-diesel-conditions-et-montant)),List(Text(Prime à la casse))), Text(
+            ))), Text(
+
+        ))), Text(
+
+    ))), Text(
+
+
+    
+            
+    
+    
+), Text(
+
+    
+                ), Text(), Text(
+            
+                ), Tag(div,List((id,ctn_x01)),List(Tag(div,List((class,ba x01), (id,ba_x01)),List(Tag(script,List(),List(Text(OAS_AD('x01');))))))), Text(
+    ), Tag(div,List((id,ctn_topleft)),List(Tag(div,List((class,ba topleft), (id,ba_topleft)),List(Tag(script,List(),List(Text(OAS_AD('TopLeft');))))))), Text(
+        ))), Text(
+    ))), Text(
+
+), Tag(script,List((type,text/javascript)),List(Text( $data = {"app":{"recaptchaSitekey":"6LeIoDUUAAAAAEGohGF-ZhvvzM5G2Baay4wYP3gD"},"common":[],"services":{"socialbuttons":{"start":false},"cabestanRetargeting":{"start":true}}}))), Text(
+    ), Tag(script,List((data-load,init), (data-priority,1), (data-target,jQuery.jet.env.packager), (type,application/x-jet-extend)),List(Text(
+                {"url":{"css":"\/ressource\/css\/css.php","js":"\/ressource\/js\/js.php"},"host":"https:\/\/astatic.ccmbg.com"}
+            ))), Text(
+    
+    ), Tag(script,List((src,https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js)),List()), Tag(script,List((crossorigin,anonymous), (src,https://astatic.ccmbg.com/www.linternaute.com/dist/app/js/commons.b16d01f5403fec4240ce.js)),List()), Tag(script,List((src,https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js)),List()), Tag(script,List((crossorigin,anonymous), (src,https://astatic.ccmbg.com/www.linternaute.com/dist/app/js/chunks/basicApp.7804c3aaedf55c3a7268.js)),List()), Tag(script,List((crossorigin,anonymous), (src,https://astatic.ccmbg.com/www.linternaute.com/dist/app/js/chunks/restaurant_bundle.show.0509f51931a3e86e7b54.js)),List()), Tag(script,List((crossorigin,anonymous), (src,https://astatic.ccmbg.com/www.linternaute.com/dist/app/js/chunks/start_sf.5d68883c4d736146053b.js)),List()), Tag(script,List((src,https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/js/swiper.jquery.min.js)),List()), Tag(script,List((src,https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js)),List()), Tag(script,List((src,https://cdnjs.cloudflare.com/ajax/libs/ouibounce/0.0.11/ouibounce.min.js)),List()), Tag(script,List((src,https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.6/hammer.min.js)),List()), Text(
+), Text(
+), Text(
+
+    
+    
+), Text(
+), Text(
+)))))

@@ -7,32 +7,24 @@ object Application extends App {
   
   println("Entrez votre requête")
   val requete: Expression = ExpressionParser.readExp
-  val urlSearch = "https://search.vivastreet.com/annonces/fr?lb=new&search=1&start_field=1&keywords=" + UrlBuilder(requete) + "&cat_1=&geosearch_text=&searchGeoId=0"
+  val urlSearch = "https://www.linternaute.com/restaurant/guide/ville-rennes-35000/?name=" + SyntaxAnalyser.UrlBuilder(requete) 
  
-  def UrlBuilder(e: Expression): String={
-    var UrlSearch: String = ""
-    e match{
-      case And(a,b) => UrlSearch = UrlSearch + UrlBuilder(a) + "+" + UrlBuilder(b)
-      case Or(a, b) => UrlSearch = UrlSearch + UrlBuilder(a) + "&" + UrlBuilder(b)
-      case Word(a) => UrlSearch = UrlSearch + a
-    }
-    UrlSearch
-  }
  
   println(urlSearch)
  
+  val couplesUrls: List[(String, String)] = AnalysePageImp.resultats(urlSearch, requete) // prend 2.5 secondes à s'éxecuter
   val temps_debut = System.currentTimeMillis()
-  val couplesUrls: List[(String, String)] = AnalysePageImp.resultats(urlSearch, requete)
+  val triplets:List[(String,String,String)] = AnalysePageImp.tripletReponses(urlSearch,requete)
   val temps_analyse = System.currentTimeMillis()
-  println("temps analyse = " + (temps_analyse - temps_debut) + "ms")
+  println("temps analyse triplets = " + (temps_analyse - temps_debut) + "ms")
   println("Les couples: " + couplesUrls)
+  println("Les triplets: " + triplets)
  
   val stringResultat = Html2StringImplem.process(produitHtml.resultat2html(couplesUrls))
- 
   
   val file=new FileWriter("resultats_recherche.txt")
   try {
-    file.write(stringResultat)
+    file.write(UrlProcessor.fetch(couplesUrls(0)._2).toString())
   } finally file.close()
   
   //temps analyse page -> 135 secondes
