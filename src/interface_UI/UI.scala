@@ -13,7 +13,7 @@ class UI extends MainFrame {
   
   // Propriétés de la fenêtre
   title = "AVATAR APP 1.0"
-  preferredSize = new Dimension(600, 600)
+  preferredSize = new Dimension(1200, 800)
 
   // Quelques champs définissant les composants
   val input = new InField
