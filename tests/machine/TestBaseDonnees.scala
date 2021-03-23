@@ -33,6 +33,6 @@ class TestBaseDonnees {
     }
      @Test
   def TestMapLang{
-       
+       assertEquals(BSDImpl.MapLangPolit()("bonjour"), "Français")
      }
 }
