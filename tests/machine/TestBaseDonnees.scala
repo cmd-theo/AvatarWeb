@@ -9,22 +9,26 @@ class TestBaseDonnees {
     @Test
   def testKeyWords{
     assertEquals(List(),BSDImpl.KeyWords(""))
-    assertEquals(List("Mairie"),BSDImpl.KeyWords("Mairie"))
-    assertEquals(List("Mairie","Rennes"),BSDImpl.KeyWords("Mairie de Rennes"))
+    assertEquals(List("mairie"),BSDImpl.KeyWords("Mairie"))
+    assertEquals(List("mairie","rennes"),BSDImpl.KeyWords("Mairie de Rennes"))
   }
   
     @Test
   def testListKeyWords{
-      assertEquals(List(List("Mairie","Rennes","Hotel","Ville"), List("Théâtre", "Paillette"), List("Théâtre", "National", "Bretagne","tnb"), List("Gare", "SNCF")), 
+      assertEquals(List(List("mairie","rennes","hotel","ville"), List("théâtre", "paillette"), List("théâtre", "national", "bretagne","tnb"), List("gare", "sncf")), 
           BSDImpl.listKeyWords)
     }
     
     @Test
   def TestRespond{
-       val l1= List("Rennes","Mairie")
+       val l1= List("rennes","mairie")
        assertEquals(List(("Mairie de Rennes","Place de la Mairie")), BSDImpl.respond(l1))
-       val l2= List("Rennes","Mairie","Bretagne","Théâtre")
+       val l2= List("rennes","mairie","bretagne","théâtre")
        assertEquals(List(("Mairie de Rennes","Place de la Mairie"),("Théâtre National de Bretagne","1, Rue Saint-Hélier")), BSDImpl.respond(l2))
+        val l3= List("hotel","ville")
+       assertEquals(List(("Mairie de Rennes","Place de la Mairie")), BSDImpl.respond(l3))
+       val l4= List("tnb")
+       assertEquals(List(("Théâtre National de Bretagne","1, Rue Saint-Hélier")), BSDImpl.respond(l4))
 
     }
     

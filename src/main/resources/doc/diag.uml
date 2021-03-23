@@ -1,0 +1,51 @@
+/* Pour afficher le diagramme UML:  
+   Window>Show view>Other>Plantuml 
+   La doc: http://plantuml.com/class-diagram
+*/
+
+
+
+@startuml
+
+class Avatar<<(O, Orange)>>
+
+interface MachineImpl{
+	ask(s: String):List[String]
+	reInit(): Unit
+ }
+ 
+ interface UI{
+ 	top(): MainFrame
+}
+
+interface AnalysePhrase{
+	hash(s: String):List[String]
+	contains(l:List[String]):List[String]
+}
+
+interface BaseDeDonnees{
+	dsb: List[String]
+	respond(l:List[String]):(Boolean, List[String])
+	listKeywords():List[List[String]]
+}
+
+interface ToleranceFautes{
+	correct(s1:String, s2:String):Boolean
+}
+
+class Tests{
+test(l:List[String]): List[String]
+reInit(): Unit
+}
+
+Avatar --|> MachineImpl
+Tests -> MachineImpl
+MachineImpl <--> UI
+MachineImpl -> BaseDeDonnees
+MachineImpl -> AnalysePhrase
+AnalysePhrase --> BaseDeDonnees
+AnalysePhrase --> ToleranceFautes
+
+
+
+@enduml
