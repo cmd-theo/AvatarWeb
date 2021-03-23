@@ -5,6 +5,8 @@ import javax.swing.SwingConstants._
 import javax.swing.ImageIcon
 import event._
 import java.awt.Color
+import scala.swing._
+import scala.swing.event._
 import java.awt.Graphics
 /**
  * A button for realizing a text-copy
@@ -13,7 +15,7 @@ import java.awt.Graphics
  * @param to the ResultText to which the text is copied
  */
 class SendButton(lab: String, from: InField, to: ScrollPane) extends Button {
-
+     
   def listToString(l: List[String]): String = {
     l match {
       case Nil      => "Je ne comprends pas votre requête."
@@ -54,19 +56,21 @@ background = Color.WHITE
           }
           contents += new BoxPanel(Orientation.Horizontal) {
 background = Color.WHITE
+
           }
 
           contents += new BoxPanel(Orientation.Horizontal) {
-            var b = new TextArea
-            b.text += "\n" + " " + "\n" + " " + listToString(Implementations.MachineImpl.ask(from.text)) + "\n" + "  "
-            b.editable = false
-            contents += b
-            background = Color.WHITE
             contents += new Label {
               background = Color.WHITE
               icon = new ImageIcon("src/images/rennes.png")
               
             }
+            var b = new TextArea
+            b.text += "\n" + " " + "\n" + " " + listToString(Implementations.MachineImpl.ask(from.text)) + "\n" + "  "
+            b.editable = false
+            contents += b
+            background = Color.WHITE
+            
 
           }
 
