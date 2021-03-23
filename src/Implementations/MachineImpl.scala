@@ -14,7 +14,7 @@ object MachineImpl extends MachineDialogue{
   /**
    * Envoi d'une requête requete et recuperation de sa reponse
    * @param s la requete
-   * @return reponse la liste de reponses
+   * @return reponse la liste de reponse
    */
   def ask(s:String):List[String]= {
    
