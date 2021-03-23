@@ -47,7 +47,23 @@ object Tolerance{
 	   false
 	}
 	
+	def replace (s : String) : String = {
+    var res:String = s
+    res = res.replace("é", "e")
+    res = res.replace("à" , "a")
+    res = res.replace("è", "e")
+    res = res.replace("î", "i")
+    res = res.replace("ù", "u")
+    res = res.replace("û", "u")
+    res = res.replace("â", "a")
+    res = res.replace("ç", "c")
+    res = res.replace("ô","o")
+    res
+}
+
+	replace("càrâctérè")
 	//def correctBis(s1: String, s2: String)
 	correct("Mairie","Theatre")
 	//hamming("mairie","theatre")
+
 }  
