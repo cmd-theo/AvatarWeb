@@ -1,9 +1,14 @@
 package Implementations
 
 import machine._
+import scala.io.Source
 
 object MachineImpl extends MachineDialogue{
   
+  var anglais = false;
+  var allemand = false;
+  var espagnol = false;
+  var italien = false;
   var analysePhrase = AnalysePhraseImpl
   
   /**
@@ -12,9 +17,12 @@ object MachineImpl extends MachineDialogue{
    * @return reponse la liste de reponses
    */
   def ask(s:String):List[String]= {
-    
+   
     respond2(BSDImpl.respond((AnalysePhraseImpl.motsClefs(s)))) 
   }
+  
+  
+  
   /*def listToString (l:List[String]): String = {
     l match {
       case Nil => ""
@@ -23,12 +31,15 @@ object MachineImpl extends MachineDialogue{
     }
   }
   */
+  
   def respond2(l:List[(String,String)]) : List[String] = {
     l match {
       case Nil => Nil
-      case (e1, e2) :: reste => e1 +" : " + e2 :: respond2(reste) 
+      case ("", e2) :: reste => e2 :: respond2(reste) 
+      case (e1, e2) :: reste => "L'adresse de " +e1+ " est : " + e2 :: respond2(reste) 
     }
   }
+  
   
   // Pour la partie test par le client
   /**

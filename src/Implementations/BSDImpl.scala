@@ -122,7 +122,6 @@ object BSDImpl extends BaseDeDonnée{
                  KeyW= ""
           }
         } 
-        
         }
       mappa
    }
