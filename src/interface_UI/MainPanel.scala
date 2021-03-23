@@ -4,7 +4,7 @@ import javax.swing.ImageIcon
 import java.awt.Color
 import scala.swing.BorderPanel.Position._
 class MainPanel {
-  val p = new BoxPanel(Orientation.Vertical){
+  val p = new BoxPanel(Orientation.Vertical){ 
     contents += new BoxPanel(Orientation.Horizontal) {
      preferredSize = new Dimension(100,100)
      contents += new Label {
