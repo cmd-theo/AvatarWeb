@@ -4,7 +4,7 @@ import Robot_Web.library._
 
 object FiltrageURLimp extends FiltrageURLs {
 
-  
+    val racine:String = "https://www.linternaute.com"
     def listeUrl(l: List[(String, String)]): List[String] = {
         l match {
             case Nil        => Nil
@@ -15,31 +15,25 @@ object FiltrageURLimp extends FiltrageURLs {
     def filtrage(l: List[String]): List[String] = {
         l match {
             case Nil    => Nil
-            case x :: y => if (x.contains("https://www.vivastreet.com/") && contient9Chiffres(x)) { x :: filtrage(y) } else { filtrage(y) }
+            case x :: y => if (x.contains("/restaurant/restaurant")  && contientDesChiffres(x)) { racine+x :: filtrage(y) } else { filtrage(y) }
 
         }
 
     }
     
-     def contient9Chiffres(s: String): Boolean = {
-        var count: Int = 0;
-        for (n <- s) {
-
-            if (n <= '9' && n >= '0') {
-                count += 1
-            }
-        }
-        /* return true ssi s contient au moins 9 chiffres */
-        count >= 9
+     def contientDesChiffres(s: String): Boolean = {
+        var number_check:String = s.replace("/restaurant/restaurant/" , "")
+        number_check = number_check.split("/")(0)
+        toIntToBool(number_check)
     }
     
-    /*  def toIntToBool(s: String): Boolean = {
+    def toIntToBool(s: String): Boolean = {
     try {
       s.toInt.isValidInt
     } catch {
       case e: Exception => false
     }
-      }*/
+      }
 
     def filtreAnnonce(h: Html): List[String] = {
         h match {
