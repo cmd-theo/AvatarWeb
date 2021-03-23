@@ -1,0 +1,108 @@
+@startuml
+
+	
+package gui{
+	class Dialog
+	class Main
+	class TextArea
+	class MyButton
+	
+	Dialog <- Main
+	TextArea <-- Main
+	MyButton <-- Dialog
+}
+	
+	
+package langage{
+    interface Language
+	class French
+	class English
+	class Italian
+	class Spanish
+	class German
+	class Unknown
+	interface Analyseur{
+		keywords(w:List[String]):List[String]
+		guessLanguage(s:String):Language
+		words(s:String):List[String]
+		}
+	class AnalyseurImp
+	class International
+	class Orthographe
+	
+	
+	AnalyseurImp --> International
+	AnalyseurImp --> Orthographe
+	AnalyseurImp --|> Analyseur
+	French --|> Language
+	English --|> Language
+	Italian --|> Language
+	Spanish --|> Language
+	German --|> Language
+	Unknown --|> Language
+}
+	
+	
+	
+package machine{
+	class MachineImpl
+	interface MachineTest{
+		reinit():Unit
+		test(l:List[String]):List[String]
+	}
+	interface MachineDialogue{
+		ask(requete:String):List[String]
+	}
+	interface State
+	class Searching
+	class LanguageConfirmation
+	class Choice
+	
+	MachineTest <|- MachineImpl
+	MachineImpl -|> MachineDialogue
+}
+
+package bdd{
+    interface Bdd{
+    	get(l:List[String]):(Boolean,(String,String))
+    	getList(l:List[String]):List[(Int,(String,String))]
+    	listKeywords:List[List[String]]
+    }
+	class BddImp
+	class Concentrateur
+	class BddXML
+	
+	BddImp -> Concentrateur
+	BddImp --|> Bdd
+	BddXML --|> Bdd
+}
+
+package tts{
+	interface TTS{
+	say(s:String,l:Language):Unit
+	}
+	class TTSimp
+	TTSimp --|> TTS
+}
+
+package html{
+	interface UrlTools{
+		fetch(url:String): Html
+	}
+	UrlProcessor --|> UrlTools
+}
+
+	
+	Main -> MachineDialogue
+	Analyseur <-- MachineImpl
+	MachineImpl --> Bdd 
+	MachineImpl --> State
+	MachineImpl --> UrlTools
+	Searching --|> State
+	LanguageConfirmation --|> State
+	Choice --|> State
+	TTS <-- MyButton
+	
+@enduml
+
+
