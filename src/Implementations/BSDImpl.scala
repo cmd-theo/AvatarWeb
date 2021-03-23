@@ -38,7 +38,7 @@ object BSDImpl extends BaseDeDonnée{
   
   def listPaireNomAdd:List[List[String]]={
       var res :List[List[String]] = List()
-      var txt =Source.fromFile("doc/DonneesInitiales.txt").getLines
+      var txt =Source.fromFile("doc/vArData.txt").getLines
       for(x<-txt){
         var i      = x.indexOf(";")
         var part1  = x.slice(0, i)
@@ -103,6 +103,34 @@ object BSDImpl extends BaseDeDonnée{
      }
      res
    }
+   
+   def MapLangPolit():Map[String,String]={
+   var res :List[List[String]] = List()
+      var txt =Source.fromFile("doc/ListLang.txt").getLines
+      var mappa:Map[String,String] = Map() 
+      for(x<-txt){
+        var i      = x.indexOf(":")
+        var lang  = x.slice(0, i)
+        var KeyW  = x.slice(i+1,x.length)
+        while (KeyW!=""){
+          i = KeyW.indexOf(",")
+          if(i != -1){
+            mappa = mappa+(CleanEspLow(KeyW.slice(0, i))->lang)
+            KeyW  = KeyW.slice( i+1, KeyW.length() )
+          }
+          else{  mappa = mappa + (CleanEspLow(KeyW)->lang)
+                 KeyW= ""
+          }
+        } 
+        }
+      mappa
+   }
   
+   def CleanEspLow(sal:String):String={
+     val esp = " "
+     var res = sal
+     res.replaceAll(esp, "").toLowerCase()
+    
+   }
    
 }

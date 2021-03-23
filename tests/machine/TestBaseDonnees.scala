@@ -31,5 +31,8 @@ class TestBaseDonnees {
        assertEquals(List(("Théâtre National de Bretagne","1, Rue Saint-Hélier")), BSDImpl.respond(l4))
 
     }
-    
+     @Test
+  def TestMapLang{
+       
+     }
 }

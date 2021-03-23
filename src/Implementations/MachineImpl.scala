@@ -1,20 +1,29 @@
 package Implementations
 
 import machine._
+import scala.io.Source
 
 object MachineImpl extends MachineDialogue{
   
+  var francais = false
+  var anglais = false;
+  var allemand = false;
+  var espagnol = false;
+  var italien = false;
   var analysePhrase = AnalysePhraseImpl
   
   /**
    * Envoi d'une requête requete et recuperation de sa reponse
    * @param s la requete
-   * @return reponse la liste de reponses
+   * @return reponse la liste de reponse
    */
   def ask(s:String):List[String]= {
-    
+   
     respond2(BSDImpl.respond((AnalysePhraseImpl.motsClefs(s)))) 
   }
+  
+  
+  
   /*def listToString (l:List[String]): String = {
     l match {
       case Nil => ""
@@ -23,12 +32,15 @@ object MachineImpl extends MachineDialogue{
     }
   }
   */
+  
   def respond2(l:List[(String,String)]) : List[String] = {
     l match {
       case Nil => Nil
-      case (e1, e2) :: reste => e1 +" : " + e2 :: respond2(reste) 
+      case ("", e2) :: reste => e2 :: respond2(reste) 
+      case (e1, e2) :: reste => "L'adresse de " +e1+ " est : " + e2 :: respond2(reste) 
     }
   }
+  
   
   // Pour la partie test par le client
   /**
@@ -36,7 +48,7 @@ object MachineImpl extends MachineDialogue{
    * Effacement de la conversation en cliquant sur le bouton reset
    */
   def reinit= {
-    //ResetButton()
+    francais = true
   }
   
   /**
