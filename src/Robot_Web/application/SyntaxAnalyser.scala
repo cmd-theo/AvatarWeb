@@ -47,4 +47,8 @@ object SyntaxAnalyser {
     }
     UrlSearch
   }
+  
+   def main(args: Array[String]): Unit = {
+     
+   }
 }
