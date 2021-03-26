@@ -20,7 +20,7 @@ import org.xml.sax.helpers.DefaultHandler
 object OpenData extends App {
   
   val xml = XML.loadFile("doc/vAr.xml")
-  //println(xml)
+  // println(xml)
   val orga = xml \\ "organization"
   val names = orga \\ "name"
   val adresses = orga \\ "street"
