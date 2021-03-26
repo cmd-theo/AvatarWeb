@@ -18,9 +18,12 @@ object MachineImpl extends MachineDialogue{
    * @return reponse la liste de reponse
    */
   def ask(s:String):List[String]= {
-   
-    prettyRespond(BSDImpl.respond((AnalysePhraseImpl.motsClefs(s)))) 
+    s.contains("restaurant") || s.contains("pizzeria") || s.contains("creperie") match {
+      case true => Nil //prettyRespond(Robot_Web.application
+      case false => prettyRespond(BSDImpl.respond((AnalysePhraseImpl.motsClefs(s)))) 
+    }
   }
+  //sujet a modifs 
   
   
   

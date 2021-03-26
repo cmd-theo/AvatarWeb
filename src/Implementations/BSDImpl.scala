@@ -38,7 +38,8 @@ object BSDImpl extends BaseDeDonnée{
   
   def listPaireNomAdd:List[List[String]]={
       var res :List[List[String]] = List()
-      var txt =Source.fromFile("doc/vArData.txt").getLines
+      //var txt =Source.fromFile("doc/DonneesInitiales.txt").getLines  //demo F1, F2, F3, F4
+      var txt =Source.fromFile("doc/vArData.txt").getLines    //demo F5+ 
       for(x<-txt){
         var i      = x.indexOf(";")
         var part1  = x.slice(0, i)

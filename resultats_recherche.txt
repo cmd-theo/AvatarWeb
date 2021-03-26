@@ -2,59 +2,59 @@ Tag(html,List((class,no-js), (lang,fr)),List(Tag(head,List((prefix,og: http://og
     ), Tag(meta,List((charset,utf-8)),List()), Text(
     ), Tag(meta,List((content,ie=edge), (http-equiv,x-ua-compatible)),List()), Text(
 
-    ), Tag(title,List(),List(Text(La Tomate, Pizzeria à Rennes avec Linternaute))), Text(
+    ), Tag(title,List(),List(Text(Ker Soazig, Restaurant breton à Rennes avec Linternaute))), Text(
 
-        ), Tag(meta,List((content,Retrouvez toutes les infos sur le restaurant La Tomate à Rennes : ... - Tél. 02 99 8...), (name,description)),List()), Text(
+        ), Tag(meta,List((content,Retrouvez toutes les infos sur le restaurant Ker Soazig à Rennes : Restaurant traditionnel Breton... - Tél. 02 99 3...), (name,description)),List()), Text(
     
     ), Tag(meta,List((content,width=device-width, initial-scale=1.0), (name,viewport)),List()), Text(
 
                 ), Tag(meta,List((content,always), (name,referrer)),List()), Text(
             ), Tag(meta,List((content,summary), (name,twitter:card)),List()), Text(
             ), Tag(meta,List((content,@LInternauteInfo), (name,twitter:site)),List()), Text(
-            ), Tag(meta,List((content,https://www.linternaute.com/restaurant/restaurant/9072/la-tomate.shtml), (name,twitter:url)),List()), Text(
-            ), Tag(meta,List((content,La Tomate, Pizzeria à Rennes avec Linternaute), (name,twitter:title)),List()), Text(
-            ), Tag(meta,List((content,Retrouvez toutes les infos sur le restaurant La Tomate à Rennes : ... - Tél. 02 99 8...), (name,twitter:description)),List()), Text(
+            ), Tag(meta,List((content,https://www.linternaute.com/restaurant/restaurant/145889/ker-soazig.shtml), (name,twitter:url)),List()), Text(
+            ), Tag(meta,List((content,Ker Soazig, Restaurant breton à Rennes avec Linternaute), (name,twitter:title)),List()), Text(
+            ), Tag(meta,List((content,Retrouvez toutes les infos sur le restaurant Ker Soazig à Rennes : Restaurant traditionnel Breton... - Tél. 02 99 3...), (name,twitter:description)),List()), Text(
             ), Tag(meta,List((content,app-id=331750224, affiliate-data=at=1l3v7Mj&amp;ct=linternaute), (name,apple-itunes-app)),List()), Text(
             ), Tag(meta,List((content,max-snippet:-1, max-image-preview:large, max-video-preview:15), (name,robots)),List()), Text(
                             ), Tag(meta,List((content,restaurant.restaurant), (property,og:type)),List()), Text(
-                    ), Tag(meta,List((content,https://www.linternaute.com/restaurant/restaurant/9072/la-tomate.shtml), (property,og:url)),List()), Text(
-                    ), Tag(meta,List((content,https://astatic.ccmbg.com/www.linternaute.com/bundles/ccmbenchmarkrestaurant/img/slider-nopic.jpg), (property,og:image)),List()), Text(
+                    ), Tag(meta,List((content,https://www.linternaute.com/restaurant/restaurant/145889/ker-soazig.shtml), (property,og:url)),List()), Text(
+                    ), Tag(meta,List((content,https://img-4.linternaute.com/FBBcIjdvxqTd3vgHUdOxjwdPjl4=/540x540/2cfcdab089ac40f087346c26f3088a67/restaurant/122044.jpg), (property,og:image)),List()), Text(
                     ), Tag(meta,List((content,389263707785976), (property,fb:app_id)),List()), Text(
-                    ), Tag(meta,List((content,18, rue Saint Georges), (property,restaurant:contact_info:street_adress)),List()), Text(
+                    ), Tag(meta,List((content,5, cours des Alliés), (property,restaurant:contact_info:street_adress)),List()), Text(
                     ), Tag(meta,List((content,Rennes), (property,restaurant:contact_info:locality)),List()), Text(
                     ), Tag(meta,List((content,35000), (property,restaurant:contact_info:postal_code)),List()), Text(
                     ), Tag(meta,List((content,France), (property,restaurant:contact_info:country_name)),List()), Text(
-                    ), Tag(meta,List((content,0299870606), (property,restaurant:contact_info:phone_number)),List()), Text(
-                    ), Tag(meta,List((content,48.111794), (property,place:location:latitude)),List()), Text(
-                    ), Tag(meta,List((content,-1.676667), (property,place:location:longitude)),List()), Text(
-                    ), Tag(meta,List((content,3/5), (property,linternaute_resto:rating)),List()), Text(
+                    ), Tag(meta,List((content,0299358220), (property,restaurant:contact_info:phone_number)),List()), Text(
+                    ), Tag(meta,List((content,48.1054738), (property,place:location:latitude)),List()), Text(
+                    ), Tag(meta,List((content,-1.6749531), (property,place:location:longitude)),List()), Text(
+                    ), Tag(meta,List((content,4/5), (property,linternaute_resto:rating)),List()), Text(
                     ), Tag(meta,List((content,Rennes), (property,linternaute_resto:address)),List()), Text(
-                    ), Tag(meta,List((content,), (property,linternaute_resto:opening_hours)),List()), Text(
-                    ), Tag(meta,List((content,0299870606), (property,linternaute_resto:telephone_number)),List()), Text(
-                    ), Tag(meta,List((content,-1.676667), (property,linternaute_resto:location:longitude)),List()), Text(
-                    ), Tag(meta,List((content,-1.676667), (property,linternaute_resto:location:latitude)),List()), Text(
+                    ), Tag(meta,List((content,11H30 - 14H00  18H30 - 22H00), (property,linternaute_resto:opening_hours)),List()), Text(
+                    ), Tag(meta,List((content,0299358220), (property,linternaute_resto:telephone_number)),List()), Text(
+                    ), Tag(meta,List((content,-1.6749531), (property,linternaute_resto:location:longitude)),List()), Text(
+                    ), Tag(meta,List((content,-1.6749531), (property,linternaute_resto:location:latitude)),List()), Text(
                     
-    ), Tag(meta,List((content,aHR0cHM6Ly93d3cubGludGVybmF1dGUuY29tL3Jlc3RhdXJhbnQvcmVzdGF1cmFudC85MDcyL2xhLXRvbWF0ZS5zaHRtbA==), (property,atm)),List()), Text(
+    ), Tag(meta,List((content,aHR0cHM6Ly93d3cubGludGVybmF1dGUuY29tL3Jlc3RhdXJhbnQvcmVzdGF1cmFudC8xNDU4ODkva2VyLXNvYXppZy5zaHRtbA==), (property,atm)),List()), Text(
 
     
-        ), Tag(link,List((href,https://www.linternaute.com/restaurant/restaurant/9072/la-tomate.shtml), (rel,canonical)),List()), Text(
+        ), Tag(link,List((href,https://www.linternaute.com/restaurant/restaurant/145889/ker-soazig.shtml), (rel,canonical)),List()), Text(
         
                 ), Tag(link,List((href,https://astatic.ccmbg.com/www.linternaute.com/favicon.ico), (rel,shortcut icon)),List()), Text(
     ), Tag(link,List((type,image/x-icon), (href,https://astatic.ccmbg.com/www.linternaute.com/favicon.ico), (rel,icon)),List()), Text(
     ), Tag(link,List((href,https://astatic.ccmbg.com/www.linternaute.com/favicon.ico), (rel,apple-touch-icon)),List()), Text(
             
-            ), Tag(link,List((href,https://astatic.ccmbg.com/www.linternaute.com/dist/app/css/chunks/linternaute_bundle.94672f1c8c34b9dc1852.css), (media,all), (rel,stylesheet)),List()), Tag(link,List((href,https://astatic.ccmbg.com/www.linternaute.com/dist/app/css/chunks/restaurant_bundle.4bac5f9c3e74e487cb5b.css), (media,all), (rel,stylesheet)),List()), Tag(link,List((href,https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700%7COswald%7CMontserrat:400,700), (media,all), (rel,stylesheet)),List()), Tag(link,List((href,https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/css/swiper.min.css), (media,all), (rel,stylesheet)),List()), Tag(link,List((href,https://cdnjs.cloudflare.com/ajax/libs/pnotify/3.0.0/pnotify.css), (media,all), (rel,stylesheet)),List()), Tag(link,List((href,https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css), (media,all), (rel,stylesheet)),List()), Text(
+            ), Tag(link,List((href,https://astatic.ccmbg.com/www.linternaute.com/dist/app/css/chunks/linternaute_bundle.8e8ef6c48bd72eb27f31.css), (media,all), (rel,stylesheet)),List()), Tag(link,List((href,https://astatic.ccmbg.com/www.linternaute.com/dist/app/css/chunks/restaurant_bundle.4bac5f9c3e74e487cb5b.css), (media,all), (rel,stylesheet)),List()), Tag(link,List((href,https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700%7COswald%7CMontserrat:400,700), (media,all), (rel,stylesheet)),List()), Tag(link,List((href,https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/css/swiper.min.css), (media,all), (rel,stylesheet)),List()), Tag(link,List((href,https://cdnjs.cloudflare.com/ajax/libs/pnotify/3.0.0/pnotify.css), (media,all), (rel,stylesheet)),List()), Tag(link,List((href,https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css), (media,all), (rel,stylesheet)),List()), Text(
         
     
     ), Tag(script,List(),List(Text(
     var dataLayer = [{"appConfig":{"subContainers":["GTM-5H5DBFV"],"ua":"UA-314706-3"},"site":"www.linternaute.com","environnement":"production","sessionType":"non connect\u00e9e","userStatus":"Anonyme","application":"restaurant","level1":"Restaurant","level2":"Rennes","pageCategory":"Restaurant","pageType":"classique","theme":"Rennes"}];
 
-            !function(e){"use strict";var t=function(){},n=Object.getOwnPropertyNames(window.console).reduce(function(e,n){return"function"==typeof console[n]&&(e[n]=t),e},{}),o=function(){return n},r=e.console;if("object"==typeof e.JSON&&"function"==typeof e.JSON.parse&&"object"==typeof e.console&&"function"==typeof Object.keys){var i=!/Edge|Trident/.test(navigator.userAgent),s={available:["others.catch","others.show"],broadcasted:[]},a=function(){var e=9,t=242,n=220,o=/^\s+(.*)\s+$/g,r=function(e){e=e.replace(o,"$1");for(var t=[0,0,0],n=0,r=0;n), Text(<e.length;n++)r=parseInt(n/t.length),t[n%3]+=parseInt(a(e[n])/s(r));for(n=0;n), Text(<t.length;n++)t[n]>255&&(t[n]=255);return t},i=function(e){return"rgb("+e.join(",")+")"},s=function(t){return Math.pow(e,t)},a=function(n){return parseInt((n.charCodeAt()<), Text(<e)%t)};return{get:r,toRGB:i,visible:function(e){return e[0]>n||e[1]>n||e[2]>n?[0,0,0]:[255,255,255]}}}(),c=function(e,t,n,o){return r[t]?function(){var s=Array.prototype.slice.call(arguments);i&&s.unshift("background-color:"+o+";color:"+n+";border-radius:2px;"),s.unshift((i?"%c":"")+[" ",e," "].join("")),r[t].apply(console,s)}:function(){}},u=function(){try{var e=localStorage.getItem("getConsole");e=null===e?[]:JSON.parse(e)}catch(t){e=[]}return e},d=function(e){s.available.push(e);var t=document.createEvent("CustomEvent");t.initCustomEvent("getConsole.tag.available",!1,!1,e),document.dispatchEvent(t)};e.getConsole=function(e){if("string"!=typeof e)throw"getConsole need a tag name (string)";if(-1===s.available.indexOf(e)&&d(e),-1!==s.broadcasted.indexOf(e)){var t=a.get(e),n=a.toRGB(a.visible(t)),i=a.toRGB(t),u={log:c(e,"log",n,i),warn:c(e,"warn",n,i),error:c(e,"error",n,i),info:c(e,"info",n,i)};return Object.keys(r).forEach(function(e){"undefined"==typeof u[e]&&(u[e]=r[e])}),u}return o()},e.getConsole.tags=s,s.broadcasted=u(),-1!==s.broadcasted.indexOf("others.catch")&&(e.console=e.getConsole("others.show"))}else e.getConsole=o}(window),logger={_buffer:[],log:function(){"use strict";this._buffer.push(arguments)}},_logmatic=[],logmatic={log:function(){"use strict";_logmatic.push(Array.prototype.slice.call(arguments))}},function(e){"use strict";var t={domains:["hpphmfubhnbobhfs","bnb{po.betztufn","beoyt","epvcmfdmjdl","hpphmftzoejdbujpo","wjefptufq","s77ofu","ufbet","vosvmznfejb","tnbsubetfswfs","tljnsftpvsdft","{fcftupg","uumce","hpphmfbqjt","wjefpqmb{b","hpphmfbetfswjdft","fggfdujwfnfbtvsf","pvucsbjo","ubcppmb"],classes:"ufyuBe!BeCpy!qvc`411y361!qvc`411y361n!qvc`839y:1!ufyu.be!ufyuBe!Mjhbuvt!ufyu`be!ufyu`bet!ufyu.bet!ufyu.be.mjolt",event:{category:"pbt`mpbefe",action:"gbjm"}},n=e.getConsole("inObs"),o=2,r=0,i={},s=function(e,s){if("undefined"==typeof MutationObserver||"undefined"==typeof URL.prototype)return void e.call(!1,!1);var c=document.getElementsByTagName("html")[0],u={childList:!0,attributes:!0,characterData:!0,subtree:!0},d=!1,f=new MutationObserver(function(c){c.forEach(function(c){try{var u,l,p,g="",h=new Date,m=function(){};if("childList"===c.type&&c.addedNodes.length&&(u=c.addedNodes[0],"undefined"!=typeof u.src&&(g=u.nodeName,"SCRIPT"===g||"IFRAME"===g))){try{l=new URL(u.src),p=l&&l.host?l.host.split(/\./).slice(-2).shift():null}catch(v){}m=c.addedNodes[0].onerror,c.addedNodes[0].onerror=function(){try{n.warn("Missing script",u.src),!d&&p&&-1!==t.domains.indexOf(a(p))&&(new Date).getTime()-h.getTime()<1500&&(n.warn("Integrity violation on ",u.src," not observing anymore !"),f.disconnect(),d=!0,e(!0)),"function"==typeof m&&m.apply(this,Array.prototype.slice.call(arguments))}catch(o){}},o>r&&"SCRIPT"===g&&-1!==t.domains.indexOf(a(p))&&("undefined"==typeof i[p]||"hpphmfubhnbobhfs"===a(p))&&(i[p]=!0,c.addedNodes[0].addEventListener("load",function(){var e=performance.getEntriesByType("resource").map(function(e){return e.name});-1===e.indexOf(u.src)&&(r++,r===o&&(f.disconnect(),s(!0)))}))}}catch(b){}})});f.observe(c,u)},a=function(e,t){return t=t||1,e.split("").map(function(e){return String.fromCharCode(e.charCodeAt()+t)}).join("")},c=function(e){if("undefined"==typeof MutationObserver)return void e.call(!1,!1);var n=document.createElement("div"),o=document.getElementsByTagName("html")[0],r={},i={childList:!0,attributes:!0,characterData:!0,subtree:!0},s=!1,c=new MutationObserver(function(t){t.forEach(function(t){"style"===t.attributeName&&(c.disconnect(),"none"===t.target.style.display&&!e.called&&(e.called=!0)&&e.call(r,!0))})}),u=new MutationObserver(function(t){t.forEach(function(t){try{if("childList"===t.type&&"HTML"===t.target.nodeName&&t.addedNodes.length&&"BODY"===t.addedNodes[0].nodeName&&!s){s=!0,t.addedNodes[0].appendChild(n);var o=getComputedStyle(n);if(r=t.addedNodes[0],u.disconnect(),/Trident/.test(navigator.userAgent))return void setTimeout(function(){!e.called&&(e.called=!0)&&e.call(r,!1)},50);setTimeout(function(){t.addedNodes[0].removeChild(n)},60),c.disconnect(),e.call(t.addedNodes[0],"none"===o.getPropertyValue("display")||/url\("about:abp/.test(o.getPropertyValue("-moz-binding")))}}catch(i){}})});n.className=a(t.classes,-1),n.style.display="block",u.observe(o,i),c.observe(n,i)},u=[];e.integrityObserver={state:{net:null,dom:null,perf:null},corrupted:!1,listen:function(e){this.corrupted?e(this.state):u.push(e)},sendToListeners:function(){u.forEach(function(e){e(this.state)}.bind(this))},reportCorruption:function(){var e=function(){"undefined"!=typeof ga?ga("send",{hitType:"event",eventCategory:a(t.event.category,-1),eventAction:a(t.event.action,-1),nonInteraction:!0}):setTimeout(e,100)};e()},reportListCorruption:function(){var e,t,n=[];for(t in this.state)this.state[t]&&n.push(t);n.length>0&&(e=new Image,e.src="https://lists.ccmbg.com/st?t="+encodeURIComponent(n.join(","))+"&d="+window.location.host.split(/\./).slice(0,-1).join("."))},reportChange:function(){this.sendToListeners(),this.reportCorruption()},init:function(){var e=function(e){return function(t){this.state[e]=t,t&&(!this.corrupted&&this.reportChange(),this.corrupted=!0)}.bind(this)};c(e.call(this,"dom")),s(e.call(this,"net"),e.call(this,"perf")),window.addEventListener("load",function(){this.reportListCorruption()}.bind(this))}},"function"==typeof Object.bind&&e.integrityObserver.init()}(window),function(e,t,n,o,r){"use strict";"undefined"==typeof e._gtm&&(e._gtm={events:{on:[],ready:[],readyAll:[],trigger:function(e){this._trigger.push(e)},_trigger:[]},versions:{}}),"undefined"==typeof e._gtm.versions&&(e._gtm.versions={}),e._gtm.versions.staticheader=1,e._gtm.state="loading";var i=dataLayer[0].appConfig,s=[r],a=i.subContainers||[],c=e.getConsole("GTM").log,u=function(e){if("undefined"!=typeof t.dispatchEvent){var n=null;"function"==typeof Event?n=new Event(e):(n=t.createEvent("Event"),n.initEvent(e,!1,!1)),t.dispatchEvent(n)}},d=function(){d.state++,d.state===s.length&&(e._gtm.state="loaded",u("gtm.loaded"))},f=function(){e._gtm.state="error",u("gtm.error")};d.state=0,s=s.concat(a),c("Loading sub containers:",a);for(var l=0,p=s.length;p>l;++l){e[o]=e[o]||[],e[o].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var g=t.getElementsByTagName(n)[0],h=t.createElement(n),m="dataLayer"!==o?"&l="+o:"";h.async=!0,h.onload=d,h.onerror=f,h.src="https://www.googletagmanager.com/gtm.js?id="+s[l]+m,g.parentNode.insertBefore(h,g)}}(window,document,"script","dataLayer","GTM-N4SNZN"),OAS_AD_BUFFER=[],OAS_AD=function(){OAS_AD_BUFFER.push(Array.prototype.slice.call(arguments))},function(e){"use strict";e._gtm=e._gtm||{},e._gtm.errors=[],window.addEventListener("error",function(t){t instanceof ErrorEvent&&e._gtm.errors.push({message:t.message,stack:t.error?t.error.stack:void 0,name:t.error?t.error.name:void 0,filename:t.filename,line:t.lineno,column:t.colno})})}(window);    
+            !function(e){"use strict";var t=function(){},n=Object.getOwnPropertyNames(window.console).reduce(function(e,n){return"function"==typeof console[n]&&(e[n]=t),e},{}),o=function(){return n},r=e.console;if("object"==typeof e.JSON&&"function"==typeof e.JSON.parse&&"object"==typeof e.console&&"function"==typeof Object.keys){var i=!/Edge|Trident/.test(navigator.userAgent),s={available:["others.catch","others.show"],broadcasted:[]},a=function(){var e=9,t=242,n=220,o=/^\s+(.*)\s+$/g,r=function(e){e=e.replace(o,"$1");for(var t=[0,0,0],n=0,r=0;n), Text(<e.length;n++)r=parseInt(n/t.length),t[n%3]+=parseInt(a(e[n])/s(r));for(n=0;n), Text(<t.length;n++)t[n]>255&&(t[n]=255);return t},i=function(e){return"rgb("+e.join(",")+")"},s=function(t){return Math.pow(e,t)},a=function(n){return parseInt((n.charCodeAt()<), Text(<e)%t)};return{get:r,toRGB:i,visible:function(e){return e[0]>n||e[1]>n||e[2]>n?[0,0,0]:[255,255,255]}}}(),c=function(e,t,n,o){return r[t]?function(){var s=Array.prototype.slice.call(arguments);i&&s.unshift("background-color:"+o+";color:"+n+";border-radius:2px;"),s.unshift((i?"%c":"")+[" ",e," "].join("")),r[t].apply(console,s)}:function(){}},u=function(){try{var e=localStorage.getItem("getConsole");e=null===e?[]:JSON.parse(e)}catch(t){e=[]}return e},f=function(e){s.available.push(e);var t=document.createEvent("CustomEvent");t.initCustomEvent("getConsole.tag.available",!1,!1,e),document.dispatchEvent(t)};e.getConsole=function(e){if("string"!=typeof e)throw"getConsole need a tag name (string)";if(-1===s.available.indexOf(e)&&f(e),-1!==s.broadcasted.indexOf(e)){var t=a.get(e),n=a.toRGB(a.visible(t)),i=a.toRGB(t),u={log:c(e,"log",n,i),warn:c(e,"warn",n,i),error:c(e,"error",n,i),info:c(e,"info",n,i)};return Object.keys(r).forEach(function(e){"undefined"==typeof u[e]&&(u[e]=r[e])}),u}return o()},e.getConsole.tags=s,s.broadcasted=u(),-1!==s.broadcasted.indexOf("others.catch")&&(e.console=e.getConsole("others.show"))}else e.getConsole=o}(window),logger={_buffer:[],log:function(){"use strict";this._buffer.push(arguments)}},_logmatic=[],logmatic={log:function(){"use strict";_logmatic.push(Array.prototype.slice.call(arguments))}},function(e){"use strict";var t={domains:["hpphmfubhnbobhfs","bnb{po.betztufn","beoyt","epvcmfdmjdl","hpphmftzoejdbujpo","wjefptufq","s77ofu","ufbet","vosvmznfejb","tnbsubetfswfs","tljnsftpvsdft","{fcftupg","uumce","hpphmfbqjt","wjefpqmb{b","hpphmfbetfswjdft","fggfdujwfnfbtvsf","pvucsbjo","ubcppmb"],classes:"ufyuBe!BeCpy!qvc`411y361!qvc`411y361n!qvc`839y:1!ufyu.be!ufyuBe!Mjhbuvt!ufyu`be!ufyu`bet!ufyu.bet!ufyu.be.mjolt",event:{category:"pbt`mpbefe",action:"gbjm"}},n=e.getConsole("inObs"),o=2,r=0,i={},s=function(e,s){if("undefined"==typeof MutationObserver||"undefined"==typeof URL.prototype)return void e.call(!1,!1);var c=document.getElementsByTagName("html")[0],u={childList:!0,attributes:!0,characterData:!0,subtree:!0},f=!1,d=new MutationObserver(function(c){c.forEach(function(c){try{var u,l,p,g="",h=new Date,m=function(){};if("childList"===c.type&&c.addedNodes.length&&(u=c.addedNodes[0],"undefined"!=typeof u.src&&(g=u.nodeName,"SCRIPT"===g||"IFRAME"===g))){try{l=new URL(u.src),p=l&&l.host?l.host.split(/\./).slice(-2).shift():null}catch(v){}m=c.addedNodes[0].onerror,c.addedNodes[0].onerror=function(){try{n.warn("Missing script",u.src),!f&&p&&-1!==t.domains.indexOf(a(p))&&(new Date).getTime()-h.getTime()<1500&&(n.warn("Integrity violation on ",u.src," not observing anymore !"),d.disconnect(),f=!0,e(!0)),"function"==typeof m&&m.apply(this,Array.prototype.slice.call(arguments))}catch(o){}},"function"==typeof performance.getEntriesByType&&o>r&&"SCRIPT"===g&&-1!==t.domains.indexOf(a(p))&&("undefined"==typeof i[p]||"hpphmfubhnbobhfs"===a(p))&&(i[p]=!0,c.addedNodes[0].addEventListener("load",function(){var e=performance.getEntriesByType("resource").map(function(e){return e.name});-1===e.indexOf(u.src)&&(r++,r===o&&(d.disconnect(),s(!0)))}))}}catch(y){}})});d.observe(c,u)},a=function(e,t){return t=t||1,e.split("").map(function(e){return String.fromCharCode(e.charCodeAt()+t)}).join("")},c=function(e){if("undefined"==typeof MutationObserver)return void e.call(!1,!1);var n=document.createElement("div"),o=document.getElementsByTagName("html")[0],r={},i={childList:!0,attributes:!0,characterData:!0,subtree:!0},s=!1,c=new MutationObserver(function(t){t.forEach(function(t){"style"===t.attributeName&&(c.disconnect(),"none"===t.target.style.display&&!e.called&&(e.called=!0)&&e.call(r,!0))})}),u=new MutationObserver(function(t){t.forEach(function(t){try{if("childList"===t.type&&"HTML"===t.target.nodeName&&t.addedNodes.length&&"BODY"===t.addedNodes[0].nodeName&&!s){s=!0,t.addedNodes[0].appendChild(n);var o=getComputedStyle(n);if(r=t.addedNodes[0],u.disconnect(),/Trident/.test(navigator.userAgent))return void setTimeout(function(){!e.called&&(e.called=!0)&&e.call(r,!1)},50);setTimeout(function(){t.addedNodes[0].removeChild(n)},60),c.disconnect(),e.call(t.addedNodes[0],"none"===o.getPropertyValue("display")||/url\("about:abp/.test(o.getPropertyValue("-moz-binding")))}}catch(i){}})});n.className=a(t.classes,-1),n.style.display="block",u.observe(o,i),c.observe(n,i)},u=[];e.integrityObserver={state:{net:null,dom:null,perf:null},corrupted:!1,listen:function(e){this.corrupted?e(this.state):u.push(e)},sendToListeners:function(){u.forEach(function(e){e(this.state)}.bind(this))},reportCorruption:function(){var e=function(){"undefined"!=typeof ga?ga("send",{hitType:"event",eventCategory:a(t.event.category,-1),eventAction:a(t.event.action,-1),nonInteraction:!0}):setTimeout(e,100)};e()},reportListCorruption:function(){var e,t,n=[];for(t in this.state)this.state[t]&&n.push(t);n.length>0&&(e=new Image,e.src="https://lists.ccmbg.com/st?t="+encodeURIComponent(n.join(","))+"&d="+window.location.host.split(/\./).slice(0,-1).join("."))},reportChange:function(){this.sendToListeners(),this.reportCorruption()},init:function(){var e=function(e){return function(t){this.state[e]=t,t&&(!this.corrupted&&this.reportChange(),this.corrupted=!0)}.bind(this)};c(e.call(this,"dom")),s(e.call(this,"net"),e.call(this,"perf")),window.addEventListener("load",function(){this.reportListCorruption()}.bind(this))}},"function"==typeof Object.bind&&e.integrityObserver.init()}(window),function(e,t,n,o,r){"use strict";"undefined"==typeof e._gtm&&(e._gtm={events:{on:[],ready:[],readyAll:[],trigger:function(e){this._trigger.push(e)},_trigger:[]},versions:{}}),"undefined"==typeof e._gtm.versions&&(e._gtm.versions={}),e._gtm.versions.staticheader=1,e._gtm.state="loading";var i=dataLayer[0].appConfig,s=[r],a=i.subContainers||[],c=e.getConsole("GTM").log,u=function(e){if("undefined"!=typeof t.dispatchEvent){var n=null;"function"==typeof Event?n=new Event(e):(n=t.createEvent("Event"),n.initEvent(e,!1,!1)),t.dispatchEvent(n)}},f=function(){f.state++,f.state===s.length&&(e._gtm.state="loaded",u("gtm.loaded"))},d=function(){e._gtm.state="error",u("gtm.error"),l.clearWorkspacesInfo(this)};f.state=0,s=s.concat(a),c("Loading sub containers:",a);var l={infoKey:"ccm_gtm_workspaces",workspacesInfo:{},fetchWorkspacesInfo:function(){try{this.workspacesInfo=this.getInfoFromQuerystring()||this.getInfoFromCookie()||{}}catch(e){console.error("Cannot get workspaces info.",e)}},parseWorkspacesInfo:function(e){for(var t={},n=e.split("|"),o=0;o), Text(<n.length;o++){var r=n[o].split("::");3===r.length&&(t[r[0]]={container:r[0],workspace:r[1],auth:r[2]})}return t},removeInfoFromQuerystring:function(){if(""===e.location.search)return"";for(var t=e.location.search.substring(1).split("&"),n=[],o=0;o), Text(<t.length;o++){var r=t[o].split("=");r[0]!==this.infoKey&&n.push(t[o])}return"?"+n.join("&")},generatePreviewQuery:function(e){try{var t=this.workspacesInfo[e];return t?(c("["+t.container+'] loading custom workspace "'+t.workspace+'"'),dataLayer[0].appConfig.previewWorkspaces=dataLayer[0].appConfig.previewWorkspaces||[],dataLayer[0].appConfig.previewWorkspaces.push(t),"&gtm_auth="+t.auth+"&gtm_preview="+t.workspace+"&gtm_cookies_win=x"):""}catch(n){return console.error('Cannot generate preview query for container "'+e+'"',n),""}},getInfoFromQuerystring:function(){for(var t=(e.location.search||"").substring(1).split("&"),n=0;n), Text(<t.length;n++){var o=t[n].split("=");if(decodeURIComponent(o[0])===this.infoKey)return this.parseWorkspacesInfo(decodeURIComponent(o[1]))}return null},getInfoFromCookie:function(){try{var t=e.document.cookie.match("(^|;) ?"+this.infoKey+"=([^;]*)(;|$)");if(t)return this.parseWorkspacesInfo(decodeURIComponent(t[2]))}catch(n){}return null},clearWorkspacesInfo:function(t){try{var n=t.getAttribute("data-id");if(this.workspacesInfo[n]){c('Cannot load container "'+n+'". Clearing cookie and querystring param...');var o=e.location.hostname.split("."),r=o.length;o=r>2&&"br"===o[r-1]&&"com"===o[r-2]?o.slice(-3).join("."):o.slice(-2).join("."),document.cookie=this.infoKey+"=; domain= "+o+"; path=/; expires=Thu, 01 Jan 1970 00:00:01 GMT;";var i=this.removeInfoFromQuerystring();e.location.search=i}}catch(s){console.error("Cannot clear workspaces info.",s)}}};l.fetchWorkspacesInfo();for(var p=0,g=s.length;g>p;++p){e[o]=e[o]||[],e[o].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var h=l.generatePreviewQuery(s[p]),m=t.getElementsByTagName(n)[0],v=t.createElement(n),y="dataLayer"!==o?"&l="+o:"";v.async=!0,v.onload=f,v.onerror=d,v.setAttribute("data-id",s[p]),v.src="https://www.googletagmanager.com/gtm.js?id="+s[p]+y+h,m.parentNode.insertBefore(v,m)}}(window,document,"script","dataLayer","GTM-N4SNZN"),OAS_AD_BUFFER=[],OAS_AD=function(){OAS_AD_BUFFER.push(Array.prototype.slice.call(arguments))},function(e){"use strict";e._gtm=e._gtm||{},e._gtm.errors=[],window.addEventListener("error",function(t){t instanceof ErrorEvent&&e._gtm.errors.push({message:t.message,stack:t.error?t.error.stack:void 0,name:t.error?t.error.name:void 0,filename:t.filename,line:t.lineno,column:t.colno})})}(window);    
 
     dataLayer.push({event: "app.config", appConfig :{asl : {screens: {"mobile":{"max":768,"invcode":"mobile","client":"appnexus"},"tablet":{"min":768,"max":990,"invcode":"tablet","client":"appnexus"},"desktop":{"min":990,"invcode":"desktop","client":"appnexus"}},positions: {"Top2":{"insve":false,"mapping":{"desktop":{"name":"mban_btf","sizes":[[728,90],[1000,90],[1000,250],[1000,300],[970,250],[960,90],[960,200],[970,90],[970,200],[970,250],[728,92],[1000,92],[1000,252],[1000,302],[970,252],[960,92],[960,202],[970,92],[970,202],[970,252],[1000,260],[1000,262]]}}},"Right":{"insve":false,"mapping":{"desktop":{"name":"pave_atf","sizes":[[300,250],[300,600],[300,900],[300,1050],[300,251],[300,601],[300,901],[300,1051]]}}},"Position2":{"insve":false,"mapping":{"desktop":{"name":"pave_mtf","sizes":[[300,250],[300,252],[300,600],[300,602]],"lazy":true}}},"Position3":{"insve":false,"mapping":{"desktop":{"name":"pave_btf","sizes":[[300,250],[300,254]]}}},"x01":{"insve":false,"mapping":[]},"x02":{"insve":true,"mapping":{"mobile":{"name":"special","sizes":[[4,4],[320,480]],"interstitial":true},"desktop":{"name":"habillage_atf","sizes":[[2,1],[1800,1000]]}}},"TopLeft":{"insve":true,"mapping":{"tablet":{"name":"special","sizes":[[4,4]]},"desktop":{"name":"special","sizes":[[4,4]]}}},"Top":{"insve":false,"mapping":{"mobile":{"name":"mban_atf","sizes":[[320,50]]},"tablet":{"name":"mban_atf","sizes":[[728,90],[1000,90],[1000,250],[1000,300],[970,250],[960,90],[960,200],[970,90],[970,200],[970,250],[728,91],[1000,91],[1000,251],[1000,301],[970,251],[960,91],[960,201],[970,91],[970,201],[970,251],[1000,260],[1000,261]]},"desktop":{"name":"mban_atf","sizes":[[728,90],[1000,90],[1000,250],[1000,300],[970,250],[960,90],[960,200],[970,90],[970,200],[970,250],[728,91],[1000,91],[1000,251],[1000,301],[970,251],[960,91],[960,201],[970,91],[970,201],[970,251],[1000,260],[1000,261]]}}}},clients: {"appnexus":{"partners":true,"loaded":2}},sitepage: 'fr_linternaute_loisirs_restaurant',keywords: ["keyword=application-restaurant","keyword=format-fiche","keyword=format-diaporama"]}}});
 ))), Text(
 
-    ), Tag(script,List((type,application/ld+json)),List(Text({"@context":"https://schema.org","@type":"WebPage","breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://www.linternaute.com/"},{"@type":"ListItem","position":2,"name":"Restaurant","item":"https://www.linternaute.com/restaurant/"},{"@type":"ListItem","position":3,"name":"Rennes","item":"https://www.linternaute.com/restaurant/guide/ville-rennes-35000/"},{"@type":"ListItem","position":4,"name":"Pizzeria","item":"https://www.linternaute.com/restaurant/guide/ville-rennes-35000/cuisine-pizzeria/"}]},"name":"La Tomate, Pizzeria à Rennes avec Linternaute","url":"https://www.linternaute.com/restaurant/restaurant/9072/la-tomate.shtml"}))), Text(
+    ), Tag(script,List((type,application/ld+json)),List(Text({"@context":"https://schema.org","@type":"WebPage","breadcrumb":{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://www.linternaute.com/"},{"@type":"ListItem","position":2,"name":"Restaurant","item":"https://www.linternaute.com/restaurant/"},{"@type":"ListItem","position":3,"name":"Rennes","item":"https://www.linternaute.com/restaurant/guide/ville-rennes-35000/"},{"@type":"ListItem","position":4,"name":"Restaurant breton","item":"https://www.linternaute.com/restaurant/guide/ville-rennes-35000/cuisine-bretonne/"}]},"name":"Ker Soazig, Restaurant breton à Rennes avec Linternaute","url":"https://www.linternaute.com/restaurant/restaurant/145889/ker-soazig.shtml"}))), Text(
 
 ), Text(
 ))), Tag(body,List((class,app--rwd channel-loisirs channel-restaurant)),List(Text(
@@ -284,11 +284,11 @@ Tag(html,List((class,no-js), (lang,fr)),List(Tag(head,List((prefix,og: http://og
                                                         ), Tag(main,List((class,layout_main), (role,main)),List(Text(
                                         
         ), Tag(div,List((itemtype,https://schema.org/GeoCoordinates), (itemscope,itemscope), (itemprop,geo)),List(Text(
-        ), Tag(meta,List((content,48.111794), (itemprop,latitude)),List()), Text(
-        ), Tag(meta,List((content,-1.676667), (itemprop,longitude)),List()), Text(
+        ), Tag(meta,List((content,48.1054738), (itemprop,latitude)),List()), Text(
+        ), Tag(meta,List((content,-1.6749531), (itemprop,longitude)),List()), Text(
     ))), Text(
 
-    ), Tag(article,List((itemscope,itemscope), (class,bu_restaurant_record)),List(Text(
+    ), Tag(article,List((itemtype,https://schema.org/Restaurant), (itemscope,itemscope), (class,bu_restaurant_record)),List(Text(
 
         ), Tag(section,List((class,bu_restaurant_section bu_restaurant_section--full)),List(Text(
             ), Tag(div,List((class,grid_row grid--norwd bu_restaurant_resume_ct)),List(Text(
@@ -311,36 +311,36 @@ Tag(html,List((class,no-js), (lang,fr)),List(Tag(head,List((prefix,og: http://og
                                                                                                             ))), Text(
                                                                                                     ))), Text(
                                                                                             ), Tag(div,List(),List(Text(
-                                                                                                                                                            ), Tag(a,List((href,https://www.linternaute.com/restaurant/guide/ville-rennes-35000/cuisine-pizzeria/)),List(Text(
-                                                                                                                ), Tag(span,List(),List(Text(Pizzeria))), Text(
+                                                                                                                                                            ), Tag(a,List((href,https://www.linternaute.com/restaurant/guide/ville-rennes-35000/cuisine-bretonne/)),List(Text(
+                                                                                                                ), Tag(span,List(),List(Text(Restaurant breton))), Text(
                                                                                                             ))), Text(
                                                                                                     ))), Text(
                                                                                     ))), Text(
                                                                                             ), Tag(header,List(),List(Text(
                             ), Tag(div,List((class,grid_line gutter grid--norwd)),List(Text(
                                 ), Tag(div,List((class,grid_left w80)),List(Text(
-                                    ), Tag(h1,List((class,bu_restaurant_title_xl)),List(Text(La Tomate))), Text(
+                                    ), Tag(h1,List((class,bu_restaurant_title_xl), (itemprop,name)),List(Text(Ker Soazig))), Text(
                                 ))), Text(
-                                                                    ), Tag(div,List((class,grid_left w20 bu_restaurant_grade_ct)),List(Text(
-                                    ), Tag(span,List((class,bu_restaurant_grade)),List(Tag(span,List(),List(Text(3))), Tag(small,List(),List(Text(/5))))), Text(
-                                    ), Tag(span,List((data-rating,3), (class,bu_restaurant_rating)),List()), Text(
+                                                                    ), Tag(div,List((itemtype,https://schema.org/AggregateRating), (itemscope,itemscope), (itemprop,aggregateRating), (class,grid_left w20 bu_restaurant_grade_ct)),List(Text(
+                                    ), Tag(span,List((class,bu_restaurant_grade)),List(Tag(span,List((itemprop,ratingValue)),List(Text(4))), Tag(small,List(),List(Text(/5))))), Text(
+                                    ), Tag(span,List((data-rating,4), (class,bu_restaurant_rating)),List()), Text(
                                     ), Tag(div,List(),List(Text(
-                                        ), Tag(em,List(),List(Text(Note basée sur))), Text( ), Tag(a,List((class,JCommentsCount a_hover), (href,#comments)),List(Tag(span,List(),List(Text(22))), Text( avis))), Text(
+                                        ), Tag(em,List(),List(Text(Note basée sur))), Text( ), Tag(a,List((class,JCommentsCount a_hover), (href,#comments)),List(Tag(span,List((itemprop,reviewCount)),List(Text(17))), Text( avis))), Text(
                                     ))), Text(
                                 ))), Text(
                                                             ))), Text(
                             ), Tag(ul,List(),List(Text(
-                                ), Tag(li,List((class,icomoon-location), (aria-hidden,true)),List(Text(
-                                    ), Tag(span,List(),List(Text(18, rue Saint Georges))), Text(, ), Tag(span,List(),List(Text(35000))), Text(
+                                ), Tag(li,List((itemtype,https://schema.org/PostalAddress), (itemscope,itemscope), (itemprop,address), (class,icomoon-location), (aria-hidden,true)),List(Text(
+                                    ), Tag(span,List((itemprop,streetAddress)),List(Text(5, cours des Alliés))), Text(, ), Tag(span,List((itemprop,postalCode)),List(Text(35000))), Text(
                                                                             ), Tag(a,List((href,/restaurant/guide/ville-rennes-35000/)),List(Text(
-                                                                                                                ), Tag(span,List(),List(Text(
+                                                                                                                ), Tag(span,List((itemprop,addressLocality)),List(Text(
                                                                                             Rennes
                                                                                                                                 ))), Text(
                                         ))), Text(
                                                                              | ), Tag(a,List((class,JGetDirections a_hover), (href,#map)),List(Text(Plan))), Text(
                                 ))), Text(
-                                                                ), Tag(li,List((class,icomoon-phone), (aria-hidden,true)),List(Text(
-                                    ), Tag(a,List((href,tel:+33299870606)),List(Text(02 99 87 06 06))), Text(
+                                                                ), Tag(li,List((itemprop,telephone), (class,icomoon-phone), (aria-hidden,true)),List(Text(
+                                    ), Tag(a,List((href,tel:+33299358220)),List(Text(02 99 35 82 20))), Text(
 
                                 ))), Text(
                                                             ))), Text(
@@ -354,8 +354,13 @@ Tag(html,List((class,no-js), (lang,fr)),List(Tag(head,List((prefix,og: http://og
         Restaurant Rennes ))), Text(
 ))), Text(
     ), Tag(li,List(),List(Text(
-                    ), Tag(a,List((href,/restaurant/guide/ville-rennes-35000/cuisine-pizzeria/)),List(Text(
-                ), Tag(span,List(),List(Text(Pizzeria))), Text(
+                    ), Tag(a,List((href,/restaurant/guide/ville-rennes-35000/cuisine-bretonne/)),List(Text(
+                ), Tag(span,List((itemprop,servesCuisine)),List(Text(Restaurant breton))), Text(
+                    ))), Text(
+            ))), Text(
+    ), Tag(li,List(),List(Text(
+                    ), Tag(a,List((href,/restaurant/guide/ville-rennes-35000/cuisine-cuisines-de-france/)),List(Text(
+                ), Tag(span,List((itemprop,servesCuisine)),List(Text(Restaurant de cuisines de France))), Text(
                     ))), Text(
             ))), Text(
 
@@ -363,12 +368,16 @@ Tag(html,List((class,no-js), (lang,fr)),List(Tag(head,List((prefix,og: http://og
                             ))), Text(
 
 
+                                                        ), Tag(li,List(),List(Text(
+                                ), Tag(strong,List(),List(Text(Horaires : ))), Tag(span,List((itemprop,openingHours)),List(Text(11H30 - 14H00
+18H30 - 22H00))), Text(
+                            ))), Text(
                             
                                 ), Tag(li,List(),List(Text(
         ), Tag(strong,List(),List(Text(Budget : ))), Text(
 
-                                    ), Tag(a,List((href,/restaurant/guide/ville-rennes-35000/budget-15-30/)),List(Text(
-                            ), Tag(span,List(),List(Text(15-30))), Text(&euro;
+                                    ), Tag(a,List((href,/restaurant/guide/ville-rennes-35000/budget-15/)),List(Text(
+                            ), Tag(span,List((itemprop,priceRange)),List(Text(-15))), Text(&euro;
                             ))), Text(
                     
 
@@ -380,13 +389,58 @@ Tag(html,List((class,no-js), (lang,fr)),List(Tag(head,List((prefix,og: http://og
                         ), Tag(footer,List((class,ccmcss_align_r)),List(Text(
                                                             ), Tag(a,List((class,JGetDirections bu_restaurant_btn), (href,#map)),List(Tag(span,List(),List(Text(S&#039;y rendre))))), Text(
                                                             
-                            ), Tag(a,List((class,bu_restaurant_btn), (rel,nofollow), (href,/restaurant/9072/comment)),List(Tag(span,List(),List(Text(je donne mon avis))))), Text(
+                            ), Tag(a,List((class,bu_restaurant_btn), (rel,nofollow), (href,/restaurant/145889/comment)),List(Tag(span,List(),List(Text(je donne mon avis))))), Text(
                         ))), Text(
 
                     ))), Text(
                 ))), Text(
-                                ), Tag(div,List((class,grid_col grid_col--middle w55 bu_restaurant_slider_ct bu_restaurant_slider_ct--nopic)),List(Text(
-                    ), Tag(a,List((href,/restaurant/9072/uploaduser), (rel,nofollow), (class,addpic)),List(Text(Je poste une photo))), Text(
+                                ), Tag(div,List((class,grid_col grid_col--middle w55 bu_restaurant_slider_ct)),List(Text(
+                    ), Tag(div,List((class,bu_restaurant_slider)),List(Text(
+
+    ), Tag(div,List((class,swiper-container gallery)),List(Text(
+        ), Tag(div,List((class,swiper-wrapper)),List(Text(
+
+                            ), Tag(div,List((data-slide-id,0), (class,swiper-slide)),List(Text(
+                                            ), Tag(img,List((itemprop,image), (alt,Restaurant : Ker Soazig), (title,Restaurant : Ker Soazig), (src,https://img-4.linternaute.com/MYNoKyt6_OquaS6s0Sh6zqiB4jY=/fit-in/550x550/2cfcdab089ac40f087346c26f3088a67/restaurant/122044.jpg)),List()), Text(
+                                        ), Tag(div,List((class,swiper-lazy-preloader swiper-lazy-preloader-white hide)),List()), Text(
+                ))), Text(
+                            ), Tag(div,List((data-slide-id,1), (class,swiper-slide)),List(Text(
+                                            ), Tag(img,List((alt,Ker Soazig), (title,Ker Soazig), (src,https://img-4.linternaute.com/3PtF3ZmfQPh8e4YDZAQLZcFXwUI=/fit-in/550x550/f98d46cb187e4616978c4351e541b18a/restaurant/88366.jpg)),List()), Text(
+                                        ), Tag(div,List((class,swiper-lazy-preloader swiper-lazy-preloader-white hide)),List()), Text(
+                ))), Text(
+            
+        ))), Text(
+
+        ), Tag(div,List((class,slider-button gallery-button slider-button-next hide)),List(Tag(span,List((class,icon-arrow-r), (aria-hidden,true)),List()))), Text(
+        ), Tag(div,List((class,slider-button gallery-button slider-button-prev hide)),List(Tag(span,List((class,icon-arrow-l), (aria-hidden,true)),List()))), Text(
+
+    ))), Text(
+
+    ), Tag(div,List((class,bu_restaurant_slider__footer)),List(Text(
+        ), Tag(div,List((class,container-thumb-pagination)),List(Text(
+            ), Tag(div,List((class,swiper-container thumbs)),List(Text(
+                ), Tag(div,List((class,swiper-wrapper)),List(Text(
+                                            ), Tag(div,List((data-slide-id,0), (class,swiper-slide)),List(Text(
+                                                        ), Tag(img,List((alt,Restaurant : Ker Soazig), (title,Restaurant : Ker Soazig), (src,https://img-4.linternaute.com/i-oFi2rKLDMZK90Jli-Ufn7RPtg=/130x130/smart/2cfcdab089ac40f087346c26f3088a67/restaurant/122044.jpg)),List()), Text(
+                                                    ))), Text(
+                                            ), Tag(div,List((data-slide-id,1), (class,swiper-slide)),List(Text(
+                                                        ), Tag(img,List((alt,Ker Soazig), (title,Ker Soazig), (src,https://img-4.linternaute.com/-aagXcXSJ-2yW2gNuZjqq25csuU=/130x130/smart/f98d46cb187e4616978c4351e541b18a/restaurant/88366.jpg)),List()), Text(
+                                                    ))), Text(
+                                    ))), Text(
+            ))), Text(
+
+            ), Tag(div,List((class,slider-button thumb-button slider-button-next)),List(Tag(span,List((class,icon-arrow-r), (aria-hidden,true)),List()))), Text(
+            ), Tag(div,List((class,slider-button thumb-button slider-button-prev)),List(Tag(span,List((class,icon-arrow-l), (aria-hidden,true)),List()))), Text(
+
+        ))), Text(
+        ), Tag(a,List((href,/restaurant/145889/uploaduser), (rel,nofollow), (class,upload)),List(Tag(span,List((class,icomoon-camera), (aria-hidden,true)),List()), Text(Je poste une photo))), Text(
+
+    ))), Text(
+
+    ), Tag(a,List((id,jZoomSlider), (class,zoom)),List(Text(Agrandir))), Text(
+    ), Tag(a,List((data-icon,&#x22;), (aria-hidden,true), (id,jExitFullScreen), (class,close)),List()), Text(
+
+))), Text(
                                 ))), Text(
             ))), Text(
         ))), Text(
@@ -394,7 +448,7 @@ Tag(html,List((class,no-js), (lang,fr)),List(Tag(head,List((prefix,og: http://og
         ), Tag(aside,List((class,jSharer bu_restaurant_aside bu_restaurant_aside--social)),List(Text(
             ), Tag(ul,List(),List(Text(
                 ), Tag(li,List(),List(Text(
-                    ), Tag(a,List((class,jOpenWin bu_restaurant_btn_social bu_restaurant_btn_social--fb), (href,https://www.facebook.com/sharer/sharer.php?u=https://www.linternaute.com/restaurant/restaurant/9072/la-tomate.shtml), (target,_blank), (onclick,$.googleEvents.send('global', 'socialbar', 'facebook/click', 1);)),List(Text(
+                    ), Tag(a,List((class,jOpenWin bu_restaurant_btn_social bu_restaurant_btn_social--fb), (href,https://www.facebook.com/sharer/sharer.php?u=https://www.linternaute.com/restaurant/restaurant/145889/ker-soazig.shtml), (target,_blank), (onclick,$.googleEvents.send('global', 'socialbar', 'facebook/click', 1);)),List(Text(
                         ), Tag(div,List(),List(Text(
                             ), Tag(span,List(),List(Text(
                                 ), Text(
@@ -462,7 +516,7 @@ Tag(html,List((class,no-js), (lang,fr)),List(Tag(head,List((prefix,og: http://og
             ), Tag(div,List(),List(Text(
                                     ), Tag(aside,List((class,bu_restaurant_box_1)),List(Text(
 
-    ), Tag(h2,List((class,bu_restaurant_title_voucher)),List(Tag(span,List(),List(Text(Bon de réduction La Tomate))))), Text(
+    ), Tag(h2,List((class,bu_restaurant_title_voucher)),List(Tag(span,List(),List(Text(Bon de réduction Ker Soazig))))), Text(
 
     ), Tag(p,List(),List(Text(
         Ce restaurant propose des offres spéciales et des promotions. Pour en profiter, saisissez votre numéro de téléphone ou votre adresse e-mail : 
@@ -492,7 +546,7 @@ Tag(html,List((class,no-js), (lang,fr)),List(Tag(head,List((prefix,og: http://og
                                         
                                                                                                                                                                                                                     ))), Text(
             ))), Text(
-        ), Tag(input,List((value,9072), (name,subscriber[restaurantId]), (id,subscriber_restaurantId), (type,hidden)),List()))), Text(
+        ), Tag(input,List((value,145889), (name,subscriber[restaurantId]), (id,subscriber_restaurantId), (type,hidden)),List()))), Text(
 
         ), Tag(footer,List(),List(Text(
             ), Tag(small,List(),List(Text(Informations utilisées uniquement dans le but de vous communiquer les offres de réductions.))), Text(
@@ -504,9 +558,10 @@ Tag(html,List((class,no-js), (lang,fr)),List(Tag(head,List((prefix,og: http://og
                 
                 ), Tag(h2,List((class,bu_restaurant_title bu_restaurant_title--l)),List(Text(Le restaurant))), Text(
 
-                                ), Tag(ul,List(),List(Text(
-                                                                ), Tag(li,List(),List(Tag(strong,List(),List(Text(Fiche mise à jour le))), Text( : 17 mai 2017))), Text(
-                                                                            ))), Text(
+                ), Tag(p,List(),List(Text(Restaurant traditionnel Breton 100% BIO, 80 à 90% de producteurs BIO locaux et régionaux. Faine de Blé noir provenant de la ferme des Loges à Bruz. Cuisine authentique dans un cadre exceptionnel.
+Chez Ker Soazig c&#039;est le Goût,  l&#039;environnement, BIO et Bon à la fois. Chez nous, tout est 100% BION.))), Tag(br,List(),List()), Text(                ), Tag(ul,List(),List(Text(
+                    ), Tag(li,List(),List(Tag(strong,List(),List(Text(Restaurant créé en))), Text( 2011))), Text(                                            ), Tag(li,List(),List(Tag(strong,List(),List(Text(Fiche mise à jour le))), Text( : 29 décembre 2018))), Text(
+                                        ), Tag(li,List(),List(Tag(strong,List(),List(Text(Nombre de places))), Text( : 90))), Text(                    ), Tag(li,List(),List(Tag(strong,List(),List(Text(Places en terrasse))), Text( : 70))), Text(                ))), Text(
                 ), Tag(footer,List(),List(Text(
                     ), Tag(div,List((class,grid_line gutter)),List(Text(
                         ), Tag(div,List((class,grid_left)),List(Text(
@@ -529,11 +584,11 @@ Tag(html,List((class,no-js), (lang,fr)),List(Tag(head,List((prefix,og: http://og
                 
 
 
-    
+
 ), Tag(script,List(),List(Text(
     var _pjsleads = {
         "common": {
-            "pjwhat": "Restaurant Pizzeria",
+            "pjwhat": "Restaurant breton",
             "pjwhere": "35000",
             "pjnbres": "3",
             "pjpartnerkey": "Linternaute",
@@ -561,12 +616,12 @@ Tag(html,List((class,no-js), (lang,fr)),List(Tag(head,List((prefix,og: http://og
         ), Tag(div,List((class,grid_row grid_row--fixed)),List(Text(
             ), Tag(div,List((class,grid_col ccmcss_align_c)),List(Text(
                 ), Tag(h2,List((class,bu_restaurant_title bu_restaurant_title--avis bu_restaurant_title--l)),List(Text(Avis des clients))), Text(
-                ), Tag(a,List((class,bu_restaurant_btn), (rel,nofollow), (href,/restaurant/9072/comment)),List(Tag(span,List(),List(Text(Je dépose un avis !))))), Text(
+                ), Tag(a,List((class,bu_restaurant_btn), (rel,nofollow), (href,/restaurant/145889/comment)),List(Tag(span,List(),List(Text(Je dépose un avis !))))), Text(
             ))), Text(
             ), Tag(div,List((class,grid_col grid_col--middle ccmcss_align_c)),List(Text(
-                ), Tag(span,List((class,bu_restaurant_grade bu_restaurant_grade--l)),List(Text(3), Tag(small,List(),List(Text(/5))))), Text(
-                ), Tag(span,List((data-rating,3), (class,bu_restaurant_rating)),List()), Text(
-                ), Tag(p,List(),List(Text(Note basée sur 22 avis))), Text(
+                ), Tag(span,List((class,bu_restaurant_grade bu_restaurant_grade--l)),List(Text(4), Tag(small,List(),List(Text(/5))))), Text(
+                ), Tag(span,List((data-rating,4), (class,bu_restaurant_rating)),List()), Text(
+                ), Tag(p,List(),List(Text(Note basée sur 17 avis))), Text(
             ))), Text(
             ), Tag(div,List((class,grid_col bu_restaurant_rating_resume)),List(Text(
                 ), Tag(h3,List((class,bu_restaurant_title_2 bu_restaurant_title_upp)),List(Text(Résumé des avis))), Text(
@@ -577,7 +632,7 @@ Tag(html,List((class,no-js), (lang,fr)),List(Tag(head,List((prefix,og: http://og
                                 ), Tag(h4,List(),List(Text(Ambiance))), Text(
                             ))), Text(
                             ), Tag(div,List((class,grid_col w65)),List(Text(
-                                ), Tag(span,List((data-rating-js,3), (data-rating,)),List()), Text(
+                                ), Tag(span,List((data-rating-js,4), (data-rating,)),List()), Text(
                             ))), Text(
                         ))), Text(
                     ))), Text(
@@ -587,7 +642,7 @@ Tag(html,List((class,no-js), (lang,fr)),List(Tag(head,List((prefix,og: http://og
                                 ), Tag(h4,List(),List(Text(Cuisine))), Text(
                             ))), Text(
                             ), Tag(div,List((class,grid_col w65)),List(Text(
-                                ), Tag(span,List((data-rating-js,4), (data-rating,)),List()), Text(
+                                ), Tag(span,List((data-rating-js,5), (data-rating,)),List()), Text(
                             ))), Text(
                         ))), Text(
                     ))), Text(
@@ -597,7 +652,7 @@ Tag(html,List((class,no-js), (lang,fr)),List(Tag(head,List((prefix,og: http://og
                                 ), Tag(h4,List(),List(Text(Déco))), Text(
                             ))), Text(
                             ), Tag(div,List((class,grid_col w65)),List(Text(
-                                ), Tag(span,List((data-rating-js,3), (data-rating,)),List()), Text(
+                                ), Tag(span,List((data-rating-js,4), (data-rating,)),List()), Text(
                             ))), Text(
                         ))), Text(
                     ))), Text(
@@ -650,124 +705,17 @@ Tag(html,List((class,no-js), (lang,fr)),List(Tag(head,List((prefix,og: http://og
                 
 ), Tag(section,List((class,listContainer)),List(Text(
         ), Tag(section,List((itemtype,https://schema.org/Review), (itemscope,itemscope), (itemprop,review), (class,bu_restaurant_comment)),List(Text(
-        ), Tag(span,List((itemprop,itemReviewed), (style,display:none)),List(Text(La Tomate))), Text(
+        ), Tag(span,List((itemprop,itemReviewed), (style,display:none)),List(Text(Ker Soazig))), Text(
         ), Tag(header,List(),List(Text(
             ), Tag(div,List((class,grid_line gutter grid--norwd)),List(Text(
                 ), Tag(div,List((itemtype,https://schema.org/Person), (itemscope,itemscope), (itemprop,author), (class,grid_left)),List(Text(
                     ), Tag(span,List(),List(Text(
-                        ), Tag(strong,List(),List(Text(Avis de ), Tag(span,List((itemprop,name)),List(Text(Antoine ))))), Text(
+                        ), Tag(strong,List(),List(Text(Avis de ), Tag(span,List((itemprop,name)),List(Text(Alexandre Guerin))))), Text(
                         ))), Text(
                     ), Tag(br,List(),List()), Text(
                                             ), Tag(small,List(),List(Text(
-                            Inscrit depuis 2015
+                            Inscrit depuis 2018
                             , 1 avis déposé
-                        ))), Text(
-                                    ))), Text(
-                ), Tag(div,List((class,grid_last ccmcss_align_r)),List(Text(
-                    ), Tag(span,List(),List(Text(Sa note&nbsp;), Tag(span,List((data-rating,4), (class,bu_restaurant_rating)),List()))), Text(
-                ))), Text(
-            ))), Text(
-        ))), Text(
-        ), Tag(p,List((itemprop,description)),List(Text(
-            Même si c&#039;est une pizzeria petite, cela reste un restaurant d&#039;une très bonne qualité !
-Les pizzas sont composés de produits frais. Le tiramisu en dessert est génial! Je vous le recommande tout comme je vous recommande ce restaurant.
-
-Le rapport qualité-prix est très bien. En effet, pour 4 personnes, cela nous a coûté 68 seulement.
-                                ))), Text(
-                ), Tag(footer,List(),List(Text(
-
-            ), Tag(div,List((class,grid_line gutter grid--norwd)),List(Text(
-                ), Tag(div,List((class,grid_left)),List(Text(
-                    ), Tag(em,List((content,2015-02-03), (itemprop,datePublished)),List(Text(Le 3 février 2015))), Text(
-                ))), Text(
-                                ), Tag(div,List((class,grid_right)),List(Text(
-                    ), Tag(a,List((data-id-application,142), (data-id-ressource,1092333), (data-type-ressource,32), (title,Signaler un abus), (class,icon_ud reportAbuse), (rel,nofollow), (data-icon,&#x2f;), (aria-hidden,true), (href,javascript:void(0))),List(Tag(span,List((class,icon_text)),List(Text(Signaler un abus))))), Text(
-                ))), Text(
-            ))), Text(
-
-        ))), Text(
-
-        ), Tag(div,List((style,display:none;)),List(Text(
-            ), Tag(div,List((itemtype,https://schema.org/Rating), (itemscope,itemscope), (itemprop,reviewRating)),List(Text(
-                User nb comments : 1), Tag(br,List(),List()), Text(
-                Note : ), Tag(span,List((itemprop,ratingValue)),List(Text(4))), Text( / ), Tag(span,List((itemprop,bestRating)),List(Text(5))), Text( ), Tag(br,List(),List()), Text(
-                Note cuisine : 4 / 5 ), Tag(br,List(),List()), Text(
-                Note service : 4 / 5 ), Tag(br,List(),List()), Text(
-                Note ambiance : 4 / 5 ), Tag(br,List(),List()), Text(
-                Note decoration : 4 / 5 ), Tag(br,List(),List()), Text(
-                Note qualité / prix : 4 / 5 ), Tag(br,List(),List()), Text(
-            ))), Text(
-            ), Tag(span,List((itemprop,name)),List(Text(
-                
-            ))), Text(
-        ))), Text(
-    ))), Text(
-
-        ), Tag(section,List((itemtype,https://schema.org/Review), (itemscope,itemscope), (itemprop,review), (class,bu_restaurant_comment)),List(Text(
-        ), Tag(span,List((itemprop,itemReviewed), (style,display:none)),List(Text(La Tomate))), Text(
-        ), Tag(header,List(),List(Text(
-            ), Tag(div,List((class,grid_line gutter grid--norwd)),List(Text(
-                ), Tag(div,List((itemtype,https://schema.org/Person), (itemscope,itemscope), (itemprop,author), (class,grid_left)),List(Text(
-                    ), Tag(span,List(),List(Text(
-                        ), Tag(strong,List(),List(Text(Avis de ), Tag(span,List((itemprop,name)),List(Text(Ludo et Marine ))))), Text(
-                        ))), Text(
-                    ), Tag(br,List(),List()), Text(
-                                            ), Tag(small,List(),List(Text(
-                            Inscrit depuis 2013
-                            , 1 avis déposé
-                        ))), Text(
-                                    ))), Text(
-                ), Tag(div,List((class,grid_last ccmcss_align_r)),List(Text(
-                    ), Tag(span,List(),List(Text(Sa note&nbsp;), Tag(span,List((data-rating,4), (class,bu_restaurant_rating)),List()))), Text(
-                ))), Text(
-            ))), Text(
-        ))), Text(
-        ), Tag(p,List((itemprop,description)),List(Text(
-            Assurément une des meilleures pizzérias de Rennes dans un cadre petit mais sympa.
-
-Des pizzas avec une garniture de qualité Les pizzas bianca sont délicieuses et les verde sont tip top.
-                                ))), Text(
-                ), Tag(footer,List(),List(Text(
-
-            ), Tag(div,List((class,grid_line gutter grid--norwd)),List(Text(
-                ), Tag(div,List((class,grid_left)),List(Text(
-                    ), Tag(em,List((content,2013-07-24), (itemprop,datePublished)),List(Text(Le 24 juillet 2013))), Text(
-                ))), Text(
-                                ), Tag(div,List((class,grid_right)),List(Text(
-                    ), Tag(a,List((data-id-application,142), (data-id-ressource,949155), (data-type-ressource,32), (title,Signaler un abus), (class,icon_ud reportAbuse), (rel,nofollow), (data-icon,&#x2f;), (aria-hidden,true), (href,javascript:void(0))),List(Tag(span,List((class,icon_text)),List(Text(Signaler un abus))))), Text(
-                ))), Text(
-            ))), Text(
-
-        ))), Text(
-
-        ), Tag(div,List((style,display:none;)),List(Text(
-            ), Tag(div,List((itemtype,https://schema.org/Rating), (itemscope,itemscope), (itemprop,reviewRating)),List(Text(
-                User nb comments : 1), Tag(br,List(),List()), Text(
-                Note : ), Tag(span,List((itemprop,ratingValue)),List(Text(4))), Text( / ), Tag(span,List((itemprop,bestRating)),List(Text(5))), Text( ), Tag(br,List(),List()), Text(
-                Note cuisine : 4 / 5 ), Tag(br,List(),List()), Text(
-                Note service : 4 / 5 ), Tag(br,List(),List()), Text(
-                Note ambiance : 4 / 5 ), Tag(br,List(),List()), Text(
-                Note decoration : 4 / 5 ), Tag(br,List(),List()), Text(
-                Note qualité / prix : 4 / 5 ), Tag(br,List(),List()), Text(
-            ))), Text(
-            ), Tag(span,List((itemprop,name)),List(Text(
-                
-            ))), Text(
-        ))), Text(
-    ))), Text(
-
-        ), Tag(section,List((itemtype,https://schema.org/Review), (itemscope,itemscope), (itemprop,review), (class,bu_restaurant_comment)),List(Text(
-        ), Tag(span,List((itemprop,itemReviewed), (style,display:none)),List(Text(La Tomate))), Text(
-        ), Tag(header,List(),List(Text(
-            ), Tag(div,List((class,grid_line gutter grid--norwd)),List(Text(
-                ), Tag(div,List((itemtype,https://schema.org/Person), (itemscope,itemscope), (itemprop,author), (class,grid_left)),List(Text(
-                    ), Tag(span,List(),List(Text(
-                        ), Tag(strong,List(),List(Text(Avis de ), Tag(span,List((itemprop,name)),List(Text(Anne-Laure Fontaine))))), Text(
-                        ,&nbsp;Rennes))), Text(
-                    ), Tag(br,List(),List()), Text(
-                                            ), Tag(small,List(),List(Text(
-                            Inscrit depuis 2012
-                            , 2 avis déposés
                         ))), Text(
                                     ))), Text(
                 ), Tag(div,List((class,grid_last ccmcss_align_r)),List(Text(
@@ -776,16 +724,16 @@ Des pizzas avec une garniture de qualité Les pizzas bianca sont délicieuses et
             ))), Text(
         ))), Text(
         ), Tag(p,List((itemprop,description)),List(Text(
-            Grandes pizzas moyennement garnies (notamment la 4 fromages qui se retrouve sans fromage à plusieurs endroits). La pizza sucrée est assez bonne, cependant ne pas commander de tiramisu, c&#039;est une toute petite part qui je pense n&#039;est pas fait maison, très peu de goût et donc très fade pour un tiramisu. Concernant le service, celui-ci est correct dans l&#039;ensemble quoiqu&#039;un peu long vers la fin. C&#039;est un restaurant convenable si l&#039;on est pas fan absolu de pizza, mais réellement sans plus niveau garnitures.
+            Restaurant en famille 8 personnes , 6 personnes servis correctement et 45 minutes d&#039;attente pour les 2 autres personnes à table dont une crêpe au chocolat de mon fils servi froide.. Honteux, plus jamais !
                                 ))), Text(
                 ), Tag(footer,List(),List(Text(
 
             ), Tag(div,List((class,grid_line gutter grid--norwd)),List(Text(
                 ), Tag(div,List((class,grid_left)),List(Text(
-                    ), Tag(em,List((content,2012-07-31), (itemprop,datePublished)),List(Text(Le 31 juillet 2012))), Text(
+                    ), Tag(em,List((content,2018-12-22), (itemprop,datePublished)),List(Text(Le 22 décembre 2018))), Text(
                 ))), Text(
                                 ), Tag(div,List((class,grid_right)),List(Text(
-                    ), Tag(a,List((data-id-application,142), (data-id-ressource,800625), (data-type-ressource,32), (title,Signaler un abus), (class,icon_ud reportAbuse), (rel,nofollow), (data-icon,&#x2f;), (aria-hidden,true), (href,javascript:void(0))),List(Tag(span,List((class,icon_text)),List(Text(Signaler un abus))))), Text(
+                    ), Tag(a,List((data-id-application,142), (data-id-ressource,6107780), (data-type-ressource,32), (title,Signaler un abus), (class,icon_ud reportAbuse), (rel,nofollow), (data-icon,&#x2f;), (aria-hidden,true), (href,javascript:void(0))),List(Tag(span,List((class,icon_text)),List(Text(Signaler un abus))))), Text(
                 ))), Text(
             ))), Text(
 
@@ -793,12 +741,12 @@ Des pizzas avec une garniture de qualité Les pizzas bianca sont délicieuses et
 
         ), Tag(div,List((style,display:none;)),List(Text(
             ), Tag(div,List((itemtype,https://schema.org/Rating), (itemscope,itemscope), (itemprop,reviewRating)),List(Text(
-                User nb comments : 2), Tag(br,List(),List()), Text(
+                User nb comments : 1), Tag(br,List(),List()), Text(
                 Note : ), Tag(span,List((itemprop,ratingValue)),List(Text(2))), Text( / ), Tag(span,List((itemprop,bestRating)),List(Text(5))), Text( ), Tag(br,List(),List()), Text(
                 Note cuisine : 2 / 5 ), Tag(br,List(),List()), Text(
-                Note service : 3 / 5 ), Tag(br,List(),List()), Text(
+                Note service : 1 / 5 ), Tag(br,List(),List()), Text(
                 Note ambiance : 2 / 5 ), Tag(br,List(),List()), Text(
-                Note decoration : 3 / 5 ), Tag(br,List(),List()), Text(
+                Note decoration : 2 / 5 ), Tag(br,List(),List()), Text(
                 Note qualité / prix : 2 / 5 ), Tag(br,List(),List()), Text(
             ))), Text(
             ), Tag(span,List((itemprop,name)),List(Text(
@@ -808,35 +756,39 @@ Des pizzas avec une garniture de qualité Les pizzas bianca sont délicieuses et
     ))), Text(
 
         ), Tag(section,List((itemtype,https://schema.org/Review), (itemscope,itemscope), (itemprop,review), (class,bu_restaurant_comment)),List(Text(
-        ), Tag(span,List((itemprop,itemReviewed), (style,display:none)),List(Text(La Tomate))), Text(
+        ), Tag(span,List((itemprop,itemReviewed), (style,display:none)),List(Text(Ker Soazig))), Text(
         ), Tag(header,List(),List(Text(
             ), Tag(div,List((class,grid_line gutter grid--norwd)),List(Text(
                 ), Tag(div,List((itemtype,https://schema.org/Person), (itemscope,itemscope), (itemprop,author), (class,grid_left)),List(Text(
                     ), Tag(span,List(),List(Text(
-                        ), Tag(strong,List(),List(Text(Avis de ), Tag(span,List((itemprop,name)),List(Text(Anne-Laure Fontaine))))), Text(
-                        ,&nbsp;Rennes))), Text(
+                        ), Tag(strong,List(),List(Text(Avis de ), Tag(span,List((itemprop,name)),List(Text(Peter ))))), Text(
+                        ))), Text(
                     ), Tag(br,List(),List()), Text(
                                             ), Tag(small,List(),List(Text(
-                            Inscrit depuis 2012
-                            , 2 avis déposés
+                            Inscrit depuis 2016
+                            , 1 avis déposé
                         ))), Text(
                                     ))), Text(
                 ), Tag(div,List((class,grid_last ccmcss_align_r)),List(Text(
-                    ), Tag(span,List(),List(Text(Sa note&nbsp;), Tag(span,List((data-rating,2), (class,bu_restaurant_rating)),List()))), Text(
+                    ), Tag(span,List(),List(Text(Sa note&nbsp;), Tag(span,List((data-rating,5), (class,bu_restaurant_rating)),List()))), Text(
                 ))), Text(
             ))), Text(
         ))), Text(
         ), Tag(p,List((itemprop,description)),List(Text(
-            Grandes pizzas mais très moyennement garnies (surtout la 4 fromages). La pizza sucrée en dessert était assez bonne, mais surtout ne pas commander de tiramisu, le dessert est tout petit et non fait maison d&#039;après moi (trop peu de goût et trop fade pour un vrai tiramisu). Le service était correct, quoiqu&#039;un peu long vers la fin. Restaurant convenable si vous n&#039;êtes pas fan absolus de bonnes pizzas :).
+            It&#039;s a nice place which is located closely to a city cetre and just in 1 minute walk from a cinema. 
+
+The personnel here is alway amicable even though it may be a busy place during the evenings. 
+
+The cuisine here is very pleasant with clear Breton accents in it. I can definitely recommend the place to visit.
                                 ))), Text(
                 ), Tag(footer,List(),List(Text(
 
             ), Tag(div,List((class,grid_line gutter grid--norwd)),List(Text(
                 ), Tag(div,List((class,grid_left)),List(Text(
-                    ), Tag(em,List((content,2012-07-31), (itemprop,datePublished)),List(Text(Le 31 juillet 2012))), Text(
+                    ), Tag(em,List((content,2016-06-10), (itemprop,datePublished)),List(Text(Le 10 juin 2016))), Text(
                 ))), Text(
                                 ), Tag(div,List((class,grid_right)),List(Text(
-                    ), Tag(a,List((data-id-application,142), (data-id-ressource,800618), (data-type-ressource,32), (title,Signaler un abus), (class,icon_ud reportAbuse), (rel,nofollow), (data-icon,&#x2f;), (aria-hidden,true), (href,javascript:void(0))),List(Tag(span,List((class,icon_text)),List(Text(Signaler un abus))))), Text(
+                    ), Tag(a,List((data-id-application,142), (data-id-ressource,1142188), (data-type-ressource,32), (title,Signaler un abus), (class,icon_ud reportAbuse), (rel,nofollow), (data-icon,&#x2f;), (aria-hidden,true), (href,javascript:void(0))),List(Tag(span,List((class,icon_text)),List(Text(Signaler un abus))))), Text(
                 ))), Text(
             ))), Text(
 
@@ -844,13 +796,120 @@ Des pizzas avec une garniture de qualité Les pizzas bianca sont délicieuses et
 
         ), Tag(div,List((style,display:none;)),List(Text(
             ), Tag(div,List((itemtype,https://schema.org/Rating), (itemscope,itemscope), (itemprop,reviewRating)),List(Text(
-                User nb comments : 2), Tag(br,List(),List()), Text(
-                Note : ), Tag(span,List((itemprop,ratingValue)),List(Text(2))), Text( / ), Tag(span,List((itemprop,bestRating)),List(Text(5))), Text( ), Tag(br,List(),List()), Text(
-                Note cuisine : 1 / 5 ), Tag(br,List(),List()), Text(
-                Note service : 3 / 5 ), Tag(br,List(),List()), Text(
-                Note ambiance : 2 / 5 ), Tag(br,List(),List()), Text(
+                User nb comments : 1), Tag(br,List(),List()), Text(
+                Note : ), Tag(span,List((itemprop,ratingValue)),List(Text(5))), Text( / ), Tag(span,List((itemprop,bestRating)),List(Text(5))), Text( ), Tag(br,List(),List()), Text(
+                Note cuisine : 4 / 5 ), Tag(br,List(),List()), Text(
+                Note service : 5 / 5 ), Tag(br,List(),List()), Text(
+                Note ambiance : 5 / 5 ), Tag(br,List(),List()), Text(
+                Note decoration : 4 / 5 ), Tag(br,List(),List()), Text(
+                Note qualité / prix : 5 / 5 ), Tag(br,List(),List()), Text(
+            ))), Text(
+            ), Tag(span,List((itemprop,name)),List(Text(
+                
+            ))), Text(
+        ))), Text(
+    ))), Text(
+
+        ), Tag(section,List((itemtype,https://schema.org/Review), (itemscope,itemscope), (itemprop,review), (class,bu_restaurant_comment)),List(Text(
+        ), Tag(span,List((itemprop,itemReviewed), (style,display:none)),List(Text(Ker Soazig))), Text(
+        ), Tag(header,List(),List(Text(
+            ), Tag(div,List((class,grid_line gutter grid--norwd)),List(Text(
+                ), Tag(div,List((itemtype,https://schema.org/Person), (itemscope,itemscope), (itemprop,author), (class,grid_left)),List(Text(
+                    ), Tag(span,List(),List(Text(
+                        ), Tag(strong,List(),List(Text(Avis de ), Tag(span,List((itemprop,name)),List(Text(yael LEBRUN))))), Text(
+                        ))), Text(
+                    ), Tag(br,List(),List()), Text(
+                                            ), Tag(small,List(),List(Text(
+                            Inscrit depuis 2016
+                            , 1 avis déposé
+                        ))), Text(
+                                    ))), Text(
+                ), Tag(div,List((class,grid_last ccmcss_align_r)),List(Text(
+                    ), Tag(span,List(),List(Text(Sa note&nbsp;), Tag(span,List((data-rating,5), (class,bu_restaurant_rating)),List()))), Text(
+                ))), Text(
+            ))), Text(
+        ))), Text(
+        ), Tag(p,List((itemprop,description)),List(Text(
+            C&#039;est toujours avec plaisir que nous allons chez Ker Soazig, convivialité et originalité sont au rendez vous. 
+Il y a une carte mais au finale on peut faire du sur mesure.
+
+Les serveurs/serveuses ont toujours le sourire aux levres. 
+
+Je recommande a 100 % Ker Soazig.
+                                ))), Text(
+                ), Tag(footer,List(),List(Text(
+
+            ), Tag(div,List((class,grid_line gutter grid--norwd)),List(Text(
+                ), Tag(div,List((class,grid_left)),List(Text(
+                    ), Tag(em,List((content,2016-06-10), (itemprop,datePublished)),List(Text(Le 10 juin 2016))), Text(
+                ))), Text(
+                                ), Tag(div,List((class,grid_right)),List(Text(
+                    ), Tag(a,List((data-id-application,142), (data-id-ressource,1142178), (data-type-ressource,32), (title,Signaler un abus), (class,icon_ud reportAbuse), (rel,nofollow), (data-icon,&#x2f;), (aria-hidden,true), (href,javascript:void(0))),List(Tag(span,List((class,icon_text)),List(Text(Signaler un abus))))), Text(
+                ))), Text(
+            ))), Text(
+
+        ))), Text(
+
+        ), Tag(div,List((style,display:none;)),List(Text(
+            ), Tag(div,List((itemtype,https://schema.org/Rating), (itemscope,itemscope), (itemprop,reviewRating)),List(Text(
+                User nb comments : 1), Tag(br,List(),List()), Text(
+                Note : ), Tag(span,List((itemprop,ratingValue)),List(Text(5))), Text( / ), Tag(span,List((itemprop,bestRating)),List(Text(5))), Text( ), Tag(br,List(),List()), Text(
+                Note cuisine : 5 / 5 ), Tag(br,List(),List()), Text(
+                Note service : 5 / 5 ), Tag(br,List(),List()), Text(
+                Note ambiance : 5 / 5 ), Tag(br,List(),List()), Text(
                 Note decoration : 3 / 5 ), Tag(br,List(),List()), Text(
-                Note qualité / prix : 2 / 5 ), Tag(br,List(),List()), Text(
+                Note qualité / prix : 5 / 5 ), Tag(br,List(),List()), Text(
+            ))), Text(
+            ), Tag(span,List((itemprop,name)),List(Text(
+                
+            ))), Text(
+        ))), Text(
+    ))), Text(
+
+        ), Tag(section,List((itemtype,https://schema.org/Review), (itemscope,itemscope), (itemprop,review), (class,bu_restaurant_comment)),List(Text(
+        ), Tag(span,List((itemprop,itemReviewed), (style,display:none)),List(Text(Ker Soazig))), Text(
+        ), Tag(header,List(),List(Text(
+            ), Tag(div,List((class,grid_line gutter grid--norwd)),List(Text(
+                ), Tag(div,List((itemtype,https://schema.org/Person), (itemscope,itemscope), (itemprop,author), (class,grid_left)),List(Text(
+                    ), Tag(span,List(),List(Text(
+                        ), Tag(strong,List(),List(Text(Avis de ), Tag(span,List((itemprop,name)),List(Text(Tamara ))))), Text(
+                        ))), Text(
+                    ), Tag(br,List(),List()), Text(
+                                            ), Tag(small,List(),List(Text(
+                            Inscrit depuis 2016
+                            , 1 avis déposé
+                        ))), Text(
+                                    ))), Text(
+                ), Tag(div,List((class,grid_last ccmcss_align_r)),List(Text(
+                    ), Tag(span,List(),List(Text(Sa note&nbsp;), Tag(span,List((data-rating,5), (class,bu_restaurant_rating)),List()))), Text(
+                ))), Text(
+            ))), Text(
+        ))), Text(
+        ), Tag(p,List((itemprop,description)),List(Text(
+            Quel plaisir de trouver cette crêperie excéllente et originale, dont les propriétaires se passionnent pour les produits bio et régionales! Un repas tout à fait delicieux; atmosphère très sympa. Et c&#039;est juste en face au musée de la Bretagne, bibliotèque, etc. Des Champs Libres!
+                                ))), Text(
+                ), Tag(footer,List(),List(Text(
+
+            ), Tag(div,List((class,grid_line gutter grid--norwd)),List(Text(
+                ), Tag(div,List((class,grid_left)),List(Text(
+                    ), Tag(em,List((content,2016-06-06), (itemprop,datePublished)),List(Text(Le 6 juin 2016))), Text(
+                ))), Text(
+                                ), Tag(div,List((class,grid_right)),List(Text(
+                    ), Tag(a,List((data-id-application,142), (data-id-ressource,1142010), (data-type-ressource,32), (title,Signaler un abus), (class,icon_ud reportAbuse), (rel,nofollow), (data-icon,&#x2f;), (aria-hidden,true), (href,javascript:void(0))),List(Tag(span,List((class,icon_text)),List(Text(Signaler un abus))))), Text(
+                ))), Text(
+            ))), Text(
+
+        ))), Text(
+
+        ), Tag(div,List((style,display:none;)),List(Text(
+            ), Tag(div,List((itemtype,https://schema.org/Rating), (itemscope,itemscope), (itemprop,reviewRating)),List(Text(
+                User nb comments : 1), Tag(br,List(),List()), Text(
+                Note : ), Tag(span,List((itemprop,ratingValue)),List(Text(5))), Text( / ), Tag(span,List((itemprop,bestRating)),List(Text(5))), Text( ), Tag(br,List(),List()), Text(
+                Note cuisine : 5 / 5 ), Tag(br,List(),List()), Text(
+                Note service : 5 / 5 ), Tag(br,List(),List()), Text(
+                Note ambiance : 5 / 5 ), Tag(br,List(),List()), Text(
+                Note decoration : 5 / 5 ), Tag(br,List(),List()), Text(
+                Note qualité / prix : 5 / 5 ), Tag(br,List(),List()), Text(
             ))), Text(
             ), Tag(span,List((itemprop,name)),List(Text(
                 
@@ -867,14 +926,13 @@ Des pizzas avec une garniture de qualité Les pizzas bianca sont délicieuses et
         ), Tag(div,List((class,JPaginator ccmcss_paginator ccmcss_paginator--page)),List(Text(
                         ), Tag(ul,List(),List(Text(
                                                             ), Tag(li,List((class,current)),List(Tag(span,List(),List(Text(1))))), Text(
-                                                                                                                                            ), Tag(li,List(),List(Tag(a,List((rel,next nofollow), (href,/restaurant/avis/9072/2), (class,JpaginatorLink)),List(Text(2))))), Text(
-                                                                                                                                                                                                ), Tag(li,List(),List(Tag(a,List((href,/restaurant/avis/9072/3), (class,JpaginatorLink)),List(Text(3))))), Text(
-                                                                                                                                                                                                ), Tag(li,List(),List(Tag(a,List((href,/restaurant/avis/9072/4), (class,JpaginatorLink)),List(Text(4))))), Text(
-                                                                                                                                                                                                ), Tag(li,List(),List(Tag(a,List((href,/restaurant/avis/9072/5), (class,JpaginatorLink)),List(Text(5))))), Text(
-                                                                                                                                                                                                ), Tag(li,List(),List(Tag(a,List((href,/restaurant/avis/9072/6), (class,JpaginatorLink)),List(Text(6))))), Text(
+                                                                                                                                            ), Tag(li,List(),List(Tag(a,List((rel,next nofollow), (href,/restaurant/avis/145889/2), (class,JpaginatorLink)),List(Text(2))))), Text(
+                                                                                                                                                                                                ), Tag(li,List(),List(Tag(a,List((href,/restaurant/avis/145889/3), (class,JpaginatorLink)),List(Text(3))))), Text(
+                                                                                                                                                                                                ), Tag(li,List(),List(Tag(a,List((href,/restaurant/avis/145889/4), (class,JpaginatorLink)),List(Text(4))))), Text(
+                                                                                                                                                                                                ), Tag(li,List(),List(Tag(a,List((href,/restaurant/avis/145889/5), (class,JpaginatorLink)),List(Text(5))))), Text(
                                                                                                                                     ))), Text(
                             ), Tag(div,List((class,ccmcss_paginator_next)),List(Text(
-                    ), Tag(a,List((rel,next), (href,/restaurant/avis/9072/2), (class,JpaginatorLink)),List(Text(
+                    ), Tag(a,List((rel,next), (href,/restaurant/avis/145889/2), (class,JpaginatorLink)),List(Text(
                         ), Tag(span,List(),List(Text(Suivant))), Text(
                     ))), Text(
                 ))), Text(
@@ -898,20 +956,20 @@ Des pizzas avec une garniture de qualité Les pizzas bianca sont délicieuses et
 ))), Text(
 
                     ), Tag(section,List((class,bu_restaurant_section jOtherRestaurants)),List(Text(
-                                                                    ), Tag(h2,List((class,bu_restaurant_title)),List(Text(Plus de Pizzerias à Rennes))), Text(
+                                                                    ), Tag(h2,List((class,bu_restaurant_title)),List(Text(Plus de Restaurants bretons à Rennes))), Text(
 
                 ), Tag(div,List((class,grid_line gutter grid--norwd bu_restaurant_list bu_restaurant_list--4)),List(Text(
                                     
                         ), Tag(div,List((class,grid_left w25)),List(Text(
                             ), Tag(figure,List((class,bu_restaurant_figure)),List(Text(
-                                ), Tag(a,List((href,/restaurant/restaurant/144457/di-trevi-l-authentique.shtml)),List(Text(
+                                ), Tag(a,List((href,/restaurant/restaurant/34122/la-parenthese.shtml)),List(Text(
                                     ), Tag(span,List((class,bu_restaurant_figure__tag)),List(Text(
-                                        ), Tag(span,List((data-rating,3), (class,bu_restaurant_rating bu_restaurant_rating--s)),List()), Text(
+                                        ), Tag(span,List((data-rating,4), (class,bu_restaurant_rating bu_restaurant_rating--s)),List()), Text(
                                     ))), Text(
-                                                                            ), Tag(span,List((style,background-image:url('https://img-4.linternaute.com/O7VN-pEELfVPpuKHUzHQLjZQAA8=/250x250/7ce519b9c9324ab6b71db4acab657711/restaurant/180182.jpg')), (class,bu_restaurant_figure__img)),List()), Text(
+                                                                            ), Tag(span,List((style,background-image:url('https://img-4.linternaute.com/WDC8lO2hRwaEMp1JEFx511GtesY=/250x250/3f385492ac4f474a8350040fc80143c3/restaurant/26728.jpg')), (class,bu_restaurant_figure__img)),List()), Text(
                                                                         ), Tag(figcaption,List(),List(Text(
-                                        ), Tag(h3,List((class,bu_restaurant_title_4)),List(Text(Di Trevi l&#039;Authentique))), Text(
-                                        ), Tag(p,List(),List(Text(Venez découvrir nos pizzas réputées les plus grand...))), Text(
+                                        ), Tag(h3,List((class,bu_restaurant_title_4)),List(Text(La Parenthèse))), Text(
+                                        ), Tag(p,List(),List(Text(Cadre chaleureux et authentique, retrouvez le goût...))), Text(
                                     ))), Text(
                                 ))), Text(
                             ))), Text(
@@ -920,14 +978,14 @@ Des pizzas avec une garniture de qualité Les pizzas bianca sont délicieuses et
                                                         
                         ), Tag(div,List((class,grid_left w25)),List(Text(
                             ), Tag(figure,List((class,bu_restaurant_figure)),List(Text(
-                                ), Tag(a,List((href,/restaurant/restaurant/151135/la-janata.shtml)),List(Text(
+                                ), Tag(a,List((href,/restaurant/restaurant/35539/la-colombiere.shtml)),List(Text(
                                     ), Tag(span,List((class,bu_restaurant_figure__tag)),List(Text(
-                                        ), Tag(span,List((data-rating,3), (class,bu_restaurant_rating bu_restaurant_rating--s)),List()), Text(
+                                        ), Tag(span,List((data-rating,4), (class,bu_restaurant_rating bu_restaurant_rating--s)),List()), Text(
                                     ))), Text(
-                                                                            ), Tag(span,List((style,background-image:url('https://img-4.linternaute.com/h161d5CcET7bfNgcOvyocCmz6yo=/250x250/f61f225b7a1b499f949e4d2ca9971184/restaurant/95092.jpg')), (class,bu_restaurant_figure__img)),List()), Text(
+                                                                            ), Tag(span,List((style,background-image:url('https://img-4.linternaute.com/13yudyhY7BltAhdbnJ-WIr2dn9w=/250x250/14e06fd7764146c9a4ce0278abe87567/restaurant/28162.jpg')), (class,bu_restaurant_figure__img)),List()), Text(
                                                                         ), Tag(figcaption,List(),List(Text(
-                                        ), Tag(h3,List((class,bu_restaurant_title_4)),List(Text(La Janata))), Text(
-                                        ), Tag(p,List(),List(Text(La Janata Pizzeria vous accueille dans un cadre au...))), Text(
+                                        ), Tag(h3,List((class,bu_restaurant_title_4)),List(Text(La Colombière))), Text(
+                                        ), Tag(p,List(),List(Text(Située au 1er étage du centre commercial Colombia....))), Text(
                                     ))), Text(
                                 ))), Text(
                             ))), Text(
@@ -936,14 +994,14 @@ Des pizzas avec une garniture de qualité Les pizzas bianca sont délicieuses et
                                                         
                         ), Tag(div,List((class,grid_left w25)),List(Text(
                             ), Tag(figure,List((class,bu_restaurant_figure)),List(Text(
-                                ), Tag(a,List((href,/restaurant/restaurant/157978/angellopizza.shtml)),List(Text(
+                                ), Tag(a,List((href,/restaurant/restaurant/145972/la-gavotte.shtml)),List(Text(
                                     ), Tag(span,List((class,bu_restaurant_figure__tag)),List(Text(
-                                        ), Tag(span,List((data-rating,3), (class,bu_restaurant_rating bu_restaurant_rating--s)),List()), Text(
+                                        ), Tag(span,List((data-rating,4), (class,bu_restaurant_rating bu_restaurant_rating--s)),List()), Text(
                                     ))), Text(
-                                                                            ), Tag(span,List((style,background-image:url('https://img-4.linternaute.com/9m0FoO6G96WZcm1OU1J4kMGh4L4=/250x250/95dc71becee54002b235312f19257e01/restaurant/108581.jpg')), (class,bu_restaurant_figure__img)),List()), Text(
+                                                                            ), Tag(span,List((style,background-image:url('https://img-4.linternaute.com/MFDbdKTEWlfuAV05Fgll6mDSRo8=/250x250/bfd02773feb242c9bc9dd136aac3c5bd/restaurant/101153.jpg')), (class,bu_restaurant_figure__img)),List()), Text(
                                                                         ), Tag(figcaption,List(),List(Text(
-                                        ), Tag(h3,List((class,bu_restaurant_title_4)),List(Text(Angellopizza))), Text(
-                                        ), Tag(p,List(),List(Text(Angello Pizza est une pizzeria situé 37 bis boulev...))), Text(
+                                        ), Tag(h3,List((class,bu_restaurant_title_4)),List(Text(La Gavotte))), Text(
+                                        ), Tag(p,List(),List(Text(Petite crêperie traditonnelle où ça fleure bon le...))), Text(
                                     ))), Text(
                                 ))), Text(
                             ))), Text(
@@ -952,14 +1010,14 @@ Des pizzas avec une garniture de qualité Les pizzas bianca sont délicieuses et
                                                         
                         ), Tag(div,List((class,grid_left w25)),List(Text(
                             ), Tag(figure,List((class,bu_restaurant_figure)),List(Text(
-                                ), Tag(a,List((href,/restaurant/restaurant/163371/le-cinquecento.shtml)),List(Text(
+                                ), Tag(a,List((href,/restaurant/restaurant/282498/creperie-l-epi-de-ble-rennes.shtml)),List(Text(
                                     ), Tag(span,List((class,bu_restaurant_figure__tag)),List(Text(
-                                        ), Tag(span,List((data-rating,3), (class,bu_restaurant_rating bu_restaurant_rating--s)),List()), Text(
+                                        ), Tag(span,List((data-rating,4), (class,bu_restaurant_rating bu_restaurant_rating--s)),List()), Text(
                                     ))), Text(
-                                                                            ), Tag(span,List((style,background-image:url('https://img-4.linternaute.com/7MY77XY5vHDTFyqQPC_Kp15whmA=/250x250/18bbf25daa584d92864f0327158032e8/restaurant/120862.jpg')), (class,bu_restaurant_figure__img)),List()), Text(
+                                                                            ), Tag(span,List((style,background-image:url('https://img-4.linternaute.com/pn8YxNhKsdd3pg1ZJjnv9aZitgw=/250x250/318e49fba5de429698bd201185859e7a/restaurant/193433.jpg')), (class,bu_restaurant_figure__img)),List()), Text(
                                                                         ), Tag(figcaption,List(),List(Text(
-                                        ), Tag(h3,List((class,bu_restaurant_title_4)),List(Text(Le Cinquecento))), Text(
-                                        ), Tag(p,List(),List(Text(Restaurant Pizzéria situé dans le centre ville de...))), Text(
+                                        ), Tag(h3,List((class,bu_restaurant_title_4)),List(Text(Crêperie L&#039;Épi de Blé - Rennes))), Text(
+                                        ), Tag(p,List(),List(Text(Crêperie traditionnelle et familiale située en ple...))), Text(
                                     ))), Text(
                                 ))), Text(
                             ))), Text(
@@ -973,7 +1031,7 @@ Des pizzas avec une garniture de qualité Les pizzas bianca sont délicieuses et
                     ), Tag(section,List((class,bu_restaurant_section bu_restaurant_section--full), (id,map)),List(Text(
                 ), Tag(div,List((class,grid_line gutter)),List(Text(
                     ), Tag(div,List((class,grid_left w50)),List(Text(
-                        ), Tag(div,List((data-lon,-1.676667), (data-lat,48.111794), (style,height:300px), (class,jMapDiv)),List()), Text(
+                        ), Tag(div,List((data-lon,-1.6749531), (data-lat,48.1054738), (style,height:300px), (class,jMapDiv)),List()), Text(
                     ))), Text(
                     ), Tag(div,List((class,grid_left w50 bu_restaurant_resume)),List(Text(
                         ), Tag(div,List((class,bu_restaurant_section__ct)),List(Text(
@@ -981,7 +1039,7 @@ Des pizzas avec une garniture de qualité Les pizzas bianca sont délicieuses et
                             ), Tag(div,List((class,grid_line gutter grid--norwd)),List(Text(
 
                                 ), Tag(div,List((class,grid_left w65)),List(Text(
-                                    ), Tag(span,List((class,app_mod_title_4)),List(Text(18, rue Saint Georges
+                                    ), Tag(span,List((class,app_mod_title_4)),List(Text(5, cours des Alliés
                                     ), Tag(br,List(),List()), Text(
                                     35000
                                                                             ), Tag(a,List((href,/restaurant/guide/ville-rennes-35000/)),List(Text(
@@ -992,17 +1050,26 @@ Des pizzas avec une garniture de qualité Les pizzas bianca sont délicieuses et
                                                                 ), Tag(div,List((class,grid_left w35)),List(Text(
                                     ), Tag(span,List((class,bu_restaurant_btn_rounded)),List(Text(
                                         ), Tag(span,List((class,icomoon-phone), (aria-hidden,true)),List()), Text(
-                                        ), Tag(a,List((href,tel:+33299870606)),List(Text(02 99 87 06 06))), Text(
+                                        ), Tag(a,List((href,tel:+33299358220)),List(Text(02 99 35 82 20))), Text(
 
                                     ))), Text(
                                 ))), Text(
                                 
                             ))), Text(
                             ), Tag(ul,List(),List(Text(
-                                                                                                                            ))), Text(
+                                                                    ), Tag(li,List(),List(Text(
+                                        ), Tag(strong,List(),List(Text(Métro : ))), Text(Charles de Gaulle                                    ))), Text(
+                                                                                                    ), Tag(li,List(),List(Text(
+                                        ), Tag(strong,List(),List(Text(Horaires : ))), Text(11H30 - 14H00
+18H30 - 22H00
+                                    ))), Text(
+                                                                                                    ), Tag(li,List(),List(Text(
+                                        ), Tag(strong,List(),List(Text(Fermeture annuelle : ))), Text(Aucune
+                                    ))), Text(
+                                                            ))), Text(
                             ), Tag(footer,List(),List(Text(
                                     
-                                                                    ), Tag(a,List((rel,noopener noreferrer), (href,https://maps.google.com?daddr=48.111794,-1.676667), (target,_blank), (class,bu_restaurant_btn)),List(Text(
+                                                                    ), Tag(a,List((rel,noopener noreferrer), (href,https://maps.google.com?daddr=48.1054738,-1.6749531), (target,_blank), (class,bu_restaurant_btn)),List(Text(
                                         ), Tag(span,List(),List(Text(Voir itinéraire))), Text(
                                     ))), Text(
                                                             ))), Text(
@@ -1013,6 +1080,53 @@ Des pizzas avec une garniture de qualité Les pizzas bianca sont délicieuses et
             ))), Text(
         
         
+    
+                        ), Tag(section,List((class,bu_restaurant_section)),List(Text(
+            ), Tag(h2,List((class,bu_restaurant_title)),List(Text(Services proposés))), Text(
+            ), Tag(div,List((class,grid_row grid--norwd bu_restaurant_services)),List(Text(
+
+                
+                                            
+                                                                                                                                                        
+                                                                                                                                                        
+                                                                                                                                                        
+                                                                                                                                                        
+                                                                                                                                                        
+                                                                                                                                                                                                                ), Tag(div,List((class,grid_col bu_restaurant_services__visual)),List(Text(
+                                                            ), Tag(a,List((class,sunday-open), (href,/restaurant/guide/ville-rennes-35000/commodite-ouvert-le-dimanche/)),List(Tag(span,List(),List(Text(Ouvert le dimanche))))), Text(
+                                ))), Text(
+                                                                    
+                                                                                                                                                
+                ), Tag(div,List((class,grid_col bu_restaurant_services__novisual)),List(Text(
+                                        ), Tag(div,List(),List(Text(
+                                                ), Tag(strong,List((class,bu_restaurant_title_upp)),List(Text(Et aussi : ))), Text(
+                                                ), Tag(ul,List(),List(Text(
+                                                        ), Tag(li,List(),List(Text(
+                                                                    ), Tag(span,List(),List(Text(Accès Handicapé))), Text(
+                                                            ))), Text(
+                                                        ), Tag(li,List(),List(Text(
+                                                                    ), Tag(a,List((href,/restaurant/guide/ville-rennes-35000/commodite-etudiants-bienvenus/)),List(Tag(span,List(),List(Text(Etudiants bienvenus))))), Text(
+                                                            ))), Text(
+                                                        ), Tag(li,List(),List(Text(
+                                                                    ), Tag(a,List((href,/restaurant/guide/ville-rennes-35000/commodite-air-conditionne/)),List(Tag(span,List(),List(Text(Air Conditionné))))), Text(
+                                                            ))), Text(
+                                                        ), Tag(li,List(),List(Text(
+                                                                    ), Tag(span,List(),List(Text(Animaux Admis))), Text(
+                                                            ))), Text(
+                                                        ), Tag(li,List(),List(Text(
+                                                                    ), Tag(a,List((href,/restaurant/guide/ville-rennes-35000/commodite-terrasse/)),List(Tag(span,List(),List(Text(Terrasse))))), Text(
+                                                            ))), Text(
+                                                        ), Tag(li,List(),List(Text(
+                                                                    ), Tag(span,List(),List(Text(Beau Décor))), Text(
+                                                            ))), Text(
+                                                        ), Tag(li,List(),List(Text(
+                                                                    ), Tag(a,List((href,/restaurant/guide/ville-rennes-35000/commodite-enfants-bienvenus/)),List(Tag(span,List(),List(Text(Enfants bienvenus))))), Text(
+                                                            ))), Text(
+                                                    ))), Text(
+                    ))), Text(
+                                    ))), Text(
+            ))), Text(
+        ))), Text(
     
 
 
@@ -1028,11 +1142,11 @@ Des pizzas avec une garniture de qualité Les pizzas bianca sont délicieuses et
                     ), Tag(h3,List((class,bu_restaurant_title_2)),List(Text(Vous connaissez déjà ce restaurant ?))), Text(
                     ), Tag(p,List(),List(Text(Vous souhaitez nous signaler la fermeture de ce restaurant : ), Tag(a,List((href,#), (class,a_hover jWarnClosedLink)),List(Text(Cliquez ici))))), Text(
 
-                                                                        ), Tag(p,List(),List(Text(Vous êtes propriétaire de ce restaurant : ), Tag(a,List((href,#), (data-link,https://www.linternaute.com/account/login?txtUrl=https://www.linternaute.com/restaurant/restaurant/9072/la-tomate.shtml&amp;origin=restaurant), (class,a_hover jRestoBindLink)),List(Text(Cliquez ici))))), Text(
+                                                                        ), Tag(p,List(),List(Text(Vous êtes propriétaire de ce restaurant : ), Tag(a,List((href,#), (data-link,https://www.linternaute.com/account/login?txtUrl=https://www.linternaute.com/restaurant/restaurant/145889/ker-soazig.shtml&amp;origin=restaurant), (class,a_hover jRestoBindLink)),List(Text(Cliquez ici))))), Text(
                                             
                     ), Tag(footer,List(),List(Text(
-                        ), Tag(a,List((class,bu_restaurant_btn), (rel,nofollow), (href,/restaurant/9072/comment)),List(Tag(span,List(),List(Text(je donne mon avis))))), Text(
-                        ), Tag(a,List((class,bu_restaurant_btn), (rel,nofollow), (href,/restaurant/9072/uploaduser)),List(Tag(span,List(),List(Text(Je poste une photo))))), Text(
+                        ), Tag(a,List((class,bu_restaurant_btn), (rel,nofollow), (href,/restaurant/145889/comment)),List(Tag(span,List(),List(Text(je donne mon avis))))), Text(
+                        ), Tag(a,List((class,bu_restaurant_btn), (rel,nofollow), (href,/restaurant/145889/uploaduser)),List(Tag(span,List(),List(Text(Je poste une photo))))), Text(
                     ))), Text(
                 ))), Text(
                 ), Tag(div,List((class,grid_col)),List(Text(
@@ -1119,7 +1233,7 @@ Des pizzas avec une garniture de qualité Les pizzas bianca sont délicieuses et
         ))), Text(
     ))), Text(
 
-    ), Tag(div,List((data-restaurant-key,1217106273), (data-restaurant-id,9072), (class,jWarnClosedDialog)),List(Text(
+    ), Tag(div,List((data-restaurant-key,9451594878), (data-restaurant-id,145889), (class,jWarnClosedDialog)),List(Text(
         ), Tag(p,List(),List(Text(Etes-vous sûr(e) de vouloir signaler ce restaurant comme fermé ?))), Text(
     ))), Text(
 
@@ -1253,7 +1367,7 @@ Des pizzas avec une garniture de qualité Les pizzas bianca sont délicieuses et
                 {"url":{"css":"\/ressource\/css\/css.php","js":"\/ressource\/js\/js.php"},"host":"https:\/\/astatic.ccmbg.com"}
             ))), Text(
     
-    ), Tag(script,List((src,https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js)),List()), Tag(script,List((crossorigin,anonymous), (src,https://astatic.ccmbg.com/www.linternaute.com/dist/app/js/commons.b16d01f5403fec4240ce.js)),List()), Tag(script,List((src,https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js)),List()), Tag(script,List((crossorigin,anonymous), (src,https://astatic.ccmbg.com/www.linternaute.com/dist/app/js/chunks/basicApp.7804c3aaedf55c3a7268.js)),List()), Tag(script,List((crossorigin,anonymous), (src,https://astatic.ccmbg.com/www.linternaute.com/dist/app/js/chunks/restaurant_bundle.show.0509f51931a3e86e7b54.js)),List()), Tag(script,List((crossorigin,anonymous), (src,https://astatic.ccmbg.com/www.linternaute.com/dist/app/js/chunks/start_sf.5d68883c4d736146053b.js)),List()), Tag(script,List((src,https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/js/swiper.jquery.min.js)),List()), Tag(script,List((src,https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js)),List()), Tag(script,List((src,https://cdnjs.cloudflare.com/ajax/libs/ouibounce/0.0.11/ouibounce.min.js)),List()), Tag(script,List((src,https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.6/hammer.min.js)),List()), Text(
+    ), Tag(script,List((src,https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js)),List()), Tag(script,List((crossorigin,anonymous), (src,https://astatic.ccmbg.com/www.linternaute.com/dist/app/js/commons.b16d01f5403fec4240ce.js)),List()), Tag(script,List((src,https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js)),List()), Tag(script,List((crossorigin,anonymous), (src,https://astatic.ccmbg.com/www.linternaute.com/dist/app/js/chunks/basicApp.9169912c4e9bd5dcc0d9.js)),List()), Tag(script,List((crossorigin,anonymous), (src,https://astatic.ccmbg.com/www.linternaute.com/dist/app/js/chunks/restaurant_bundle.show.0509f51931a3e86e7b54.js)),List()), Tag(script,List((crossorigin,anonymous), (src,https://astatic.ccmbg.com/www.linternaute.com/dist/app/js/chunks/start_sf.5d68883c4d736146053b.js)),List()), Tag(script,List((src,https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.0/js/swiper.jquery.min.js)),List()), Tag(script,List((src,https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.js)),List()), Tag(script,List((src,https://cdnjs.cloudflare.com/ajax/libs/ouibounce/0.0.11/ouibounce.min.js)),List()), Tag(script,List((src,https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.6/hammer.min.js)),List()), Text(
 ), Text(
 ), Text(
 
