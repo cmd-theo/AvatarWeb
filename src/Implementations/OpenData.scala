@@ -42,7 +42,10 @@ object OpenData extends App {
     println(addrFile)
     addrFile
   }
-  new PrintWriter("doc/vArData.txt") { write(create()); close }
+  
+  def createData(s : String) : Unit = {
+    new PrintWriter("doc/vArData.txt") { write(create()); close }
+  }
   
   /*Source.fromFile("doc/vAr.xml").getByteStream
   val stream = OpenData.getClass.getClassLoader().getResourceAsStream("doc/vAr.xml")

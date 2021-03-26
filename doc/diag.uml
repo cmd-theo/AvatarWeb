@@ -23,7 +23,7 @@ interface AnalysePhrase{
 
 interface BaseDeDonnees{
 	dsb: List[String]
-	respond(l:List[String]):(Boolean, List[String])
+	respond(l:List[String]):List[(String, String)]
 	listKeywords():List[List[String]]
 }
 
@@ -36,6 +36,15 @@ class Tests{
 	reInit(): Unit
 }
 
+interface OpenData{
+	create():String
+	createData(s:String): Unit
+}
+
+interface RobotWeb{
+	respond() : List[(String, String)]
+}
+
 Avatar --|> MachineDialogue
 Tests -> MachineDialogue
 MachineDialogue <--> UI
@@ -43,6 +52,7 @@ MachineDialogue -> BaseDeDonnees
 MachineDialogue -> AnalysePhrase
 AnalysePhrase --> BaseDeDonnees
 AnalysePhrase --> ToleranceFautes
+RobotWeb <-- MachineDialogue
 
 
 
