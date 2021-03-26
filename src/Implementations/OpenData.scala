@@ -20,7 +20,7 @@ import org.xml.sax.helpers.DefaultHandler
 object OpenData extends App {
   
   val xml = XML.loadFile("doc/vAr.xml")
-  //println(xml)
+  // println(xml)
   val orga = xml \\ "organization"
   val names = orga \\ "name"
   val adresses = orga \\ "street"
@@ -42,7 +42,10 @@ object OpenData extends App {
     println(addrFile)
     addrFile
   }
-  new PrintWriter("doc/vArData.txt") { write(create()); close }
+  
+  def createData(s : String) : Unit = {
+    new PrintWriter("doc/vArData.txt") { write(create()); close }
+  }
   
   /*Source.fromFile("doc/vAr.xml").getByteStream
   val stream = OpenData.getClass.getClassLoader().getResourceAsStream("doc/vAr.xml")

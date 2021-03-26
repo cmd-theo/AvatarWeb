@@ -19,7 +19,7 @@ object MachineImpl extends MachineDialogue{
    */
   def ask(s:String):List[String]= {
    
-    respond2(BSDImpl.respond((AnalysePhraseImpl.motsClefs(s)))) 
+    prettyRespond(BSDImpl.respond((AnalysePhraseImpl.motsClefs(s)))) 
   }
   
   
@@ -33,11 +33,11 @@ object MachineImpl extends MachineDialogue{
   }
   */
   
-  def respond2(l:List[(String,String)]) : List[String] = {
+  def prettyRespond(l:List[(String,String)]) : List[String] = {
     l match {
       case Nil => Nil
-      case ("", e2) :: reste => e2 :: respond2(reste) 
-      case (e1, e2) :: reste => "L'adresse de " +e1+ " est : " + e2 :: respond2(reste) 
+      case ("", e2) :: reste => e2 :: prettyRespond(reste) 
+      case (e1, e2) :: reste => "L'adresse de " +e1+ " est : " + e2 :: prettyRespond(reste) 
     }
   }
   

@@ -6,15 +6,16 @@ import java.io.FileWriter
 object Application extends App {
   
   println("Entrez votre requête")
-  val requete: Expression = ExpressionParser.readExp
-  val urlSearch = "https://www.linternaute.com/restaurant/guide/ville-rennes-35000/?name=" + SyntaxAnalyser.UrlBuilder(requete) 
+  //val requete: Expression = ExpressionParser.readExp
+  val requete:String = readLine()
+  val urlSearch = "https://www.linternaute.com/restaurant/guide/ville-rennes-35000/?name=" + SyntaxAnalyser.UrlBuilder(SyntaxAnalyser.reponse(requete)) 
  
  
   println(urlSearch)
  
-  val couplesUrls: List[(String, String)] = AnalysePageImp.resultats(urlSearch, requete) // prend 2.5 secondes à s'éxecuter
+  val couplesUrls: List[(String, String)] = AnalysePageImp.resultats(urlSearch, SyntaxAnalyser.reponse(requete)) // prend 2.5 secondes à s'éxecuter
   val temps_debut = System.currentTimeMillis()
-  val triplets:List[(String,String,String)] = AnalysePageImp.tripletReponses(urlSearch,requete)
+  val triplets:List[(String,String,String)] = AnalysePageImp.tripletReponses(urlSearch,SyntaxAnalyser.reponse(requete))
   val temps_analyse = System.currentTimeMillis()
   println("temps analyse triplets = " + (temps_analyse - temps_debut) + "ms")
   println("Les couples: " + couplesUrls)
