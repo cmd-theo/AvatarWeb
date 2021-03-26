@@ -32,8 +32,8 @@ object FiltrageURLimp extends FiltrageURLs {
       s.toInt.isValidInt
     } catch {
       case e: Exception => false
-    }
       }
+    }
 
     def filtreAnnonce(h: Html): List[String] = {
         h match {
