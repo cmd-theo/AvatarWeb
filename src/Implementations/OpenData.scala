@@ -1,7 +1,6 @@
 package Implementations
 
 import scala.xml._
-import java.io.PrintWriter
 
 //import java.io.InputStream
 //import javax.xml.parsers.SAXParser
@@ -53,15 +52,6 @@ object OpenData extends App {
     addrFile
   }
   
-  /**
-   * @param Unit
-   * @return Unit. Creer ou ecrase le fichier vArData.txt, une base de donnee a partir de vAr.xml
-   */
-  def createData() : Unit = {
-    new PrintWriter("doc/vArData.txt") { write(create()); close }
-  }
-  
-  createData()
   /*Source.fromFile("doc/vAr.xml").getByteStream
   val stream = OpenData.getClass.getClassLoader().getResourceAsStream("doc/vAr.xml")
   println(stream)

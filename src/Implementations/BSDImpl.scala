@@ -1,5 +1,6 @@
 package Implementations
 import scala.io.Source
+import java.io.PrintWriter
 import machine.BaseDeDonnée
 
 object BSDImpl extends BaseDeDonnée{
@@ -32,6 +33,14 @@ object BSDImpl extends BaseDeDonnée{
     res
   }
   
+  /** Creation du fichier texte correspondant au fichier xml de OpenData 
+   * 	
+   */
+   
+  def createData() : Unit = {
+    new PrintWriter("doc/vArData.txt") { write(OpenData.create()); close }
+  }
+   
   /** Extracteur de fichier
    *  @param Aucun parametre, Assurez l'existence de "doc/DonneesInitiales.txt"
    *  @return une list tel que :>> List(List(nom,adresse,mot_clé)) */

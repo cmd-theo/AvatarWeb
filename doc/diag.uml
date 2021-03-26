@@ -25,6 +25,7 @@ interface BaseDeDonnees{
 	dsb: List[String]
 	respond(l:List[String]):List[(String, String)]
 	listKeywords():List[List[String]]
+	createData():Unit
 }
 
 interface ToleranceFautes{
@@ -38,7 +39,6 @@ class Tests{
 
 interface OpenData{
 	create():String
-	createData(s:String): Unit
 }
 
 interface RobotWeb{
@@ -52,7 +52,8 @@ MachineDialogue -> BaseDeDonnees
 MachineDialogue -> AnalysePhrase
 AnalysePhrase --> BaseDeDonnees
 AnalysePhrase --> ToleranceFautes
-RobotWeb <-- MachineDialogue
+MachineDialogue --> RobotWeb
+BaseDeDonnees --> OpenData
 
 
 
