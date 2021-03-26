@@ -88,7 +88,7 @@ object BSDImpl extends BaseDeDonnée{
    def KeyWords(flag:String):List[String]={
      var res:List[String] = List()
      var str = flag
-     val ban = listBanWord :+ ""
+     val ban = List("l'","le","la","les","de","des","un","une","au") :+ ""
      while(str != "" & str!=" "){
         val i = str.indexOf(" ")
         if (i != -1){
