@@ -1,5 +1,3 @@
-//Format : fr: français,angalis,espagnol,allemand,italien
-
 bonjour,hello,buenos dias,guten tag,buongiorno
 salut,hi,hola,hallo,ciao
 bonsoir,good evening,buenas noches,guten abend,buona serata

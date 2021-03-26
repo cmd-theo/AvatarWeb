@@ -104,13 +104,72 @@ object BSDImpl extends BaseDeDonnée{
      res
    }
    
+   /** Retourne la traducation d'un mot dans une langue choisie
+   *  @param mot: le mot à traduire, lang: la langue choisie: ["français","anglais","espagnol","allemand","italien"]
+   *  @return Le mot traduit dans la langue voulut si il exisite sinon une string vide */
+   
+   def MapLangTrad(mot_ori:String,lang_choix:String):String={
+     
+       var map :Map[String,Map[String,String]] = Map()
+       val Langue = List("français","anglais","espagnol","allemand","italien")
+       
+       var txt=Source.fromFile("doc/TradLang.txt").getLines
+       var mot_traduit:String = ""
+       
+       for(x<-txt){
+         
+         var liste:List[String] = List()
+         var y = x
+         
+         
+         while (y!=""){
+          val i = y.indexOf(",")
+          if(i != -1){
+            liste = liste ++ List(y.slice(0, i))
+            y = y.slice(i+1 , y.length())
+          }
+          else{  liste = liste ++ List(y)
+            y = ""
+          }
+         }
+         
+         for(index <- 0 to Langue.size-1){
+           val lang     = Langue(index)
+           val mot_trad = liste(index)
+           
+           if(!map.contains(lang)){
+             
+             var vierge :Map[String,String] = Map()
+             map = map + (lang -> vierge)
+             
+           }
+           
+           if(Langue.size==liste.size){
+             
+             for(mot<- liste){
+               val tempo = map(lang) + (mot -> mot_trad)
+               map = map + (lang -> tempo)
+
+             }  
+           }
+         }
+       }
+       
+       if(map.contains(lang_choix) && map(lang_choix).contains(mot_ori)) mot_traduit = map(lang_choix)(mot_ori)
+        
+       mot_traduit
+  
+   }
+         
+       
+   
    def MapLangPolit():Map[String,String]={
    var res :List[List[String]] = List()
       var txt =Source.fromFile("doc/ListLang.txt").getLines
       var mappa:Map[String,String] = Map() 
       for(x<-txt){
         var i      = x.indexOf(":")
-        var lang  = x.slice(0, i)
+        val lang  = x.slice(0, i)
         var KeyW  = x.slice(i+1,x.length)
         while (KeyW!=""){
           i = KeyW.indexOf(",")
@@ -122,6 +181,7 @@ object BSDImpl extends BaseDeDonnée{
                  KeyW= ""
           }
         } 
+        
         }
       mappa
    }
