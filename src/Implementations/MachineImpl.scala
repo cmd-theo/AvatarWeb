@@ -18,9 +18,12 @@ object MachineImpl extends MachineDialogue{
    * @return reponse la liste de reponse
    */
   def ask(s:String):List[String]= {
-   
-    respond2(BSDImpl.respond((AnalysePhraseImpl.motsClefs(s)))) 
+    s.contains("restaurant") || s.contains("pizzeria") || s.contains("creperie") match {
+      case true => Nil //prettyRespond(Robot_Web.application
+      case false => prettyRespond(BSDImpl.respond((AnalysePhraseImpl.motsClefs(s)))) 
+    }
   }
+  //sujet a modifs 
   
   
   
@@ -33,11 +36,11 @@ object MachineImpl extends MachineDialogue{
   }
   */
   
-  def respond2(l:List[(String,String)]) : List[String] = {
+  def prettyRespond(l:List[(String,String)]) : List[String] = {
     l match {
       case Nil => Nil
-      case ("", e2) :: reste => e2 :: respond2(reste) 
-      case (e1, e2) :: reste => "L'adresse de " +e1+ " est : " + e2 :: respond2(reste) 
+      case ("", e2) :: reste => e2 :: prettyRespond(reste) 
+      case (e1, e2) :: reste => "L'adresse de " +e1+ " est : " + e2 :: prettyRespond(reste) 
     }
   }
   

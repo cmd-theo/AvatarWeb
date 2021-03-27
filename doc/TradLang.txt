@@ -1,0 +1,6 @@
+bonjour,hello,buenos dias,guten tag,buongiorno
+salut,hi,hola,hallo,ciao
+bonsoir,good evening,buenas noches,guten abend,buona serata
+merci,thank,gracias,danke,grazie
+de rien,you're welcome,de nada,bitte,di niente
+au revoir,bye,adios,auf wiedersehen,arrivederci
