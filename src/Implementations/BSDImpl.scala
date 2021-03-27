@@ -7,6 +7,7 @@ object BSDImpl extends BaseDeDonnée{
   
   var MapLangTradM        :Map[String,Map[String,String]]= Map()  // Map qui traduit un mot dans une autre choisie
   var MapLangTotal        :Map[String,String]            = Map()  // Map qui fournit la langue d'un mot
+  var ListeLangPolit      :List[String]                  = List() // List de tous les mots de language dans toutes langue 
   
   var ListPaireNomAdresse :List[List[String]]            = List() // List de paire nom adresse
   var ListKeyWords        :List[List[String]]            = List() // List de mots-clés en parallèles des noms de la liste ListPaireNomadresse
@@ -82,7 +83,7 @@ object BSDImpl extends BaseDeDonnée{
  	* @param Aucun parametre, Assurez l'existence de "doc/banwords.txt"
  	* @return Liste Mot Bannit (List[String])
  	*/
-  private[this] def listBanWord:List[String]={
+  def listBanWord:List[String]={
       var res :List[String] = List()
       val txt =Source.fromFile("doc/banwords.txt").getLines
       for(x<-txt){
@@ -228,6 +229,25 @@ object BSDImpl extends BaseDeDonnée{
       val MapLangTotal = mappa
       mappa
    }
+   }
+   
+   /** Retourne la liste de tous les mots de language dans toutes langue
+   *  @param Aucun parametre, Assurez l'existence de "doc/ListLang.txt"
+   *  @return la liste de tous les mots de language dans toutes langue*/
+   
+   def ListLangPolit():List[String]={
+     
+     if(ListeLangPolit!=List()) {ListeLangPolit}
+     
+     else{
+     var ListLangPolit:List[String] = List()
+     val MaptoList = MapLangPolit().toList
+     for(index <- 0 until MaptoList.size){
+       ListLangPolit = ListLangPolit ++ List(MaptoList(index)_1)
+     }
+     ListeLangPolit = ListLangPolit
+     ListLangPolit
+     }
    }
   
    def CleanEspLow(sal:String):String={
