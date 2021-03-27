@@ -10,8 +10,8 @@ object Tolerance{
 	// factory
 
 	def hamming(s1: String, s2: String): Int = {
-	  val s1L = s1.toLowerCase() // pour ne pas prendre en compte les majuscules et miniscules 
-	  val s2L = s2.toLowerCase()
+	  val s1L = replace(s1.toLowerCase()) // pour ne pas prendre en compte les majuscules et miniscules 
+	  val s2L = replace(s2.toLowerCase())
 			s1L.zip(s2L).count(pair => pair._1 != pair._2)//le zip return une combinaison de paires de s1 et s2
 			//else(s1.toList).zip(s2.toList).filter(current => current._1 != current._2).length
 			//Math.abs(s2.length-s1.length())
