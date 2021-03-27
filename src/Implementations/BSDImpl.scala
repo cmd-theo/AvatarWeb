@@ -5,11 +5,11 @@ import machine.BaseDeDonnée
 
 object BSDImpl extends BaseDeDonnée{
   
-  var MapLangTradM        :Map[String,Map[String,String]]= Map() // 
-  var MapLangTotal        :Map[String,String]            = Map() // 
+  var MapLangTradM        :Map[String,Map[String,String]]= Map()  // Map qui traduit un mot dans une autre choisie
+  var MapLangTotal        :Map[String,String]            = Map()  // Map qui fournit la langue d'un mot
   
-  var ListPaireNomAdresse :List[List[String]]            = List()
-  var ListKeyWords        :List[List[String]]            = List()
+  var ListPaireNomAdresse :List[List[String]]            = List() // List de paire nom adresse
+  var ListKeyWords        :List[List[String]]            = List() // List de mots-clés en parallèles des noms de la liste ListPaireNomadresse
   
   /**Retoure les noms et adresse associé aux mots clé
  	* @param l liste des mots cl de la requête
@@ -77,8 +77,12 @@ object BSDImpl extends BaseDeDonnée{
       res
       }
 
-}
-  def listBanWord:List[String]={
+} 
+  /**Génère et retourne une liste Mot Bannit
+ 	* @param Aucun parametre, Assurez l'existence de "doc/banwords.txt"
+ 	* @return Liste Mot Bannit (List[String])
+ 	*/
+  private[this] def listBanWord:List[String]={
       var res :List[String] = List()
       val txt =Source.fromFile("doc/banwords.txt").getLines
       for(x<-txt){
@@ -116,7 +120,7 @@ object BSDImpl extends BaseDeDonnée{
    def KeyWords(flag:String):List[String]={
      var res:List[String] = List()
      var str = flag
-     val ban = List("l'","le","la","les","de","des","un","une","au") :+ ""
+     val ban = listBanWord
      while(str != "" & str!=" "){
         val i = str.indexOf(" ")
         if (i != -1){
@@ -196,6 +200,9 @@ object BSDImpl extends BaseDeDonnée{
    }
          
        
+   /** Retourne la langue d'un mot
+   *  @param mot: le mot dont on voudrait connaître ça langue
+   *  @return langue du mot: ["français","anglais","espagnol","allemand","italien"] ou rien si il n'est pas recoonnue */
    
    def MapLangPolit():Map[String,String]={
     
