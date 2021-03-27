@@ -5,10 +5,17 @@ import machine.BaseDeDonnée
 
 object BSDImpl extends BaseDeDonnée{
   
-/**Retoure les noms et adresse associé aux mots clé
- * @param l liste des mots cl de la requête
- * @return la liste des nom et adresse associé aux mots clé de la requête
- */
+  var MapLangTradM        :Map[String,Map[String,String]]= Map() // 
+  var MapLangTotal        :Map[String,String]            = Map() // 
+  
+  var ListPaireNomAdresse :List[List[String]]            = List()
+  var ListKeyWords        :List[List[String]]            = List()
+  
+  /**Retoure les noms et adresse associé aux mots clé
+ 	* @param l liste des mots cl de la requête
+ 	* @return la liste des nom et adresse associé aux mots clé de la requête
+ 	*/
+  
    def respond(l:List[String]):List[(String,String)]={
     val t = listKeyWords
     var res:List[(String,String)]=List()
@@ -46,6 +53,11 @@ object BSDImpl extends BaseDeDonnée{
    *  @return une list tel que :>> List(List(nom,adresse,mot_clé)) */
   
   def listPaireNomAdd:List[List[String]]={
+      
+      if(ListPaireNomAdresse!=List()) {ListPaireNomAdresse}
+      
+      else{
+      println("Creation")
       var res :List[List[String]] = List()
       //var txt =Source.fromFile("doc/DonneesInitiales.txt").getLines  //demo F1, F2, F3, F4
       var txt =Source.fromFile("doc/vArData.txt").getLines    //demo F5+ 
@@ -61,7 +73,9 @@ object BSDImpl extends BaseDeDonnée{
         }
         res = res :+ List(part1,part2,part3)
       }
+      ListPaireNomAdresse=res
       res
+      }
 
 }
   def listBanWord:List[String]={
@@ -79,6 +93,8 @@ object BSDImpl extends BaseDeDonnée{
    *  @return une list tel que :>> List(List(mots_cle1,mots_cle3....)) */
   
    def listKeyWords:List[List[String]]={
+     if(ListKeyWords!=List()) { ListKeyWords }
+     else{
      var res :List[List[String]] = List()
      val list = listPaireNomAdd
      for(x<-list){
@@ -88,10 +104,12 @@ object BSDImpl extends BaseDeDonnée{
          }
          res = res :+ key
      }
+     ListKeyWords =res
      res
+     }
    }
    
-   /** Creer un list de mots-clés à partir d'une string
+   /** Creer une liste de mots-clés en "LOWERCASE" à partir d'une string
    *  @param Aucun parametre, Assurez l'existence de "doc/DonneesInitiales.txt"
    *  @return une list tel que :>> List(mots_cle1,mots_cle3....)) */
    
@@ -119,7 +137,13 @@ object BSDImpl extends BaseDeDonnée{
    *  @return Le mot traduit dans la langue voulut si il exisite sinon une string vide */
    
    def MapLangTrad(mot_ori:String,lang_choix:String):String={
-     
+       
+       if (MapLangTradM!=Map()) {
+         if(MapLangTradM.contains(lang_choix) && MapLangTradM(lang_choix).contains(mot_ori)){
+           MapLangTradM(lang_choix)(mot_ori)}
+         else ""
+       }
+       else{
        var map :Map[String,Map[String,String]] = Map()
        val Langue = List("français","anglais","espagnol","allemand","italien")
        
@@ -168,13 +192,15 @@ object BSDImpl extends BaseDeDonnée{
        if(map.contains(lang_choix) && map(lang_choix).contains(mot_ori)) mot_traduit = map(lang_choix)(mot_ori)
         
        mot_traduit
-  
+       }
    }
          
        
    
    def MapLangPolit():Map[String,String]={
-   var res :List[List[String]] = List()
+    
+   if (MapLangTotal!=Map()) {MapLangTotal}
+   else{
       var txt =Source.fromFile("doc/ListLang.txt").getLines
       var mappa:Map[String,String] = Map() 
       for(x<-txt){
@@ -190,10 +216,11 @@ object BSDImpl extends BaseDeDonnée{
           else{  mappa = mappa + (CleanEspLow(KeyW)->lang)
                  KeyW= ""
           }
-        } 
-        
         }
+        }
+      val MapLangTotal = mappa
       mappa
+   }
    }
   
    def CleanEspLow(sal:String):String={
