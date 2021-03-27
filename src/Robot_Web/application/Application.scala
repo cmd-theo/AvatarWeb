@@ -23,10 +23,10 @@ object Application extends App {
  
   val stringResultat = Html2StringImplem.process(produitHtml.resultat2html(couplesUrls))
   
-  val file=new FileWriter("resultats_recherche.txt")
+  /**val file=new FileWriter("resultats_recherche.txt")
   try {
     file.write(UrlProcessor.fetch(couplesUrls(0)._2).toString())
-  } finally file.close()
+  } finally file.close()**/
   
   //temps analyse page -> 135 secondes
   
