@@ -17,7 +17,7 @@ object SyntaxAnalyser {
       for(elt2 <- keywords) {
         if(Tolerance.correct(elt1, elt2)) 
           liste_copie = liste_copie.tail ; 
-          //if(liste_copie(0).equalsIgnoreCase("de") || liste_copie(0).equalsIgnoreCase("du")) liste_copie=liste_copie.tail
+          if(liste_copie(0).equalsIgnoreCase("de") || liste_copie(0).equalsIgnoreCase("du")) liste_copie=liste_copie.tail
           liste_copie
       }
       liste_copie = liste_copie.tail
@@ -47,8 +47,4 @@ object SyntaxAnalyser {
     }
     UrlSearch
   }
-  
-   def main(args: Array[String]): Unit = {
-     
-   }
 }

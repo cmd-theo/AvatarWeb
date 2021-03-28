@@ -256,5 +256,4 @@ object BSDImpl extends BaseDeDonnée{
      res.replaceAll(esp, "").toLowerCase()
     
    }
-   
 }
