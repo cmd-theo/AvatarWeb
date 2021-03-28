@@ -4,6 +4,54 @@ import machine.AnalysePhrase
 
 object AnalysePhraseImpl extends AnalysePhrase{
   
+  val polit = List ("bonjour", "bonsoir", "merci", "de rien", "au revoir", 
+      "hello", "hi", "good evening", "bye", 
+      "beunos dias", "hola", "buenas noches", "adios", 
+      "guten tag", "hallo", "guten abend", "auf wiedersehen",
+      "buongiorno", "ciao", "buona serata", "arrivederci")
+  val internaute = List ("restaurant", "restaurante", "ristorante", "creperie", "pizzeria")
+  
+  val politAng = List("hello", "hi", "good evening", "bye")
+  val politEsp = List("beunos dias", "hola", "buenas noches", "adios")
+  val politAll = List("guten tag", "hallo", "guten abend", "auf wiedersehen")
+  val politIta = List("buongiorno", "ciao", "buona serata", "arrivederci")
+  
+  def isPresent(l1:List[String], l2:List[String]):Boolean = {
+    l1 match {
+      case Nil => false
+      case a::rest => if(l2.contains(a)) true else isPresent(rest, l2)
+    }
+  }
+  
+  def languageSelection(s:String):String = {
+    var chosenLang = "français"
+    if(isPresent(s.split(" ").toList, politAng)) chosenLang = "anglais"
+    else if(isPresent(s.split(" ").toList, politEsp)) chosenLang = "espagnol"
+    else if(isPresent(s.split(" ").toList, politAll)) chosenLang = "allemand"
+    else if(isPresent(s.split(" ").toList, politIta)) chosenLang = "italien"
+    chosenLang
+  }
+  
+  def orientedAnswer(s:String) : List[(String, String)] = {
+    val l = motsClefs(s)
+    if(containsPolit(hash(s))!="") ("", BSDImpl.MapLangTrad(containsPolit(hash(s)), languageSelection(s))) :: BSDImpl.respond(l)
+    else if (containsRobot(l)) Robot_Web.application.Application.couplesUrls
+    else BSDImpl.respond(l)
+  }
+  
+  def containsPolit(l:List[String]) : String = {
+    l match {
+      case Nil => ""
+      case a::rest => if(recherche(a, polit)!=None) a else containsPolit(rest)
+    }
+  }
+  
+  def containsRobot(l:List[String]) : Boolean = {
+    l match {
+      case Nil => false
+      case a::rest => if(internaute.contains(a)) true else containsRobot(rest)
+    }
+  }
   
   def motsClefs(s:String) : List[String] = {
     contains(hash(s))
