@@ -6,10 +6,15 @@ object SyntaxAnalyser {
   
   val keywords:List[String]=List("restaurant","creperie","pizzeria","restaurante","ristorante")
   
-  def reponse(s:String):Expression={
-    String2Exp(motsClefs(s))
+  /**
+   * @param s une requête (sous forme de string)
+   * @return l'expression associée à cette même requête
+   */
+  def ExpressionResponse(s:String):Expression={
+    String2Exp(nomRestaurant(s))
   }
   
+<<<<<<< HEAD
   def motsClefs(s:String):List[String] = {
     val l:List[String] = AnalysePhraseImpl.hash(s)
     var liste_copie:List[String]= AnalysePhraseImpl.hash(s)
@@ -21,8 +26,28 @@ object SyntaxAnalyser {
           liste_copie
       }
       liste_copie = liste_copie.tail
+=======
+  /**
+   * @param s une requête (sous forme de string)
+   * @return la liste de strings contenant le nom du restaurant
+   */
+  def nomRestaurant(s:String):List[String] = {
+    nameExtract(AnalysePhraseImpl.hash(s))
+  }
+  
+  /**
+   * @param l une liste non vide de strings
+   * @return le nom associé au restaurant 
+   */
+  def nameExtract(l:List[String]):List[String] = {
+    l match {
+      case Nil => Nil
+      case chaine :: reste => 
+        for(elt <- SyntaxAnalyser.keywords) {
+          if(Tolerance.correct(chaine, elt)) return reste
+        }
+        nameExtract(reste)
     }
-    Nil
   }
   
   /**
@@ -37,7 +62,10 @@ object SyntaxAnalyser {
     }
   }
   
-  
+  /**
+   * @param e un paramètre d'entrée de type expression
+   * @return la string correspondant à la construction de l'url associée à l'expression e
+   */
   def UrlBuilder(e: Expression): String={
     var UrlSearch: String = ""
     e match{
@@ -47,4 +75,8 @@ object SyntaxAnalyser {
     }
     UrlSearch
   }
+<<<<<<< HEAD
+=======
+  
+>>>>>>> branch 'avec_librairies' of https://gitlab.istic.univ-rennes1.fr/nzhang/gen21-1a-avatar-equipe1.git
 }

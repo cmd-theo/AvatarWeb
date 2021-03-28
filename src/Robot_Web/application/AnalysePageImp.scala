@@ -6,11 +6,11 @@ object AnalysePageImp extends AnalysePage {
   val objFiltrageUrls:FiltrageURLs = FiltrageURLimp
   val objFiltrageHtml:FiltrageHtml = FiltrageHtmlImp
   
-  def tripletReponses(url:String,exp:Expression):List[(String,String,String)] = {
+  def reponse(url:String,exp:Expression):List[(String,String)] = {
     val reponses:List[(String,String)] = resultats(url,exp)
-    var res:List[(String,String,String)]=Nil
+    var res:List[(String,String)]=Nil
     for(elt <- reponses) {
-      res = res ++ List((elt._1 , chercheAdresse(UrlProcessor.fetch(elt._2)) , elt._2))
+      res = res ++ List((elt._1 , chercheAdresse(UrlProcessor.fetch(elt._2))))
     }
     res
   }

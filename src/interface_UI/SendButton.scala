@@ -27,7 +27,6 @@ class SendButton(lab: String, from: InField, to: ScrollPane) extends Button {
   text = lab
   val z = new MainPanel
   var temp = z.p
-  var c = 0
   val bd = new GridPanel(2, 2)
   bd.background = Color.WHITE
 
@@ -36,7 +35,6 @@ class SendButton(lab: String, from: InField, to: ScrollPane) extends Button {
   reactions += {
 
     case ButtonClicked(_) => {
-    c+=1
       if (from.text != "") {
 
         temp.contents += new GridPanel(2, 2) {
@@ -79,9 +77,7 @@ background = Color.WHITE
         to.contents = temp
         //test
         from.text = ""
-if ( c ==1){
-            temp.contents += bd
-              }
+
       }
 
     }
