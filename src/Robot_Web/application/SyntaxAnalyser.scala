@@ -75,8 +75,4 @@ object SyntaxAnalyser {
     }
     UrlSearch
   }
-<<<<<<< HEAD
-=======
-  
->>>>>>> branch 'avec_librairies' of https://gitlab.istic.univ-rennes1.fr/nzhang/gen21-1a-avatar-equipe1.git
 }
