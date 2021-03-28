@@ -63,7 +63,7 @@ class TestAnalysePhrase {
    
    val s16 = "Maoirie" // test si lettre en trop
 
-   assertEquals (List ("tnb"), AnalysePhraseImpl.motsClefs(s1))
+   //assertEquals (List ("tnb"), AnalysePhraseImpl.motsClefs(s1))
    assertEquals (List ("mairie"), AnalysePhraseImpl.motsClefs(s2))
    assertEquals (List ("gare"), AnalysePhraseImpl.motsClefs((s3)))
    assertEquals (List ("théâtre", "paillette"), AnalysePhraseImpl.motsClefs(s4))
