@@ -14,7 +14,6 @@ object SyntaxAnalyser {
     String2Exp(nomRestaurant(s))
   }
   
-<<<<<<< HEAD
   def motsClefs(s:String):List[String] = {
     val l:List[String] = AnalysePhraseImpl.hash(s)
     var liste_copie:List[String]= AnalysePhraseImpl.hash(s)
@@ -26,7 +25,8 @@ object SyntaxAnalyser {
           liste_copie
       }
       liste_copie = liste_copie.tail
-=======
+    }
+  }
   /**
    * @param s une requête (sous forme de string)
    * @return la liste de strings contenant le nom du restaurant
