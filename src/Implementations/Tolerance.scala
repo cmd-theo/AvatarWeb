@@ -47,6 +47,13 @@ object Tolerance{
 	   false
 	}
 	
+	def returnStringCorrect(s2: String, lfin: List[String]) : String = {
+	   for(i <- lfin){
+	     if(hamming(s2, i)<=1) return i
+	   }
+	   ""
+	}
+	
 	def replace (s : String) : String = {
     var res:String = s
     res = res.replace("é", "e")
