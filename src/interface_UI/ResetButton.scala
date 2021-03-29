@@ -12,7 +12,7 @@ class ResetButton(lab: String, from : InField, to : ScrollPane, then : SendButto
   reactions += {
 
     case ButtonClicked(_) => {
-      val reset = new MainPanel 
+      val reset = new MainPanel //on appelle un nouveau panneau principal vide
       from.text = ""
       then.temp = reset.p
       to.contents = reset.main
