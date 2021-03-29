@@ -42,14 +42,20 @@ object Tolerance{
 	 */
 	def compareStringToList(s2: String, lfin: List[String]) : Boolean = {
 	   for(i <- lfin){
-	     if(hamming(s2, i)<=1) return true
+	     if(correct(s2, i)) return true
 	   }
 	   false
 	}
 	
+	/**
+	 * @param s2 une chaine de caractere
+	 * @param lfin une liste de chaines de caractéres
+	 * @return le mot corrigé à partir de lfin
+	 */
+	
 	def returnStringCorrect(s2: String, lfin: List[String]) : String = {
 	   for(i <- lfin){
-	     if(hamming(s2, i)<=1) return i
+	     if(correct(s2, i)) return i
 	   }
 	   ""
 	}
