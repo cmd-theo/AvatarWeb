@@ -33,6 +33,11 @@ object MachineImpl extends MachineDialogue{
   }
   */
   
+  /**
+   * @param l une liste de couples de String
+   * @return une liste de String qui va bien présenter les réponses dans l'interface
+   */
+  
   def prettyRespond(l:List[(String,String)], s:String) : List[String] = {
     l match {
       case Nil => Nil

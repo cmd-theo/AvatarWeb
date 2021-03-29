@@ -15,11 +15,16 @@ class InField extends TextField {
   border = Swing.LineBorder(Color.GRAY) 
   //maximumSize = new Dimension(600,30)
   
+  
+  /**
+   * @return une String permettant de définir quelle langue va être parlée par l'interface
+   */
   def langSpeak() : String = {
     Implementations.AnalysePhraseImpl.chosenLang match {
       case "anglais" => "en"
       case "allemand" => "de"
       case "italien" => "it"
+      case "français" => "fr"
       case _ => "en"
     }
   }

@@ -3,6 +3,8 @@ import scala.swing._
 import javax.swing.ImageIcon
 import java.awt.Color
 import scala.swing.BorderPanel.Position._
+
+//Panneau principal de l'UI, va être édité au fil de la conversation 
 class MainPanel {
   val p = new BoxPanel(Orientation.Vertical){ 
     contents += new BoxPanel(Orientation.Horizontal) {

@@ -21,9 +21,9 @@ object Mary{
     ap = new AudioPlayer()
     
     langue.toLowerCase() match {
-      case "en" => tts.setVoice("upmc-pierre-hsmm")
       case "de" => tts.setVoice("dfki-pavoque-neutral-hsmm")
       case "it" => tts.setVoice("istc-lucia-hsmm")
+      case "en" => tts.setVoice("cmu-slt-hsmm")
       case _ => tts.setVoice("upmc-pierre-hsmm")
     }
     val audio : AudioInputStream = tts.generateAudio(texte)
