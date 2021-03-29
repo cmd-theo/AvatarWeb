@@ -18,7 +18,13 @@ class SendButton(lab: String, from: InField, to: ScrollPane) extends Button {
      
   def listToString(l: List[String]): String = {
     l match {
-      case Nil      => "Je ne comprends pas votre requête."
+      case Nil      => Implementations.AnalysePhraseImpl.chosenLang match {
+        case "anglais" => "I don't understand your request."
+        case "espagnol" => "No entiendo tu solicitud."
+        case "allemand" => "Ich verstehe deine Bitte nicht."
+        case "italien" => "Non capisco la tua richiesta."
+        case _ => "Je ne comprends pas votre requête."
+      }
       case a :: Nil => a
       case a :: b   => a + "\n" + listToString(b)
     }
