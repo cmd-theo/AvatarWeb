@@ -40,8 +40,6 @@ object AnalysePhraseImpl extends AnalysePhrase{
     }
   }
   
-  println(BSDImpl.ListLangPolit)
-  
   def containsRobot(l:List[String]) : Boolean = {
     l match {
       case Nil => false
@@ -119,5 +117,4 @@ object AnalysePhraseImpl extends AnalysePhrase{
         else recherche(s,reste)
     }
   }
-  
 }
