@@ -54,11 +54,16 @@ object Tolerance{
 	 */
 	
 	def returnStringCorrect(s2: String, lfin: List[String]) : String = {
+	  var hamm:List[String]=List("")
+	  
 	   for(i <- lfin){
-	     if(correct(s2, i)) return i
+	     if(correct(s2, i)) {
+	       hamm = hamm ++List(i)
+	     }
+	     if(hamming(s2, i) == 0) { return i }
+	     }
+	   return hamm(0)
 	   }
-	   ""
-	}
 	
 	def replace (s : String) : String = {
     var res:String = s
