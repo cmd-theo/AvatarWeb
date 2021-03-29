@@ -24,7 +24,6 @@ object MachineImpl extends MachineDialogue{
   //sujet a modifs 
   
   
-  
   /*def listToString (l:List[String]): String = {
     l match {
       case Nil => ""

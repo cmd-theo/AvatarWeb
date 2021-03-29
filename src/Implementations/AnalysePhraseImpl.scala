@@ -4,13 +4,7 @@ import machine.AnalysePhrase
 
 object AnalysePhraseImpl extends AnalysePhrase{
   
-  val polit = List ("bonjour", "bonsoir", "merci", "de rien", "au revoir", 
-      "hello", "hi", "good evening", "bye", 
-      "beunos dias", "hola", "buenas noches", "adios", 
-      "guten tag", "hallo", "guten abend", "auf wiedersehen",
-      "buongiorno", "ciao", "buona serata", "arrivederci")
   val internaute = List ("restaurant", "restaurante", "ristorante", "creperie", "pizzeria")
-  
   val politAng = List("hello", "hi", "good evening", "bye")
   val politEsp = List("beunos dias", "hola", "buenas noches", "adios")
   val politAll = List("guten tag", "hallo", "guten abend", "auf wiedersehen")
@@ -42,9 +36,11 @@ object AnalysePhraseImpl extends AnalysePhrase{
   def containsPolit(l:List[String]) : String = {
     l match {
       case Nil => ""
-      case a::rest => if(recherche(a, polit)!=None) a else containsPolit(rest)
+      case a::rest => if(Tolerance.returnStringCorrect(a, BSDImpl.ListLangPolit)!=List()) Tolerance.returnStringCorrect(a, BSDImpl.ListLangPolit) else containsPolit(rest)
     }
   }
+  
+  println(BSDImpl.ListLangPolit)
   
   def containsRobot(l:List[String]) : Boolean = {
     l match {
