@@ -54,7 +54,7 @@ object MachineImpl extends MachineDialogue{
    * Effacement de la conversation en cliquant sur le bouton reset
    */
   def reinit= {
-    francais = true
+    AnalysePhraseImpl.chosenLang = "français"
   }
   
   /**
