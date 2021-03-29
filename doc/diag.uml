@@ -18,7 +18,7 @@ interface MachineDialogue{
 }
 
 interface AnalysePhrase{
-	motsClefs (s : String) : List [String]
+	orientedAnsewer (s : String) : List [(String, String)]
 }
 
 interface BaseDeDonnees{
@@ -41,18 +41,17 @@ interface OpenData{
 	create():String
 }
 
-interface RobotWeb{
-	respond() : List[(String, String)]
+interface RestaurantQuerry{
+	respond(s: String) : List[(String, String)]
 }
 
 Avatar --|> MachineDialogue
 Tests -> MachineDialogue
 MachineDialogue <--> UI
-MachineDialogue -> BaseDeDonnees
 MachineDialogue -> AnalysePhrase
 AnalysePhrase --> BaseDeDonnees
 AnalysePhrase --> ToleranceFautes
-MachineDialogue --> RobotWeb
+AnalysePhrase --> RestaurantQuerry
 BaseDeDonnees --> OpenData
 
 
