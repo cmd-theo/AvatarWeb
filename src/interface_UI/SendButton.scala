@@ -75,7 +75,7 @@ background = Color.WHITE
             contents += b
             background = Color.WHITE
         val  m = new Marytts
-           m.Mary.speak("it", b.text)
+           m.Mary.speak(from.langSpeak(), b.text)
           }
 
         }
