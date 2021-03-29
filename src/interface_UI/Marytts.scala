@@ -1,39 +1,45 @@
 package interface_UI
-  import javax.sound.sampled.AudioInputStream
-import marytts._
-import marytts.util.data.audio._
+import javax.sound.sampled.AudioInputStream;
+import marytts.LocalMaryInterface;
+import marytts.config.LanguageConfig;
+import marytts.MaryInterface;
+import marytts.exceptions.MaryConfigurationException;
+import marytts.exceptions.SynthesisException;
+import marytts.util.data.audio.AudioPlayer;
+
 class Marytts {
 
  
 object Mary{
   
-    private val voiceName:String = "mary"
-    val marytts = new LocalMaryInterface();
-    val ap = new AudioPlayer();
+  private val tts : MaryInterface = new LocalMaryInterface()
+  private var ap : AudioPlayer = new AudioPlayer()
 
-        try
+  def speak(langue : String, texte : String) : Unit = {
+    try{
+    ap.cancel();
+    ap = new AudioPlayer()
+    
+    langue.toLowerCase() match {
+      case "en" => tts.setVoice("upmc-pierre-hsmm")
+      case "de" => tts.setVoice("dfki-pavoque-neutral-hsmm")
+      case "it" => tts.setVoice("istc-lucia-hsmm")
+      case _ => tts.setVoice("upmc-pierre-hsmm")
+    }
+    val audio : AudioInputStream = tts.generateAudio(texte)
+    ap.setAudio(audio)
+    ap.start()
+  }
+     catch 
         {
-            val marytts = new LocalMaryInterface();
-            marytts.setVoice(voiceName);
-            val ap = new AudioPlayer();
-        }
-        catch 
-        {
-            case  throwable => print("error")
-        }
-
-    def say(input: String) = {
-        try
-        {
-            val audio:AudioInputStream = marytts.generateAudio(input);
-
-            ap.setAudio(audio);
-            ap.start();
-        }
-        catch
-        {
-            case  throwable => print("error saying phrase")
+            case throwable:Throwable => print("error")
         }
   }
+  
+  
+
+  
 }
+
+
 }
