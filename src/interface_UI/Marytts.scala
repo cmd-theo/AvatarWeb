@@ -20,7 +20,7 @@ object Mary{
     ap.cancel();
     ap = new AudioPlayer()
     
-    langue.toLowerCase() match {
+    langue match {
       case "de" => tts.setVoice("dfki-pavoque-neutral-hsmm")
       case "it" => tts.setVoice("istc-lucia-hsmm")
       case "en" => tts.setVoice("cmu-slt-hsmm")
