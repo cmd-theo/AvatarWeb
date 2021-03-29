@@ -5,10 +5,9 @@ import machine.AnalysePhrase
 object AnalysePhraseImpl extends AnalysePhrase{
   
   val internaute = List ("restaurant", "restaurante", "ristorante", "creperie", "pizzeria")
-  val politAng = List("hello", "hi", "good evening", "bye")
-  val politEsp = List("beunos dias", "hola", "buenas noches", "adios")
-  val politAll = List("guten tag", "hallo", "guten abend", "auf wiedersehen")
-  val politIta = List("buongiorno", "ciao", "buona serata", "arrivederci")
+  
+  //langue courante de l'avatar
+  var chosenLang = "français"
   
   def isPresent(l1:List[String], l2:List[String]):Boolean = {
     l1 match {
@@ -18,11 +17,9 @@ object AnalysePhraseImpl extends AnalysePhrase{
   }
   
   def languageSelection(s:String):String = {
-    var chosenLang = "français"
-    if(isPresent(s.split(" ").toList, politAng)) chosenLang = "anglais"
-    else if(isPresent(s.split(" ").toList, politEsp)) chosenLang = "espagnol"
-    else if(isPresent(s.split(" ").toList, politAll)) chosenLang = "allemand"
-    else if(isPresent(s.split(" ").toList, politIta)) chosenLang = "italien"
+    if(containsPolit(hash(s))!="") {
+      chosenLang = BSDImpl.MapLangPolit()(containsPolit(hash(s)))
+    }
     chosenLang
   }
   
