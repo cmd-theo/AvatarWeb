@@ -5,12 +5,12 @@ import machine.BaseDeDonnée
 
 object BSDImpl extends BaseDeDonnée{
   
-  var MapLangTradM        :Map[String,Map[String,String]]= Map()  // Map qui traduit un mot dans une autre choisie
-  var MapLangTotal        :Map[String,String]            = Map()  // Map qui fournit la langue d'un mot
-  var ListeLangPolit      :List[String]                  = List() // List de tous les mots de language dans toutes langue 
+  private var MapLangTradM        :Map[String,Map[String,String]]= Map()  // Map qui traduit un mot dans une autre choisie
+  private var MapLangTotal        :Map[String,String]            = Map()  // Map qui fournit la langue d'un mot
+  private var ListeLangPolit      :List[String]                  = List() // List de tous les mots de language dans toutes langue 
   
-  var ListPaireNomAdresse :List[List[String]]            = List() // List de paire nom adresse
-  var ListKeyWords        :List[List[String]]            = List() // List de mots-clés en parallèles des noms de la liste ListPaireNomadresse
+  private var ListPaireNomAdresse :List[List[String]]            = List() // List de paire nom adresse
+  private var ListKeyWords        :List[List[String]]            = List() // List de mots-clés en parallèles des noms de la liste ListPaireNomadresse
   
   /**Retoure les noms et adresse associé aux mots clé
  	* @param l liste des mots cl de la requête
@@ -58,7 +58,6 @@ object BSDImpl extends BaseDeDonnée{
       if(ListPaireNomAdresse!=List()) {ListPaireNomAdresse}
       
       else{
-      println("Creation")
       var res :List[List[String]] = List()
       //var txt =Source.fromFile("doc/DonneesInitiales.txt").getLines  //demo F1, F2, F3, F4
       var txt =Source.fromFile("doc/vArData.txt").getLines    //demo F5+ 
@@ -83,7 +82,7 @@ object BSDImpl extends BaseDeDonnée{
  	* @param Aucun parametre, Assurez l'existence de "doc/banwords.txt"
  	* @return Liste Mot Bannit (List[String])
  	*/
-  def listBanWord:List[String]={
+  private def listBanWord:List[String]={
       var res :List[String] = List()
       val txt =Source.fromFile("doc/banwords.txt").getLines
       for(x<-txt){
@@ -213,8 +212,8 @@ object BSDImpl extends BaseDeDonnée{
       var mappa:Map[String,String] = Map() 
       for(x<-txt){
         var i      = x.indexOf(":")
-        val lang  = x.slice(0, i)
-        var KeyW  = x.slice(i+1,x.length)
+        val lang  = x.slice(0, i).toLowerCase()
+        var KeyW  = x.slice(i+1,x.length).toLowerCase()
         while (KeyW!=""){
           i = KeyW.indexOf(",")
           if(i != -1){
@@ -242,7 +241,7 @@ object BSDImpl extends BaseDeDonnée{
      else{
      var ListLangPolit:List[String] = List()
      val MaptoList = MapLangPolit().toList
-     for(index <- 0 until MaptoList.size){
+     for(index <- 0 to MaptoList.size-1){
        ListLangPolit = ListLangPolit ++ List(MaptoList(index)_1)
      }
      ListeLangPolit = ListLangPolit
@@ -250,7 +249,7 @@ object BSDImpl extends BaseDeDonnée{
      }
    }
   
-   def CleanEspLow(sal:String):String={
+   private def CleanEspLow(sal:String):String={
      val esp = " "
      var res = sal
      res.replaceAll(esp, "").toLowerCase()

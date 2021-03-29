@@ -4,6 +4,45 @@ import machine.AnalysePhrase
 
 object AnalysePhraseImpl extends AnalysePhrase{
   
+  val internaute = List ("restaurant", "restaurante", "ristorante", "creperie", "pizzeria")
+  
+  //langue courante de l'avatar
+  var chosenLang = "français"
+  
+  def isPresent(l1:List[String], l2:List[String]):Boolean = {
+    l1 match {
+      case Nil => false
+      case a::rest => if(l2.contains(a)) true else isPresent(rest, l2)
+    }
+  }
+  
+  def languageSelection(s:String):String = {
+    if(containsPolit(hash(s))!="") {
+      chosenLang = BSDImpl.MapLangPolit()(containsPolit(hash(s)))
+    }
+    chosenLang
+  }
+  
+  def orientedAnswer(s:String) : List[(String, String)] = {
+    val l = motsClefs(s)
+    if(containsPolit(hash(s))!="") ("", BSDImpl.MapLangTrad(containsPolit(hash(s)), languageSelection(s))) :: BSDImpl.respond(l)
+    else if (containsRobot(l)) Robot_Web.application.Application.couplesUrls
+    else BSDImpl.respond(l)
+  }
+  
+  def containsPolit(l:List[String]) : String = {
+    l match {
+      case Nil => ""
+      case a::rest => if(Tolerance.returnStringCorrect(a, BSDImpl.ListLangPolit)!=List()) Tolerance.returnStringCorrect(a, BSDImpl.ListLangPolit) else containsPolit(rest)
+    }
+  }
+  
+  def containsRobot(l:List[String]) : Boolean = {
+    l match {
+      case Nil => false
+      case a::rest => if(internaute.contains(a)) true else containsRobot(rest)
+    }
+  }
   
   def motsClefs(s:String) : List[String] = {
     contains(hash(s))

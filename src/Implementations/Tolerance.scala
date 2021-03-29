@@ -10,8 +10,8 @@ object Tolerance{
 	// factory
 
 	def hamming(s1: String, s2: String): Int = {
-	  val s1L = s1.toLowerCase() // pour ne pas prendre en compte les majuscules et miniscules 
-	  val s2L = s2.toLowerCase()
+	  val s1L = replace(s1.toLowerCase()) // pour ne pas prendre en compte les majuscules et miniscules 
+	  val s2L = replace(s2.toLowerCase())
 			s1L.zip(s2L).count(pair => pair._1 != pair._2)//le zip return une combinaison de paires de s1 et s2
 			//else(s1.toList).zip(s2.toList).filter(current => current._1 != current._2).length
 			//Math.abs(s2.length-s1.length())
@@ -42,10 +42,28 @@ object Tolerance{
 	 */
 	def compareStringToList(s2: String, lfin: List[String]) : Boolean = {
 	   for(i <- lfin){
-	     if(hamming(s2, i)<=1) return true
+	     if(correct(s2, i)) return true
 	   }
 	   false
 	}
+	
+	/**
+	 * @param s2 une chaine de caractere
+	 * @param lfin une liste de chaines de caractéres
+	 * @return le mot corrigé à partir de lfin
+	 */
+	
+	def returnStringCorrect(s2: String, lfin: List[String]) : String = {
+	  var hamm:List[String]=List("")
+	  
+	   for(i <- lfin){
+	     if(correct(s2, i)) {
+	       hamm = hamm ++List(i)
+	     }
+	     if(hamming(s2, i) == 0) { return i }
+	     }
+	   return hamm(0)
+	   }
 	
 	def replace (s : String) : String = {
     var res:String = s
