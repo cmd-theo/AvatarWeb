@@ -6,7 +6,10 @@ import scala.swing.MainFrame
 
 /** Simple application that copies an input text to another text component
  */
+
+
 object AvatarApp extends SimpleSwingApplication {
+  
   
   def top : MainFrame = new UI
   

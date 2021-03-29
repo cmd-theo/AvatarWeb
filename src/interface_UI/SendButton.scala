@@ -68,7 +68,8 @@ background = Color.WHITE
             b.editable = false
             contents += b
             background = Color.WHITE
-            
+          val  m = new Marytts
+          m.Mary.say((b.text))
 
           }
 
