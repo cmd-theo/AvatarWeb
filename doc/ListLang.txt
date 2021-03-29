@@ -1,14 +1,14 @@
 Français: bonjour,salut,bonsoir
 Anglais: hi,hello,morning,evening,afternoon,hey
-Espagnol: hola,buenos,dias
+Espagnol: hola,buenos,dias,adios
 Allemand: hallo,guten,morgen,tag,abend
 Italien: buongiorno,ciao,salve,buon,pomeriggio,buonasera,incantato
 
-Français: recherche,cherche,ou,est,donc,trouve,trouver
-Anglais: seek,seeking,search,searching,look,looking,where,find
-Espagnol: donde,esta,busco,buscando
-Allemand: wo,ist,suche,suchen
-Italien: dove,trova,cerco,cercando
+Français: recherche,cherche,ou,est,donc,trouve,trouver,oui
+Anglais: seek,seeking,search,searching,look,looking,where,find,yes
+Espagnol: donde,esta,busco,buscando,si
+Allemand: wo,ist,suche,suchen,ja
+Italien: dove,trova,cerco,cercando,si
 
 Français: français
 Anglais: english

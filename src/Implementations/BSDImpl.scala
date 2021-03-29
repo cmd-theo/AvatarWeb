@@ -28,7 +28,7 @@ object BSDImpl extends BaseDeDonnée{
     for(y<-l){
       for(z<-0 to t.size-1){
         for(w<-t(z)){
-          if(w.toLowerCase().contains(y.toLowerCase())) tol(z)+=1
+          if(w.toLowerCase().contains(y.toLowerCase()) && CleanEspLow(y)!="" && !(ListLangPolit().contains(y.toLowerCase())) ) {tol(z)+=1}
         }
       }
     }
@@ -241,7 +241,7 @@ object BSDImpl extends BaseDeDonnée{
      else{
      var ListLangPolit:List[String] = List()
      val MaptoList = MapLangPolit().toList
-     for(index <- 0 to MaptoList.size-1){
+     for(index <- 0 to MaptoList.size-1) {
        ListLangPolit = ListLangPolit ++ List(MaptoList(index)_1)
      }
      ListeLangPolit = ListLangPolit
@@ -252,7 +252,7 @@ object BSDImpl extends BaseDeDonnée{
    private def CleanEspLow(sal:String):String={
      val esp = " "
      var res = sal
-     res.replaceAll(esp, "").toLowerCase()
+     res.replaceAll(esp,"").toLowerCase()
     
    }
    

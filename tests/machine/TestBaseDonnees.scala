@@ -13,6 +13,23 @@ class TestBaseDonnees {
     assertEquals(List("mairie","rennes"),BSDImpl.KeyWords("Mairie de Rennes"))
   }
   
+        @Test
+  def testMapLangPolit{
+    assertEquals(("français"),BSDImpl.MapLangPolit()("bonjour"))
+    assertEquals(("anglais"),BSDImpl.MapLangPolit()("hello"))
+    assertEquals(("allemand"),BSDImpl.MapLangPolit()("hallo"))
+    assertEquals(("espagnol"),BSDImpl.MapLangPolit()("adios"))
+  }
+  
+        @Test
+  def testMapLangTrad{
+    assertEquals(("hello"),BSDImpl.MapLangTrad("bonjour","anglais"))
+    assertEquals(("buongiorno"),BSDImpl.MapLangTrad("bonjour","italien"))
+    assertEquals(("salut"),BSDImpl.MapLangTrad("hallo","français"))
+    assertEquals(("auf wiedersehen"),BSDImpl.MapLangTrad("adios","allemand"))
+  }
+  
+        
     @Test
   def testListKeyWords{
       assertEquals(List(List("mairie","rennes","hotel","ville"), List("théâtre", "paillette"), List("théâtre", "national", "bretagne","tnb"), List("gare", "sncf")), 
@@ -33,6 +50,6 @@ class TestBaseDonnees {
     }
      @Test
   def TestMapLang{
-       assertEquals(BSDImpl.MapLangPolit()("bonjour"), "Français")
+       assertEquals(BSDImpl.MapLangPolit()("bonjour"), "français")
      }
 }

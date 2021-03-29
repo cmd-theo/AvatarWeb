@@ -100,10 +100,13 @@ object AnalysePhraseImpl extends AnalysePhrase{
     l match {
       case Nil => Nil
       case chaine :: reste => 
+        if(BSDImpl.ListLangPolit().contains(chaine) | chaine.size<=3){ contains(reste)}
+        else{
         compare(chaine,BSDImpl.listKeyWords) match {
           case None => contains(reste)
           case Some(chaine) => List(chaine) ++ contains(reste)
         }
+    }
     }
   }
   
