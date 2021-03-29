@@ -58,7 +58,6 @@ object BSDImpl extends BaseDeDonnée{
       if(ListPaireNomAdresse!=List()) {ListPaireNomAdresse}
       
       else{
-      println("Creation")
       var res :List[List[String]] = List()
       //var txt =Source.fromFile("doc/DonneesInitiales.txt").getLines  //demo F1, F2, F3, F4
       var txt =Source.fromFile("doc/vArData.txt").getLines    //demo F5+ 
