@@ -16,6 +16,7 @@ class ResetButton(lab: String, from : InField, to : ScrollPane, then : SendButto
       from.text = ""
       then.temp = reset.p
       to.contents = reset.main
+      Implementations.MachineImpl.reinit
     }
   }
 }
