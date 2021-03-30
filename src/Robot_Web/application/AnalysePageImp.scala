@@ -6,13 +6,17 @@ object AnalysePageImp extends AnalysePage {
   val objFiltrageUrls:FiltrageURLs = FiltrageURLimp
   val objFiltrageHtml:FiltrageHtml = FiltrageHtmlImp
   
+  /**
+   * @param url une string
+   * @param exp une expression
+   * @return le couple (titre,adresse) d'un restaurant
+   */
   def reponse(url:String,exp:Expression):List[(String,String)] = {
     val reponses:List[(String,String)] = resultats(url,exp)
     var res:List[(String,String)]=Nil
     for(elt <- reponses) {
       res = res ++ List((elt._1 , chercheAdresse(UrlProcessor.fetch(elt._2))))
     }
-    
     res match {
       case cpl :: Nil => cpl :: Nil
       case _ => Nil
@@ -23,7 +27,7 @@ object AnalysePageImp extends AnalysePage {
     val doc_url:Html= UrlProcessor.fetch(url)
     //print(doc_url) -> c'est OK
     val lURLs:List[String]=objFiltrageUrls.filtreAnnonce(doc_url).distinct
-    //println(lURLs) -> c'est OK
+    println(lURLs) //-> c'est OK
     var lHtml:List[Html] = Nil
     var l_couples:List[(String,Html)] = Nil
     var res:List[(String,String)] = Nil

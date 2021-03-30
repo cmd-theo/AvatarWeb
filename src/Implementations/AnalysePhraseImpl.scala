@@ -1,7 +1,6 @@
 package Implementations
 
 import machine.AnalysePhrase
-import Robot_Web.application._
 
 object AnalysePhraseImpl extends AnalysePhrase{
   
@@ -44,8 +43,8 @@ object AnalysePhraseImpl extends AnalysePhrase{
     val l = motsClefs(s)
     if(containsPolit(hash(s))!="") ("", BSDImpl.MapLangTrad(containsPolit(hash(s)), languageSelection(s))) :: BSDImpl.respond(l)
     else if (containsRobot(l)) {
-      val urlSearch = "https://www.linternaute.com/restaurant/guide/ville-rennes-35000/?name=" + SyntaxAnalyser.UrlBuilder(SyntaxAnalyser.ExpressionResponse(s))
-      AnalysePageImp.resultats(urlSearch, SyntaxAnalyser.ExpressionResponse(s))
+      RobotWebImpl.respond(s)
+      
     }
     else BSDImpl.respond(l)
   }
