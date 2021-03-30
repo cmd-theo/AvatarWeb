@@ -4,3 +4,8 @@ bonsoir,good evening,buenas noches,guten abend,buona serata
 merci,thank,gracias,danke,grazie
 de rien,you're welcome,de nada,bitte,di niente
 au revoir,bye,adios,auf wiedersehen,arrivederci
+J'ai,I have,Tengo,Ich habe,Io ho
+réponse possible,possible answer,opciones,optionen,opzioni  
+oui,yes,si,ja,si
+Parlez-vous français?,Do you speak English?,¿Hablas español?,Sprichst du Deutsch?,Parli italiano?
+D'accord. Quelle est votre demande ?,Okay. What is your request ?,Correcto. Cuál es su solicitud ?,Okay. Was ist Deine Anfrage ?,Va bene. Qual è la tua richiesta? 

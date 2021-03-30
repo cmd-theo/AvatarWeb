@@ -11,6 +11,9 @@ object MachineImpl extends MachineDialogue{
   var espagnol = false;
   var italien = false;
   var analysePhrase = AnalysePhraseImpl
+  var index = 0
+  var langDef = "français"
+  var ModeSwitch = false
   
   /**
    * Envoi d'une requête requete et recuperation de sa reponse
@@ -33,19 +36,50 @@ object MachineImpl extends MachineDialogue{
   }
   */
   
+  /**
+   * @param l une liste de couples de String
+   * @return une liste de String qui va bien présenter les réponses dans l'interface
+   */
+  
   def prettyRespond(l:List[(String,String)], s:String) : List[String] = {
-    l match {
-      case Nil => Nil
-      case ("", e2) :: reste => e2 :: prettyRespond(reste, s) 
-      case (e1, e2) :: reste => s match {
-        case "anglais" => "The adress of " +e1+ " is : " + e2 :: prettyRespond(reste,s) 
-        case "espagnol" => "La dirección de " +e1+ " es : " + e2 :: prettyRespond(reste,s) 
-        case "allemand" => "Die adresse von " +e1+ " ist : " + e2 :: prettyRespond(reste,s) 
-        case "italien" => "Indirizzo di " +e1+ " è : " + e2 :: prettyRespond(reste,s) 
-        case _ => "L'adresse de " +e1+ " est : " + e2 :: prettyRespond(reste,s) 
+      if (langDef!=s | ModeSwitch==true){
+         if ( l.contains(("",BSDImpl.MapLangTrad("oui", s))) && langDef==s ){
+           ModeSwitch=false
+           return List(BSDImpl.MapLangTrad("D'accord. Quelle est votre demande ?", s))
+           
+         }
+         else{
+           langDef=s
+           ModeSwitch=true
+           return List(BSDImpl.MapLangTrad("Parlez-vous français?", s))
+         }
       }
+      
+      l match {
+      case Nil => {index=0
+                   Nil
+                   }
+      case ("", e2) :: reste => e2 :: prettyRespond(reste, s)
+      case (e1, e2) :: reste => 
+        var temp =List("")
+        var temppuce=""
+        if (index==0){
+          index+=1
+          temp= List(BSDImpl.MapLangTrad("J'ai",AnalysePhraseImpl.chosenLang)+" "+(reste.size+1)+" "+BSDImpl.MapLangTrad("réponse possible", AnalysePhraseImpl.chosenLang))
+        }
+        if(index>0){
+          temppuce= index + ") "
+          index +=1
+        }
+        (s match {
+        case "anglais" => temp ++ (temppuce+"The adress of " +e1+ " is : " + e2 :: prettyRespond(reste,s)) 
+        case "espagnol" => temp ++ (temppuce+"La dirección de " +e1+ " es : " + e2 :: prettyRespond(reste,s)) 
+        case "allemand" => temp++ (temppuce+"Die adresse von " +e1+ " ist : " + e2 :: prettyRespond(reste,s)) 
+        case "italien" => temp++  (temppuce+"Indirizzo di " +e1+ " è : " + e2 :: prettyRespond(reste,s)) 
+        case _ => temp++ (temppuce+"L'adresse de " +e1+ " est : " + e2 :: prettyRespond(reste,s)) 
+      })
     }
-  }
+    }
   
   
   // Pour la partie test par le client

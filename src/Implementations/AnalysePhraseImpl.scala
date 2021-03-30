@@ -10,6 +10,10 @@ object AnalysePhraseImpl extends AnalysePhrase{
   //langue courante de l'avatar
   var chosenLang = "français"
   
+  /**
+   * @param l1 et l2 des listes de String
+   * @return un Boolean indiquant si un élément de l1 est présent dans l2 ou non
+   */
   def isPresent(l1:List[String], l2:List[String]):Boolean = {
     l1 match {
       case Nil => false
@@ -17,6 +21,11 @@ object AnalysePhraseImpl extends AnalysePhrase{
     }
   }
   
+  
+  /**
+   * @param s une String
+   * @return une String indiquant le language courant utilisé dans l'interaction avec l'avatar
+   */
   def languageSelection(s:String):String = {
     if(containsPolit(hash(s))!="") {
       chosenLang = BSDImpl.MapLangPolit()(containsPolit(hash(s)))
@@ -24,6 +33,13 @@ object AnalysePhraseImpl extends AnalysePhrase{
     chosenLang
   }
   
+  /**
+   * @param s une String 
+   * @return une liste de couples de String qui est soit : 
+   * 	- une formule de politesse seule
+   * 	- une formule de politesse plus le(s) couple(s) (lieu, adresse) des mots clés présents dans la requête
+   * 	- le(s) couple(s) (lieu, adresse) des mots clés présents dans la requête
+   */
   def orientedAnswer(s:String) : List[(String, String)] = {
     val l = motsClefs(s)
     if(containsPolit(hash(s))!="") ("", BSDImpl.MapLangTrad(containsPolit(hash(s)), languageSelection(s))) :: BSDImpl.respond(l)
@@ -34,6 +50,11 @@ object AnalysePhraseImpl extends AnalysePhrase{
     else BSDImpl.respond(l)
   }
   
+  
+  /**
+   * @param l une list de String
+   * @return une String (corrigée si erreur dans la requête) correspondant à la formule de politesse utilisée dans la requête 
+   */
   def containsPolit(l:List[String]) : String = {
     l match {
       case Nil => ""
@@ -41,6 +62,10 @@ object AnalysePhraseImpl extends AnalysePhrase{
     }
   }
   
+  /**
+   * @param l une list de String
+   * @return un Boolean si les mots déclanchant le Robot Web sont présents dans la requête
+   */
   def containsRobot(l:List[String]) : Boolean = {
     l match {
       case Nil => false
@@ -79,10 +104,13 @@ object AnalysePhraseImpl extends AnalysePhrase{
     l match {
       case Nil => Nil
       case chaine :: reste => 
+        if(BSDImpl.ListLangPolit().contains(chaine) | chaine.size<=3){ contains(reste)}
+        else{
         compare(chaine,BSDImpl.listKeyWords) match {
           case None => contains(reste)
           case Some(chaine) => List(chaine) ++ contains(reste)
         }
+    }
     }
   }
   

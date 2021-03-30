@@ -1,9 +1,3 @@
-;Bonjour !;Bonjour
-;Salut !;Salut
-;Bonsoir !;Bonsoir
-;De rien !;Merci
-;Bonne journée !;Revoir Bye
-;A bientôt !;bientot
 Mairie de Rennes;Place de la Mairie;Hotel Ville
 Théâtre La Paillette;2, Rue du Pré de Bris;Rennes theatre
 Théâtre National de Bretagne TNB;1, Rue Saint-Hélier;tnb Rennes theatre

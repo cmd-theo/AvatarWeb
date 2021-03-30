@@ -6,4 +6,7 @@ de
 des
 un
 une
+ou
+est
+la
  
