@@ -41,10 +41,11 @@ object AnalysePhraseImpl extends AnalysePhrase{
    */
   def orientedAnswer(s:String) : List[(String, String)] = {
     val l = motsClefs(s)
-    if(containsPolit(hash(s))!="") ("", BSDImpl.MapLangTrad(containsPolit(hash(s)), languageSelection(s))) :: BSDImpl.respond(l)
+    print(l)
+    if(!containsRobot(l) && containsPolit(hash(s))!="") ("", BSDImpl.MapLangTrad(containsPolit(hash(s)), languageSelection(s))) :: BSDImpl.respond(l)
     else if (containsRobot(l)) {
+      print("salut")
       RobotWebImpl.respond(s)
-      
     }
     else BSDImpl.respond(l)
   }
@@ -109,7 +110,7 @@ object AnalysePhraseImpl extends AnalysePhrase{
       case chaine :: reste => 
         if(BSDImpl.ListLangPolit().contains(chaine) | chaine.size<=3){ contains(reste)}
         else{
-        compare(chaine,BSDImpl.listKeyWords) match {
+        compare(chaine,BSDImpl.listKeyWords ++ List(internaute)) match {
           case None => contains(reste)
           case Some(chaine) => List(chaine) ++ contains(reste)
         }
