@@ -27,7 +27,7 @@ object AnalysePageImp extends AnalysePage {
     val doc_url:Html= UrlProcessor.fetch(url)
     //print(doc_url) -> c'est OK
     val lURLs:List[String]=objFiltrageUrls.filtreAnnonce(doc_url).distinct
-    println(lURLs) //-> c'est OK
+    //println(lURLs) -> c'est OK
     var lHtml:List[Html] = Nil
     var l_couples:List[(String,Html)] = Nil
     var res:List[(String,String)] = Nil

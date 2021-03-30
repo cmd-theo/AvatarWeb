@@ -21,7 +21,7 @@ object MachineImpl extends MachineDialogue{
    * @return reponse la liste de reponse
    */
   def ask(s:String):List[String]= {
-    
+    println(s)
     prettyRespond(AnalysePhraseImpl.orientedAnswer(s), AnalysePhraseImpl.languageSelection(s)) 
   }
  
