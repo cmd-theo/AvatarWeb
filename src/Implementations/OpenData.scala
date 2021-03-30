@@ -1,7 +1,7 @@
 package Implementations
 
 import scala.xml._
-
+import java.io.PrintWriter
 //import java.io.InputStream
 //import javax.xml.parsers.SAXParser
 //import jdk.internal.util.xml.impl.ParserSAX
@@ -44,13 +44,15 @@ object OpenData extends App {
       val nameAddr = i \\ "street" \\ "name"
       val street = if(number.text != "") number.text + ", " + nameAddr.text
       else nameAddr.text
-      val couples = (names.text, street)
+      val couples = (names.text.replace("(", "( "), street)
       //println(couples._1.replace("	", "") + "; " + couples._2.replace("	", ""))
       addrFile = addrFile ++ "\n" ++ (couples._1.replace("	", "") + ";" + couples._2.replace("	", ""))
     }
     println(addrFile)
     addrFile
   }
+  
+  new PrintWriter("doc/vArData.txt") { write(OpenData.create())}
   
   /*Source.fromFile("doc/vAr.xml").getByteStream
   val stream = OpenData.getClass.getClassLoader().getResourceAsStream("doc/vAr.xml")
