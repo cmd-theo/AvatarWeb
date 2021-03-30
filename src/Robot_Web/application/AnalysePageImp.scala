@@ -12,7 +12,11 @@ object AnalysePageImp extends AnalysePage {
     for(elt <- reponses) {
       res = res ++ List((elt._1 , chercheAdresse(UrlProcessor.fetch(elt._2))))
     }
-    res
+    
+    res match {
+      case cpl :: Nil => cpl :: Nil
+      case _ => Nil
+    }
   }
   
   def resultats(url:String,exp:Expression):List[(String,String)] = {

@@ -69,7 +69,11 @@ object AnalysePhraseImpl extends AnalysePhrase{
   def containsRobot(l:List[String]) : Boolean = {
     l match {
       case Nil => false
-      case a::rest => if(internaute.contains(a)) true else containsRobot(rest)
+      case a::rest => 
+        for(elt <- internaute) {
+          if(Tolerance.correct(a, elt)) return true
+        }
+        containsRobot(rest)
     }
   }
   
