@@ -12,18 +12,16 @@ class TestIntegration {
   
   // tests
   @Test
-  def test1_1{    
-    assertEquals(List("Place de la Mairie"), m.test(List("Où est donc la Mairie de Rennes?")))
-  }
+  def testPrettyRespond {
+      assertEquals(List("Do you speak English?"), MachineImpl.prettyRespond(List(("","hello")), "anglais"))
+      assertEquals(List("Parlez-vous français?"), MachineImpl.prettyRespond(List(("","bonjour")), "français"))
+      assertEquals(List("D'accord. Quelle est votre demande ?"), MachineImpl.prettyRespond(List(("","oui")), "français"))
+  }  
   
   @Test
-  def test1_2{
-    assertEquals(List("19, Place de la Gare"), m.test(List("et la Gare?")))
+  def testAsk {
+    assertEquals(MachineImpl.ask("bonjour"), List("bonjour"))
+    assertEquals(MachineImpl.ask("hallo"), List("Sprichst du Deutsch?"))
+    assertEquals(MachineImpl.ask("ja"), List("Okay. Was ist Deine Anfrage ?"))
   }
-  
-  @Test
-  def test1_3{
-    assertEquals(List(), m.test(List("je cherche")))
-  }
-  
 }
