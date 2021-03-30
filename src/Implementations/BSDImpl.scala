@@ -133,7 +133,7 @@ object BSDImpl extends BaseDeDonnée{
           str = ""
         }
      }
-     res
+     res.distinct
    }
    
    /** Retourne la traducation d'un mot dans une langue choisie
