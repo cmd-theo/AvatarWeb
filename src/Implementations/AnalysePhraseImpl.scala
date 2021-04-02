@@ -142,11 +142,16 @@ object AnalysePhraseImpl extends AnalysePhrase{
    * à une chaine dans l (avec ou sans correction), None dans le cas contraire
    */
   def recherche(s:String,l:List[String]) : Option[String] = {
+    var tempo:String = ""
     l match {
-      case Nil => None
-      case chaine :: reste => 
-        if(chaine.equalsIgnoreCase(s)) Some(chaine) 
-        else if(Tolerance.correct(s, chaine)) Some(chaine)
+      case Nil => if(tempo!="") Some(tempo)
+                  else None
+      case chaine :: reste =>
+        if(chaine.equalsIgnoreCase(s)) Some(chaine)
+        else if(Tolerance.correct(s, chaine)) {
+          tempo = chaine
+          recherche(s,reste)
+        }
         else recherche(s,reste)
     }
   }
