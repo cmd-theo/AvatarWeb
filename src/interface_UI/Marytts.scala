@@ -14,7 +14,11 @@ object Mary{
   
   private val tts : MaryInterface = new LocalMaryInterface()
   private var ap : AudioPlayer = new AudioPlayer()
-
+/*
+ * Fonction qui à partir d'une langue et d'un texte génère de l'audio
+ * contient un Pattern Matching afin de selectionner la voix en fonction de la langue entrée
+ * en cas d'erreur renvoi "error"
+*/  
   def speak(langue : String, texte : String) : Unit = {
     try{
     ap.cancel();
