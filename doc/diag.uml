@@ -25,6 +25,8 @@ interface BaseDeDonnees{
 	dsb: List[String]
 	respond(l:List[String]):List[(String, String)]
 	listKeywords():List[List[String]]
+	MapLangTrad(mot_ori:String,lang_choix:String):String
+	ListLangPolit():List[String]
 	createData():Unit
 }
 
@@ -41,7 +43,7 @@ interface OpenData{
 	create():String
 }
 
-interface RestaurantQuerry{
+interface RestaurantQuery{
 	respond(s: String) : List[(String, String)]
 }
 
@@ -51,7 +53,7 @@ MachineDialogue <--> UI
 MachineDialogue -> AnalysePhrase
 AnalysePhrase --> BaseDeDonnees
 AnalysePhrase --> ToleranceFautes
-AnalysePhrase --> RestaurantQuerry
+AnalysePhrase --> RestaurantQuery
 BaseDeDonnees --> OpenData
 
 
