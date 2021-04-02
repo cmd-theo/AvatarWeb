@@ -8,4 +8,5 @@ J'ai,I have,Tengo,Ich habe,Io ho
 réponse(s) possible(s),possible answer,opciones,optionen,opzioni  
 oui,yes,si,ja,si
 Parlez-vous français?,Do you speak English?,¿Hablas español?,Sprichst du Deutsch?,Parli italiano?
-D'accord. Quelle est votre demande ?,Okay. What is your request ?,Correcto. Cuál es su solicitud ?,Okay. Was ist Deine Anfrage ?,Va bene. Qual è la tua richiesta? 
+D'accord. Quelle est votre demande ?,Okay. What is your request ?,Correcto. Cuál es su solicitud ?,Okay. Was ist Deine Anfrage ?,Va bene. Qual è la tua richiesta?
+Quel est votre choix?,Where is your choice?,Cuál es su elección?,Was ist Ihre Wahl?,Qual è la vostra scelta?
