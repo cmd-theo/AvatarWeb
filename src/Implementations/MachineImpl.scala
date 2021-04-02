@@ -14,7 +14,6 @@ object MachineImpl extends MachineDialogue{
   var index = 0
   var langDef = "français"
   var ModeSwitch = false
-  var tailleMax = 0
   
   var listeRep:List[String] = List()
   
@@ -52,17 +51,8 @@ object MachineImpl extends MachineDialogue{
       }
       
       l match {
-      case Nil =>  println(index)
-                   println(tailleMax)
-                   if((index-1)==tailleMax&&index!=0) {
-                     index=0
-                     tailleMax=0
-                     List(BSDImpl.MapLangTrad("Quel est votre choix?", AnalysePhraseImpl.chosenLang)) 
-                   }
-                   else {
-                     index = 0
-                     tailleMax=0
-                     Nil
+      case Nil =>  {index=0
+                   Nil
                    }
                    
       case ("", e2) :: reste => e2 :: prettyRespond(reste, s)
@@ -70,7 +60,6 @@ object MachineImpl extends MachineDialogue{
         var temp =List("")
         var temppuce=""
         if (index==0){
-          if (tailleMax==0) tailleMax = reste.size +1
           index+=1
           temp= List(BSDImpl.MapLangTrad("J'ai",AnalysePhraseImpl.chosenLang)+" "+(reste.size+1)+" "+BSDImpl.MapLangTrad("réponse(s) possible(s)", AnalysePhraseImpl.chosenLang))
         }
@@ -78,16 +67,13 @@ object MachineImpl extends MachineDialogue{
           temppuce= index + ") "
           index +=1
         }
-        temp = temp ++ (temppuce + e1 :: prettyRespond(reste,s))
-        temp
-        /*
         (s match {
         case "anglais" => temp ++ (temppuce+"The adress of " +e1+ " is : " + e2 :: prettyRespond(reste,s)) 
         case "espagnol" => temp ++ (temppuce+"La dirección de " +e1+ " es : " + e2 :: prettyRespond(reste,s)) 
         case "allemand" => temp++ (temppuce+"Die adresse von " +e1+ " ist : " + e2 :: prettyRespond(reste,s)) 
         case "italien" => temp++  (temppuce+"Indirizzo di " +e1+ " è : " + e2 :: prettyRespond(reste,s)) 
         case _ => temp++ (temppuce+"L'adresse de " +e1+ " est : " + e2 :: prettyRespond(reste,s)) 
-      })*/
+      })
     }
     }
   
