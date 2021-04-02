@@ -58,7 +58,7 @@ object MachineImpl extends MachineDialogue{
         var temppuce=""
         if (index==0){
           index+=1
-          temp= List(BSDImpl.MapLangTrad("J'ai",AnalysePhraseImpl.chosenLang)+" "+(reste.size+1)+" "+BSDImpl.MapLangTrad("réponses possibles", AnalysePhraseImpl.chosenLang))
+          temp= List(BSDImpl.MapLangTrad("J'ai",AnalysePhraseImpl.chosenLang)+" "+(reste.size+1)+" "+BSDImpl.MapLangTrad("réponse(s) possible(s)", AnalysePhraseImpl.chosenLang))
         }
         if(index>0){
           temppuce= index + ") "
